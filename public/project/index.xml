@@ -13,12 +13,24 @@
     
     
     <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
+      <title>Mood Triggers</title>
+      <link>/project/mood-triggers/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/example-external-project/</guid>
-      <description></description>
+      <guid>/project/mood-triggers/</guid>
+      <description>Mood Triggers is an Android App released on the Google Play Store. Link to Mood Triggers App on the Google Play Store Youtube video of Mood Triggers
+Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.
+Features of Mood Triggers: Mood Triggers can help you keep a diary of: 1. Your anxiety and depression in your daily life 2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)</description>
+    </item>
+    
+    <item>
+      <title>The Differential Time Varying Effect Model</title>
+      <link>/project/dtvem/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/dtvem/</guid>
+      <description>Differential Time-Varying Effect Model (DTVEM) This site is an accompaniment to the following paper: Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.
+This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
     </item>
     
     <item>

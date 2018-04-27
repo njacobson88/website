@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="author" content="Nicholas Jacobson">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Loading in the DatasetThis code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
+First load the DTVEM package.
+library(DTVEM)Next load the simulated data included in the DTVEM package, called exampledat1.
+data(exampledat1)Get a look at the file structure.
+head(exampledat1)## Time X ID## 1 1 -1.076422 1## 2 2 -1.904713 1## 3 3 1.307456 1## 4 4 NA 1## 5 5 -4.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/illustration_of_dtvem/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Nicholas C. Jacobson">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Nicholas C. Jacobson">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/illustration_of_dtvem/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Nicholas C. Jacobson">
+  <meta property="og:url" content="/post/illustration_of_dtvem/">
+  <meta property="og:title" content="DTVEM Package Illustration | Nicholas C. Jacobson">
+  <meta property="og:description" content="Loading in the DatasetThis code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
+First load the DTVEM package.
+library(DTVEM)Next load the simulated data included in the DTVEM package, called exampledat1.
+data(exampledat1)Get a look at the file structure.
+head(exampledat1)## Time X ID## 1 1 -1.076422 1## 2 2 -1.904713 1## 3 3 1.307456 1## 4 4 NA 1## 5 5 -4.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-27T21:13:14-05:00">
+  
+  <meta property="article:modified_time" content="2018-04-27T21:13:14-05:00">
+  
+
+  
+
+  
+
+  <title>DTVEM Package Illustration | Nicholas C. Jacobson</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Nicholas C. Jacobson</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/files/cv/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">DTVEM Package Illustration</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-27 21:13:14 -0500 -0500" itemprop="datePublished dateModified">
+      Apr 27, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Nicholas Jacobson">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r/">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=DTVEM%20Package%20Illustration&amp;url=%2fpost%2fillustration_of_dtvem%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fillustration_of_dtvem%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fillustration_of_dtvem%2f&amp;title=DTVEM%20Package%20Illustration"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fillustration_of_dtvem%2f&amp;title=DTVEM%20Package%20Illustration"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=DTVEM%20Package%20Illustration&amp;body=%2fpost%2fillustration_of_dtvem%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="loading-in-the-dataset" class="section level2">
+<h2>Loading in the Dataset</h2>
+<p>This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.</p>
+<p>First load the DTVEM package.</p>
+<pre class="r"><code>library(DTVEM)</code></pre>
+<p>Next load the simulated data included in the DTVEM package, called exampledat1.</p>
+<pre class="r"><code>data(exampledat1)</code></pre>
+<p>Get a look at the file structure.</p>
+<pre class="r"><code>head(exampledat1)</code></pre>
+<pre><code>##   Time         X ID
+## 1    1 -1.076422  1
+## 2    2 -1.904713  1
+## 3    3  1.307456  1
+## 4    4        NA  1
+## 5    5 -4.224493  1
+## 6    6        NA  1</code></pre>
+</div>
+<div id="illustrating-the-inadequacies-of-the-partial-autocorrelation-function" class="section level2">
+<h2>Illustrating the Inadequacies of the Partial Autocorrelation Function</h2>
+<p>Next we want to explore lags with typical time series techniques. Run a partial autocorrelation function for the variable for each ID.</p>
+<pre class="r"><code>#DEFINE THE NUMBER OF UNIQUE IDs
+uniqueIDs=unique(exampledat1$ID)
+pacfmatrix=matrix(NA,nrow=length(uniqueIDs),ncol=10) #SAVE THE PACF RESULTS FOR THE FIRST 10 lags
+#CREATE A FOR LOOP TO RUN OVER EACH ID
+for(i in 1:length(uniqueIDs)){
+  temporarydata=exampledat1[exampledat1$ID==uniqueIDs[i],] #EXTRACT THE DATA FOR A GIVEN INDIVIDUAL
+  pacfout=pacf(temporarydata[,&quot;X&quot;],na.action = na.pass,plot=FALSE) #RUN THE PARTIAL AUTOCORRELATION FUNCTION WITHIN R, IGNORE THE MISSING DATA
+  pacfmatrix[i,]=pacfout$acf[1:10]
+}</code></pre>
+<p>Okay, we have the results, now we have to plot them. Each grey line will represent a PACF estimate for a given individual. The black lines will represent the mean PACF estimate.</p>
+<pre class="r"><code>plot(1:10,pacfmatrix[1,],xlab=&quot;Lag&quot;,ylab=&quot;PACF Estimate&quot;,type=&quot;l&quot;,col=&quot;grey&quot;,ylim=c(-1,1))
+#FOR EACH UNIQUE ID
+for(i in 1:length(uniqueIDs)){
+  lines(1:10,pacfmatrix[i,],col=&quot;grey&quot;)
+}
+lines(1:10,colMeans(pacfmatrix,na.rm = TRUE)) #PLOT THE AVERAGE LAGGED ESTIMTES
+poscrit=2/sqrt(14-1)
+negcrit=-2/sqrt(14-1)
+lines(1:10,rep(poscrit,10),lty=2) #PLOT POSITIVE CRITICAL VALUE
+lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
+<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>The results look like for any given individual the PACF results are highly unreliable. However, the PACF does suggest that there are potentially significantly negative lags at lag 6, 7, 8, 9, and 10.</p>
+</div>
+<div id="showing-the-strength-of-dtvem" class="section level2">
+<h2>Showing the strength of DTVEM</h2>
+<p>Let’s see what DTVEM has to say about this.</p>
+<pre class="r"><code>out=LAG(&quot;X&quot;,differntialtimevaryingpredictors=c(&quot;X&quot;),outcome=c(&quot;X&quot;),data=exampledat1,ID=&quot;ID&quot;,Time=&quot;Time&quot;,k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)</code></pre>
+<pre><code>## OpenMx version: 2.8.3 [GIT v2.8.3]
+## R version: R version 3.4.4 (2018-03-15)
+## Platform: x86_64-w64-mingw32
+## Default optimiser: CSOLNP
+## NPSOL-enabled?: Yes
+## OpenMP-enabled?: No</code></pre>
+<pre><code>## Setting up the data for variable #1 of 1.</code></pre>
+<pre><code>## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
+## DTVEM stage 1 identified the following variables as potential peaks or valleys: XlagonXlag1, XlagonXlag2, XlagonXlag3, XlagonXlag4 
+## Removing group-based time of residuals</code></pre>
+<pre><code>## 
+## Begin fit attempt 1 of at maximum 11 tries</code></pre>
+<pre><code>## 
+##  Lowest minimum so far:  3274.70348452396</code></pre>
+<pre><code>## 
+## Solution found</code></pre>
+<pre><code>## 
+## Start values from best fit:</code></pre>
+<pre><code>## 0.225059455018684,-0.237669113091979,0.275143492004439,0.0240822052277956,2.08939869379243</code></pre>
+<pre><code>## Summary of multisujbject 
+##  
+## free parameters:
+##          name matrix row col    Estimate  Std.Error A
+## 1 XlagonXlag1   s1.A   1   1  0.22505946 0.05061653  
+## 2 XlagonXlag2   s1.A   1   2 -0.23766911 0.04816207  
+## 3 XlagonXlag3   s1.A   1   3  0.27514349 0.04666714  
+## 4 XlagonXlag4   s1.A   1   4  0.02408221 0.05312983  
+## 5      Xresid   s1.Q   1   1  2.08939869 0.10551147  
+## 
+## Model Statistics: 
+##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
+##        Model:              5                    895              3274.703
+##    Saturated:             NA                     NA                    NA
+## Independence:             NA                     NA                    NA
+## Number of observations/statistics: 1400/900
+## 
+## Information Criteria: 
+##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
+## AIC:       1484.703               3284.703                       NA
+## BIC:      -3208.880               3310.925                 3295.041
+## CFI: NA 
+## TLI: 1   (also known as NNFI) 
+## RMSEA:  0  [95% CI (NA, NA)]
+## Prob(RMSEA &lt;= 0.05): NA
+## To get additional fit indices, see help(mxRefModels)
+## timestamp: 2018-04-27 14:08:22 
+## Wall clock time: 7.692661 secs 
+## optimizer:  CSOLNP 
+## OpenMx version number: 2.8.3 
+## Need help?  See help(mxSummary) 
+## 
+## [1] &quot;Variables that should be controlled for are: XlagonXlag1&quot;
+## [2] &quot;Variables that should be controlled for are: XlagonXlag2&quot;
+## [3] &quot;Variables that should be controlled for are: XlagonXlag3&quot;</code></pre>
+<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre><code>## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
+## Completed stage 2 of DTVEM (wide format). Now passing to Stage 1.5. Controlling for the following lags in the varying-coefficient model:  XlagonXlag1, XlagonXlag2, XlagonXlag3</code></pre>
+<pre><code>## Removing group-based time of residuals</code></pre>
+<pre><code>## 
+## Begin fit attempt 1 of at maximum 11 tries</code></pre>
+<pre><code>## 
+##  Lowest minimum so far:  3274.90917415861</code></pre>
+<pre><code>## 
+## Solution found</code></pre>
+<pre><code>## 
+## Start values from best fit:</code></pre>
+<pre><code>## 0.236008799391563,-0.248531920453681,0.2835748499677,2.08271335137451</code></pre>
+<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
+<pre><code>## Summary of multisujbject 
+##  
+## free parameters:
+##          name matrix row col   Estimate  Std.Error A
+## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888  
+## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480  
+## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307  
+## 4      Xresid   s1.Q   1   1  2.0827134 0.10448100  
+## 
+## Model Statistics: 
+##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
+##        Model:              4                    896              3274.909
+##    Saturated:             NA                     NA                    NA
+## Independence:             NA                     NA                    NA
+## Number of observations/statistics: 1400/900
+## 
+## Information Criteria: 
+##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
+## AIC:       1482.909               3282.909                       NA
+## BIC:      -3215.919               3303.886                  3291.18
+## CFI: NA 
+## TLI: 1   (also known as NNFI) 
+## RMSEA:  0  [95% CI (NA, NA)]
+## Prob(RMSEA &lt;= 0.05): NA
+## To get additional fit indices, see help(mxRefModels)
+## timestamp: 2018-04-27 14:08:32 
+## Wall clock time: 4.273917 secs 
+## optimizer:  CSOLNP 
+## OpenMx version number: 2.8.3 
+## Need help?  See help(mxSummary) 
+## 
+## [1] &quot;Variables that should be controlled for are: XlagonXlag1&quot;
+## [2] &quot;Variables that should be controlled for are: XlagonXlag2&quot;
+## [3] &quot;Variables that should be controlled for are: XlagonXlag3&quot;
+## This is the #2 out of a possible 10 passes 
+## Completed loop between 1.5 and 2
+## DTVEM analysis completed,congradulations!
+## Contact the author - Nick Jacobson: njacobson88@gmail.com if you have any questions.
+## Summary of multisujbject 
+##  
+## free parameters:
+##          name matrix row col   Estimate  Std.Error A
+## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888  
+## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480  
+## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307  
+## 4      Xresid   s1.Q   1   1  2.0827134 0.10448100  
+## 
+## Model Statistics: 
+##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
+##        Model:              4                    896              3274.909
+##    Saturated:             NA                     NA                    NA
+## Independence:             NA                     NA                    NA
+## Number of observations/statistics: 1400/900
+## 
+## Information Criteria: 
+##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
+## AIC:       1482.909               3282.909                       NA
+## BIC:      -3215.919               3303.886                  3291.18
+## CFI: NA 
+## TLI: 1   (also known as NNFI) 
+## RMSEA:  0  [95% CI (NA, NA)]
+## Prob(RMSEA &lt;= 0.05): NA
+## To get additional fit indices, see help(mxRefModels)
+## timestamp: 2018-04-27 14:08:32 
+## Wall clock time: 4.273917 secs 
+## optimizer:  CSOLNP 
+## OpenMx version number: 2.8.3 
+## Need help?  See help(mxSummary) 
+## 
+##          name matrix row col   Estimate  Std.Error lbound ubound lboundMet
+## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888     NA     NA     FALSE
+## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480     NA     NA     FALSE
+## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307     NA     NA     FALSE
+##   uboundMet     tstat       pvalue  sig
+## 1     FALSE  5.289438 1.226928e-07 TRUE
+## 2     FALSE -5.888712 3.892167e-09 TRUE
+## 3     FALSE  6.594293 4.272871e-11 TRUE</code></pre>
+<p>Unlike the PACF, DTVEM identifies the correct lag structure, which is based on true positive lags at lag 1, true negative lags at lag 2, and true positive lags at lag 3.</p>
+<p>Let’s plot the 3-Dimensional 1st phase of the results as an illustration.</p>
+<pre class="r"><code>library(mgcv) #MGCV is used to plot the vary-coefficient model in stage 1.</code></pre>
+<pre><code>## Loading required package: nlme</code></pre>
+<pre><code>## This is mgcv 1.8-23. For overview type &#39;help(&quot;mgcv-package&quot;)&#39;.</code></pre>
+<pre class="r"><code>vis.gam(out$stage1out$mod,xlab=&quot;Time Differences&quot;,ylab=&quot;X lagged&quot;,zlab=&quot;Estimate&quot;,theta=-30,ticktype=&quot;detailed&quot;) #theta is used to rotate the output, </code></pre>
+<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>This clearly shows a positive lag at 1, a negative lag at 2, and a positive lag at 3.</p>
+<p>Okay, the results of the final state-space model were:</p>
+<pre class="r"><code>out$OpenMxstage2out$OpenMxout</code></pre>
+<pre><code>##          name matrix row col   Estimate  Std.Error lbound ubound lboundMet
+## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888     NA     NA     FALSE
+## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480     NA     NA     FALSE
+## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307     NA     NA     FALSE
+##   uboundMet     tstat       pvalue  sig
+## 1     FALSE  5.289438 1.226928e-07 TRUE
+## 2     FALSE -5.888712 3.892167e-09 TRUE
+## 3     FALSE  6.594293 4.272871e-11 TRUE</code></pre>
+<p>So, X predicts significantly itself positively 1 lag later, negatively 2 hours later, and positively again 3 hours later.</p>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/dtvem/">DTVEM</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/intensive-longitudinal-data/">intensive-longitudinal-data</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/lags/">lags</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/partial-autocorrelation-function/">partial autocorrelation function</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/project/dtvem/">The Differential Time Varying Effect Model</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key="></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

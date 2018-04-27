@@ -33,7 +33,7 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#projects = ["deep-learning"]
+projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
 url_pdf = "/files/PDFs/Roche and Jacobson 2018.pdf"

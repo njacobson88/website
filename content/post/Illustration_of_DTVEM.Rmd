@@ -1,0 +1,80 @@
+---
+title: "DTVEM Package Illustration"
+author: "Nick Jacobson"
+date: 2018-04-27T21:13:14-05:00
+categories: ["R"]
+tags: ["DTVEM", "intensive-longitudinal-data", "lags","partial autocorrelation function"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+##Loading in the Dataset 
+This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
+
+First load the DTVEM package. 
+```{r}
+library(DTVEM)
+```
+
+Next load the simulated data included in the DTVEM package, called exampledat1.
+```{r}
+data(exampledat1)
+```
+
+Get a look at the file structure.
+```{r}
+head(exampledat1)
+```
+##Illustrating the Inadequacies of the Partial Autocorrelation Function
+Next we want to explore lags with typical time series techniques. Run a partial autocorrelation function for the variable for each ID. 
+```{r}
+#DEFINE THE NUMBER OF UNIQUE IDs
+uniqueIDs=unique(exampledat1$ID)
+pacfmatrix=matrix(NA,nrow=length(uniqueIDs),ncol=10) #SAVE THE PACF RESULTS FOR THE FIRST 10 lags
+#CREATE A FOR LOOP TO RUN OVER EACH ID
+for(i in 1:length(uniqueIDs)){
+  temporarydata=exampledat1[exampledat1$ID==uniqueIDs[i],] #EXTRACT THE DATA FOR A GIVEN INDIVIDUAL
+  pacfout=pacf(temporarydata[,"X"],na.action = na.pass,plot=FALSE) #RUN THE PARTIAL AUTOCORRELATION FUNCTION WITHIN R, IGNORE THE MISSING DATA
+  pacfmatrix[i,]=pacfout$acf[1:10]
+}
+```
+
+Okay, we have the results, now we have to plot them. Each grey line will represent a PACF estimate for a given individual. The black lines will represent the mean PACF estimate.
+```{r}
+plot(1:10,pacfmatrix[1,],xlab="Lag",ylab="PACF Estimate",type="l",col="grey",ylim=c(-1,1))
+#FOR EACH UNIQUE ID
+for(i in 1:length(uniqueIDs)){
+  lines(1:10,pacfmatrix[i,],col="grey")
+}
+lines(1:10,colMeans(pacfmatrix,na.rm = TRUE)) #PLOT THE AVERAGE LAGGED ESTIMTES
+poscrit=2/sqrt(14-1)
+negcrit=-2/sqrt(14-1)
+lines(1:10,rep(poscrit,10),lty=2) #PLOT POSITIVE CRITICAL VALUE
+lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE
+
+
+```
+
+The results look like for any given individual the PACF results are highly unreliable. However, the PACF does suggest that there are potentially significantly negative lags at lag 6, 7, 8, 9, and 10. 
+
+##Showing the strength of DTVEM
+Let's see what DTVEM has to say about this.
+```{r}
+out=LAG("X",differntialtimevaryingpredictors=c("X"),outcome=c("X"),data=exampledat1,ID="ID",Time="Time",k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)
+```
+Unlike the PACF, DTVEM identifies the correct lag structure, which is based on true positive lags at lag 1, true negative lags at lag 2, and true positive lags at lag 3. 
+
+Let's plot the 3-Dimensional 1st phase of the results as an illustration.
+```{r,warning=FALSE}
+library(mgcv) #MGCV is used to plot the vary-coefficient model in stage 1.
+vis.gam(out$stage1out$mod,xlab="Time Differences",ylab="X lagged",zlab="Estimate",theta=-30,ticktype="detailed") #theta is used to rotate the output, 
+```
+
+This clearly shows a positive lag at 1, a negative lag at 2, and a positive lag at 3. 
+
+Okay, the results of the final state-space model were:
+```{r}
+out$OpenMxstage2out$OpenMxout
+```
+So, X predicts significantly itself positively 1 lag later, negatively 2 hours later, and positively again 3 hours later. 

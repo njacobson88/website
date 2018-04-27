@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application on Nicholas C. Jacobson</title>
+    <link>/tags/application/</link>
+    <description>Recent content in Application on Nicholas C. Jacobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/application/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mood Triggers</title>
+      <link>/project/mood-triggers/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/mood-triggers/</guid>
+      <description>Mood Triggers is an Android App released on the Google Play Store. Link to Mood Triggers App on the Google Play Store Youtube video of Mood Triggers
+Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.
+Features of Mood Triggers: Mood Triggers can help you keep a diary of: 1. Your anxiety and depression in your daily life 2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)</description>
+    </item>
+    
+  </channel>
+</rss>
