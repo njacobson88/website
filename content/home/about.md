@@ -11,13 +11,13 @@ weight = 5
 [interests]
   interests = [
     "Comorbidity of Psychopathology",
-    "Person-Specific Treatment Components",
+    "Technology-Driven Assessment & Treatment",
     "Longitudinal Data Analysis"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "MS in Psychology"
+  course = "MSc in Psychology"
   institution = "Pennsylvania State University"
   year = 2015
 

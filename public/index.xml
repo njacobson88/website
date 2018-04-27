@@ -20,6 +20,60 @@
     </item>
     
     <item>
+      <title>Handling Missing Data in the Modeling of Intensive Longitudinal Data</title>
+      <link>/publication/ji-et-al2018/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/ji-et-al2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elections have consequences for student mental health: An accidental daily diary study</title>
+      <link>/publication/roche-jacobson2018/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/roche-jacobson2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A theoretical and empirical modeling of anxiety integrated with RDoC and temporal dynamics</title>
+      <link>/publication/frank-et-al2017/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/frank-et-al2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anxiety and depression as bidirectional risk factors for one another: A meta-analysis of longitudinal studies</title>
+      <link>/publication/jacobson-newman2017/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/jacobson-newman2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceived emotional social support in bereaved spouses mediates the relationship between anxiety and depression</title>
+      <link>/publication/jacobson-lord-newman2017/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/jacobson-lord-newman2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching strategies for personality assessment at the undergraduate level</title>
+      <link>/publication/roche-jacobson-roche2017/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/roche-jacobson-roche2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
@@ -241,16 +295,6 @@ git submodule update --init --recursive
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
