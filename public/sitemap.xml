@@ -113,8 +113,17 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <loc>/publication/jacobson2016/</loc>
+      <lastmod>2016-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/newman-lafreniere-jacobson2016/</loc>
+      <lastmod>2016-05-08T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -123,6 +132,15 @@
     <url>
     
       <loc>/project/example-external-project/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/intensive-longitudinal-data/</loc>
       <lastmod>2016-04-27T00:00:00-04:00</lastmod>
     </url>
     
@@ -140,8 +158,98 @@
     
     <url>
     
+      <loc>/publication/roche-jacobson-pincus2016/</loc>
+      <lastmod>2016-01-02T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jacobson-newman-goldfried2016/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/newman-et-al2016/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jacobson-newman2016/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/newman-et-al-2015/</loc>
+      <lastmod>2015-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/2015-07-23-r-rmarkdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jacobson-newman2014/</loc>
+      <lastmod>2014-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/szkodny-jacobson-newman2014/</loc>
+      <lastmod>2014-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/newman-jacobson-castonguay2014/</loc>
+      <lastmod>2014-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jacobson-et-al2013/</loc>
+      <lastmod>2013-10-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jacobson-et-al2011/</loc>
+      <lastmod>2011-10-01T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -159,7 +267,8 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>/publication_types/6/</loc>
+      <lastmod>2014-10-01T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -168,7 +277,7 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
+      <loc>/tags/affective-dynamics/</loc>
       <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -178,7 +287,36 @@
     
     <url>
     
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/intensive-longitudinal-data/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/intraindividual-variability/</loc>
       <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>

@@ -17,6 +17,11 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
+  course = "PhD in Psychology"
+  institution = "Pennsylvania State University"
+  year = "2019* Expected"
+
+[[education.courses]]
   course = "MSc in Psychology"
   institution = "Pennsylvania State University"
   year = 2015

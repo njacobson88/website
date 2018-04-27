@@ -7,4 +7,7 @@ serve_site() #VIEW THE SITE
 #Go to terminal and type:
 #git add . 
 
-#Then go into tools, 
+#Then go into tools, and click commit
+
+#last go backto the terminal and type:
+#git push -u origin master

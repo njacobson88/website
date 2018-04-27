@@ -3,7 +3,7 @@ title = "Elections have consequences for student mental health: An accidental da
 date = 2018-01-09T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Michael J. Roche","Nicholas C. Jacobson"]
+authors = ["Michael J. Roche","**Nicholas C. Jacobson**"]
 
 # Publication type.
 # Legend:

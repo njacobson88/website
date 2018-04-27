@@ -3,7 +3,7 @@ title = "Perceived emotional social support in bereaved spouses mediates the rel
 date = 2017-05-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Nicholas C. Jacobson","Kayla A Lord" ,"Michelle G. Newman"]
+authors = ["**Nicholas C. Jacobson**","Kayla A Lord" ,"Michelle G. Newman"]
 
 # Publication type.
 # Legend:

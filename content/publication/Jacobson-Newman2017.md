@@ -3,7 +3,7 @@ title = "Anxiety and depression as bidirectional risk factors for one another: A
 date = 2017-10-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Nicholas C. Jacobson", "Michelle G. Newman"]
+authors = ["**Nicholas C. Jacobson**", "Michelle G. Newman"]
 
 # Publication type.
 # Legend:

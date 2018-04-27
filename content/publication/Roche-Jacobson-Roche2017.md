@@ -3,7 +3,7 @@ title = "Teaching strategies for personality assessment at the undergraduate lev
 date = 2017-02-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Michael J. Roche","Nicholas C. Jacobson","Carley A. Roche"]
+authors = ["Michael J. Roche","**Nicholas C. Jacobson**","Carley A. Roche"]
 
 # Publication type.
 # Legend:

@@ -1,9 +1,9 @@
 +++
-title = "Handling Missing Data in the Modeling of Intensive Longitudinal Data"
+title = "Handling missing data in the modeling of intensive longitudinal data"
 date = 2018-01-10T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Linying Ji","Sy-Miin Chow","Alice C. Schermerhorn","Nicholas C. Jacobson","Mark Cummings"]
+authors = ["Linying Ji","Sy-Miin Chow","Alice C. Schermerhorn","**Nicholas C. Jacobson**","Mark Cummings"]
 
 # Publication type.
 # Legend:
@@ -33,7 +33,7 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#projects = ["deep-learning"]
+projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
 url_pdf = "/files/PDFs/Ji, Chow, Schermerhorn, Jacobson & Cummings 2018.pdf"

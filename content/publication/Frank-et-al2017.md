@@ -3,7 +3,7 @@ title = "A theoretical and empirical modeling of anxiety integrated with RDoC an
 date = 2017-10-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Brandon Frank","Nicholas C. Jacobson", "Landon Hurley","Dean McKay"]
+authors = ["Brandon Frank","**Nicholas C. Jacobson**", "Landon Hurley","Dean McKay"]
 
 # Publication type.
 # Legend:
@@ -33,7 +33,7 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#projects = ["deep-learning"]
+projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
 url_pdf = "/files/PDFs/Frank, Jacobson, Hurley, & McKay 2017.pdf"
