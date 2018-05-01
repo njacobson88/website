@@ -28,7 +28,9 @@ caption = "Illustration of DTVEM"
 
 +++
 **Mood Triggers** is an Android App released on the Google Play Store.
+
 [Link to Mood Triggers App on the Google Play Store](https://play.google.com/store/apps/details?id=com.nick.moodtriggers.anxietyanddepressionapp)
+
 [Youtube video of Mood Triggers](https://youtu.be/Lx-hqXYDEGE)
 
 Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.

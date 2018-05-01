@@ -299,3 +299,8 @@ enableGitInfo = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+#THE NEXT PART IS FOR SEARCH ENGINE OPTIMIZATION
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:  
