@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lags on Nicholas C. Jacobson</title>
-    <link>/tags/lags/</link>
+    <link>http://www.nicholasjacobson.com/tags/lags/</link>
     <description>Recent content in Lags on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/lags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.nicholasjacobson.com/tags/lags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Differential Time Varying Effect Model</title>
-      <link>/project/dtvem/</link>
+      <link>http://www.nicholasjacobson.com/project/dtvem/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/dtvem/</guid>
+      <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
       <description>Differential Time-Varying Effect Model (DTVEM) This site is an accompaniment to the following paper: Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.
 This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
     </item>

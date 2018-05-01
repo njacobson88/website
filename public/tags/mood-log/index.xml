@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mood Log on Nicholas C. Jacobson</title>
-    <link>/tags/mood-log/</link>
+    <link>http://www.nicholasjacobson.com/tags/mood-log/</link>
     <description>Recent content in Mood Log on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/mood-log/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.nicholasjacobson.com/tags/mood-log/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mood Triggers</title>
-      <link>/project/mood-triggers/</link>
+      <link>http://www.nicholasjacobson.com/project/mood-triggers/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/mood-triggers/</guid>
+      <guid>http://www.nicholasjacobson.com/project/mood-triggers/</guid>
       <description>Mood Triggers is an Android App released on the Google Play Store.
 Link to Mood Triggers App on the Google Play Store
 Youtube video of Mood Triggers

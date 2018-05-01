@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Nicholas C. Jacobson</title>
-    <link>/project/</link>
+    <link>http://www.nicholasjacobson.com/project/</link>
     <description>Recent content in Projects on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.nicholasjacobson.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mood Triggers</title>
-      <link>/project/mood-triggers/</link>
+      <link>http://www.nicholasjacobson.com/project/mood-triggers/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/mood-triggers/</guid>
+      <guid>http://www.nicholasjacobson.com/project/mood-triggers/</guid>
       <description>Mood Triggers is an Android App released on the Google Play Store.
 Link to Mood Triggers App on the Google Play Store
 Youtube video of Mood Triggers
@@ -27,20 +27,20 @@ Features of Mood Triggers: Mood Triggers can help you keep a diary of: 1. Your a
     
     <item>
       <title>The Differential Time Varying Effect Model</title>
-      <link>/project/dtvem/</link>
+      <link>http://www.nicholasjacobson.com/project/dtvem/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/dtvem/</guid>
+      <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
       <description>Differential Time-Varying Effect Model (DTVEM) This site is an accompaniment to the following paper: Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.
 This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
     </item>
     
     <item>
       <title>Using Intensive Longitudinal Data to Study Affective Dynamics</title>
-      <link>/project/intensive-longitudinal-data/</link>
+      <link>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/intensive-longitudinal-data/</guid>
+      <guid>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</guid>
       <description></description>
     </item>
     
