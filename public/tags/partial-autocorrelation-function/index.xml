@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partial autocorrelation function on Nicholas C. Jacobson</title>
-    <link>/tags/partial-autocorrelation-function/</link>
+    <link>/www.nicholasjacobson.com/tags/partial-autocorrelation-function/</link>
     <description>Recent content in Partial autocorrelation function on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 27 Apr 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/partial-autocorrelation-function/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.nicholasjacobson.com/tags/partial-autocorrelation-function/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DTVEM Package Illustration</title>
-      <link>/post/illustration_of_dtvem/</link>
+      <link>/www.nicholasjacobson.com/post/illustration_of_dtvem/</link>
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
-      <guid>/post/illustration_of_dtvem/</guid>
+      <guid>/www.nicholasjacobson.com/post/illustration_of_dtvem/</guid>
       <description>Loading in the DatasetThis code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
 First load the DTVEM package.
 library(DTVEM)Next load the simulated data included in the DTVEM package, called exampledat1.

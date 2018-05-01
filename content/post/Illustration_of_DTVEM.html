@@ -48,7 +48,7 @@ poscrit=2/sqrt(14-1)
 negcrit=-2/sqrt(14-1)
 lines(1:10,rep(poscrit,10),lty=2) #PLOT POSITIVE CRITICAL VALUE
 lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
-<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>The results look like for any given individual the PACF results are highly unreliable. However, the PACF does suggest that there are potentially significantly negative lags at lag 6, 7, 8, 9, and 10.</p>
 </div>
 <div id="showing-the-strength-of-dtvem" class="section level2">
@@ -100,8 +100,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 16:14:56 
-## Wall clock time: 14.54624 secs 
+## timestamp: 2018-05-01 17:17:06 
+## Wall clock time: 4.359224 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -109,7 +109,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 ## [1] &quot;Variables that should be controlled for are: XlagonXlag1&quot;
 ## [2] &quot;Variables that should be controlled for are: XlagonXlag2&quot;
 ## [3] &quot;Variables that should be controlled for are: XlagonXlag3&quot;</code></pre>
-<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <pre><code>## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
 ## Completed stage 2 of DTVEM (wide format). Now passing to Stage 1.5. Controlling for the following lags in the varying-coefficient model:  XlagonXlag1, XlagonXlag2, XlagonXlag3</code></pre>
 <pre><code>## Removing group-based time of residuals</code></pre>
@@ -122,7 +122,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 <pre><code>## 
 ## Start values from best fit:</code></pre>
 <pre><code>## 0.236008799391563,-0.248531920453681,0.2835748499677,2.08271335137451</code></pre>
-<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
+<p><img src="/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
 <pre><code>## Summary of multisujbject 
 ##  
 ## free parameters:
@@ -148,8 +148,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 16:15:04 
-## Wall clock time: 4.109698 secs 
+## timestamp: 2018-05-01 17:17:14 
+## Wall clock time: 4.153794 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -186,8 +186,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 16:15:04 
-## Wall clock time: 4.109698 secs 
+## timestamp: 2018-05-01 17:17:14 
+## Wall clock time: 4.153794 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -206,7 +206,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 <pre><code>## Loading required package: nlme</code></pre>
 <pre><code>## This is mgcv 1.8-23. For overview type &#39;help(&quot;mgcv-package&quot;)&#39;.</code></pre>
 <pre class="r"><code>vis.gam(out$stage1out$mod,xlab=&quot;Time Differences&quot;,ylab=&quot;X lagged&quot;,zlab=&quot;Estimate&quot;,theta=-30,ticktype=&quot;detailed&quot;) #theta is used to rotate the output, </code></pre>
-<p><img src="/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 <p>This clearly shows a positive lag at 1, a negative lag at 2, and a positive lag at 3.</p>
 <p>Okay, the results of the final state-space model were:</p>
 <pre class="r"><code>out$OpenMxstage2out$OpenMxout</code></pre>
