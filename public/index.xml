@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicholas C. Jacobson on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/</link>
+    <link>/</link>
     <description>Recent content in Nicholas C. Jacobson on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>DTVEM Package Illustration</title>
-      <link>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</link>
+      <link>/post/illustration_of_dtvem/</link>
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</guid>
+      <guid>/post/illustration_of_dtvem/</guid>
       <description>&lt;div id=&#34;loading-in-the-dataset&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Loading in the Dataset&lt;/h2&gt;
 &lt;p&gt;This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.&lt;/p&gt;
@@ -56,7 +56,7 @@ poscrit=2/sqrt(14-1)
 negcrit=-2/sqrt(14-1)
 lines(1:10,rep(poscrit,10),lty=2) #PLOT POSITIVE CRITICAL VALUE
 lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The results look like for any given individual the PACF results are highly unreliable. However, the PACF does suggest that there are potentially significantly negative lags at lag 6, 7, 8, 9, and 10.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;showing-the-strength-of-dtvem&#34; class=&#34;section level2&#34;&gt;
@@ -108,8 +108,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 17:17:06 
-## Wall clock time: 4.359224 secs 
+## timestamp: 2018-06-22 13:14:32 
+## Wall clock time: 6.114188 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -117,7 +117,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## [1] &amp;quot;Variables that should be controlled for are: XlagonXlag1&amp;quot;
 ## [2] &amp;quot;Variables that should be controlled for are: XlagonXlag2&amp;quot;
 ## [3] &amp;quot;Variables that should be controlled for are: XlagonXlag3&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
 ## Completed stage 2 of DTVEM (wide format). Now passing to Stage 1.5. Controlling for the following lags in the varying-coefficient model:  XlagonXlag1, XlagonXlag2, XlagonXlag3&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Removing group-based time of residuals&lt;/code&gt;&lt;/pre&gt;
@@ -130,7 +130,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 &lt;pre&gt;&lt;code&gt;## 
 ## Start values from best fit:&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 0.236008799391563,-0.248531920453681,0.2835748499677,2.08271335137451&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## Summary of multisujbject 
 ##  
 ## free parameters:
@@ -156,8 +156,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 17:17:14 
-## Wall clock time: 4.153794 secs 
+## timestamp: 2018-06-22 13:14:41 
+## Wall clock time: 5.231807 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -194,8 +194,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-05-01 17:17:14 
-## Wall clock time: 4.153794 secs 
+## timestamp: 2018-06-22 13:14:41 
+## Wall clock time: 5.231807 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -214,7 +214,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 &lt;pre&gt;&lt;code&gt;## Loading required package: nlme&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## This is mgcv 1.8-23. For overview type &amp;#39;help(&amp;quot;mgcv-package&amp;quot;)&amp;#39;.&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vis.gam(out$stage1out$mod,xlab=&amp;quot;Time Differences&amp;quot;,ylab=&amp;quot;X lagged&amp;quot;,zlab=&amp;quot;Estimate&amp;quot;,theta=-30,ticktype=&amp;quot;detailed&amp;quot;) #theta is used to rotate the output, &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This clearly shows a positive lag at 1, a negative lag at 2, and a positive lag at 3.&lt;/p&gt;
 &lt;p&gt;Okay, the results of the final state-space model were:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out$OpenMxstage2out$OpenMxout&lt;/code&gt;&lt;/pre&gt;
@@ -233,100 +233,100 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     
     <item>
       <title>Expanding the validity of the Level of Personality Functioning Scale Observer-Report and Self-Report versions across psychodynamic and interpersonal paradigms</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</link>
+      <link>/publication/roche-jacobson-phillips2018/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</guid>
+      <guid>/publication/roche-jacobson-phillips2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Handling missing data in the modeling of intensive longitudinal data</title>
-      <link>http://www.nicholasjacobson.com/publication/ji-et-al2018/</link>
+      <link>/publication/ji-et-al2018/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/ji-et-al2018/</guid>
+      <guid>/publication/ji-et-al2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elections have consequences for student mental health: An accidental daily diary study</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson2018/</link>
+      <link>/publication/roche-jacobson2018/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson2018/</guid>
+      <guid>/publication/roche-jacobson2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A theoretical and empirical modeling of anxiety integrated with RDoC and temporal dynamics</title>
-      <link>http://www.nicholasjacobson.com/publication/frank-et-al2017/</link>
+      <link>/publication/frank-et-al2017/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/frank-et-al2017/</guid>
+      <guid>/publication/frank-et-al2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anxiety and depression as bidirectional risk factors for one another: A meta-analysis of longitudinal studies</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-newman2017/</link>
+      <link>/publication/jacobson-newman2017/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-newman2017/</guid>
+      <guid>/publication/jacobson-newman2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perceived emotional social support in bereaved spouses mediates the relationship between anxiety and depression</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-lord-newman2017/</link>
+      <link>/publication/jacobson-lord-newman2017/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-lord-newman2017/</guid>
+      <guid>/publication/jacobson-lord-newman2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching strategies for personality assessment at the undergraduate level</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</link>
+      <link>/publication/roche-jacobson-roche2017/</link>
       <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</guid>
+      <guid>/publication/roche-jacobson-roche2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Depression Variability Predicts Later Anxiety for Those with Depressive Disorders</title>
-      <link>http://www.nicholasjacobson.com/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Current evolutionary adaptiveness of psychiatric disorders: Fertility rates, parent−child relationship quality, and psychiatric disorders across the lifespan</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson2016/</link>
+      <link>/publication/jacobson2016/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/jacobson2016/</guid>
+      <guid>/publication/jacobson2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Relaxation-induced anxiety: Effects of peak and trajectories of change on treatment outcome for generalized anxiety disorder</title>
-      <link>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2016/</link>
+      <link>/publication/newman-lafreniere-jacobson2016/</link>
       <pubDate>Sun, 08 May 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2016/</guid>
+      <guid>/publication/newman-lafreniere-jacobson2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mood Triggers</title>
-      <link>http://www.nicholasjacobson.com/project/mood-triggers/</link>
+      <link>/project/mood-triggers/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/project/mood-triggers/</guid>
+      <guid>/project/mood-triggers/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mood Triggers&lt;/strong&gt; is an Android App released on the Google Play Store.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.nick.moodtriggers.anxietyanddepressionapp&#34; target=&#34;_blank&#34;&gt;Link to Mood Triggers App on the Google Play Store&lt;/a&gt;&lt;/p&gt;
@@ -363,10 +363,10 @@ Mood Triggers can help you keep a diary of:
     
     <item>
       <title>The Differential Time Varying Effect Model</title>
-      <link>http://www.nicholasjacobson.com/project/dtvem/</link>
+      <link>/project/dtvem/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
+      <guid>/project/dtvem/</guid>
       <description>&lt;p&gt;Differential Time-Varying Effect Model (DTVEM)
 This site is an accompaniment to the following paper:
 Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.&lt;/p&gt;
@@ -381,19 +381,19 @@ Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Ef
     
     <item>
       <title>Using Intensive Longitudinal Data to Study Affective Dynamics</title>
-      <link>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</link>
+      <link>/project/intensive-longitudinal-data/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</guid>
+      <guid>/project/intensive-longitudinal-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using repeated daily assessments to uncover oscillating patterns and temporally-dynamic triggers in structures of psychopathology: Applications to the DSM–5 alternative model of personality disorders</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-pincus2016/</link>
+      <link>/publication/roche-jacobson-pincus2016/</link>
       <pubDate>Sat, 02 Jan 2016 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-pincus2016/</guid>
+      <guid>/publication/roche-jacobson-pincus2016/</guid>
       <description></description>
     </item>
     

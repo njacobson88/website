@@ -242,7 +242,18 @@ enableGitInfo = false
     icon = "researchgate"
     icon_pack = "ai"
     link = "//www.researchgate.net/profile/Nicholas_Jacobson2"
+    
 
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "//orcid.org/0000-0002-8832-4741"
+    
+    
+  [[params.social]]
+    icon = "publons"
+    icon_pack = "ai"
+    link = "//publons.com/a/1516519/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
