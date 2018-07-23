@@ -1,6 +1,6 @@
 +++
 title = "Relaxation-induced anxiety: Effects of peak and trajectories of change on treatment outcome for generalized anxiety disorder"
-date = 2016-05-08T00:00:00
+date = 2018-05-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Michelle G. Newman","Lucas S. LaFreniere","**Nicholas C. Jacobson**"]
@@ -36,7 +36,7 @@ selected = false
 projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
-url_pdf = "/files/PDFs/Newman, LaFreniere, & Jacobson, 2016.pdf"
+url_pdf = "/files/PDFs/Newman, LaFreniere, & Jacobson, 2018.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""
