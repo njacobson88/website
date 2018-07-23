@@ -64,7 +64,7 @@ enableGitInfo = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "Jacobson_N2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "njacobson88@gmail.com"
-  address = "378 Moore Building, Pennsylvania State University"
+  address = "185 Cambridge Street, Suite 2000, Boston, MA 02114"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "(814) 863-0115"
   skype = "njacobson88@gmail.com"
@@ -98,8 +98,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 2
   map_api_key = ""
-  latitude = "40.798884"
-  longitude = "-77.868980"
+  latitude = "42.362000"
+  longitude = "-71.066145"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )

@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ##Loading in the Dataset 
 This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
 
+[Click here to download and install the DTVEM package.](/project/dtvem/)
+
 First load the DTVEM package. 
 ```{r}
 library(DTVEM)
