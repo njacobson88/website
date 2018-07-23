@@ -108,8 +108,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-06-22 13:14:32 
-## Wall clock time: 6.114188 secs 
+## timestamp: 2018-07-23 11:08:22 
+## Wall clock time: 4.9554 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -156,8 +156,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-06-22 13:14:41 
-## Wall clock time: 5.231807 secs 
+## timestamp: 2018-07-23 11:08:29 
+## Wall clock time: 3.815259 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -194,8 +194,8 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 ## RMSEA:  0  [95% CI (NA, NA)]
 ## Prob(RMSEA &amp;lt;= 0.05): NA
 ## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-06-22 13:14:41 
-## Wall clock time: 5.231807 secs 
+## timestamp: 2018-07-23 11:08:29 
+## Wall clock time: 3.815259 secs 
 ## optimizer:  CSOLNP 
 ## OpenMx version number: 2.8.3 
 ## Need help?  See help(mxSummary) 
@@ -369,13 +369,26 @@ Mood Triggers can help you keep a diary of:
       <guid>/project/dtvem/</guid>
       <description>&lt;p&gt;Differential Time-Varying Effect Model (DTVEM)
 This site is an accompaniment to the following paper:
-Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.&lt;/p&gt;
+Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2018, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. &lt;em&gt;Behavior Research Methods.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.&lt;/p&gt;
 
-&lt;p&gt;The package was written in the R statistical package.&lt;/p&gt;
+&lt;p&gt;The package was written in the R statistical package. You can download the DTVEM package by clicking the following links:&lt;/p&gt;
 
-&lt;p&gt;The package is available upon request by emailing: njacobson88@gmail.com. Following it&amp;rsquo;s publication the code will be made publically available on this web page.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/DTVEM/DTVEM_manual.pdf&#34;&gt;Download the DTVEM R Package Manual.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/DTVEM/DTVEM_1.0006.zip&#34;&gt;Windows Build of the DTVEM Package Version 1.0006&lt;/a&gt;
+&lt;a href=&#34;/files/DTVEM/DTVEM_1.0006.tar.gz&#34;&gt;Mac and Linux Builds of the DTVEM Package Version 1.0006&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Instructions on how to install:
+1. Click the download for either the Windows, Mac, or Linux version above.
+2. Install the package in R via the package download.
+3. Install the following dependencies: mgcv, plyr, zoo, reshape2, Rcpp, OpenMx
+This can be accomplished via the following command in R:
+install.packages(c(&amp;ldquo;mgcv&amp;rdquo;,&amp;ldquo;plyr&amp;rdquo;,&amp;ldquo;zoo&amp;rdquo;,&amp;ldquo;reshape2&amp;rdquo;,&amp;ldquo;Rcpp&amp;rdquo;,&amp;ldquo;OpenMx&amp;rdquo;))
+4. Load the DTVEM package using library(DTVEM).&lt;/p&gt;
+
+&lt;p&gt;A usage Example of DTVEM accompanies the &lt;a href=&#34;/post/illustration_of_dtvem/index.html&#34;&gt;following post&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

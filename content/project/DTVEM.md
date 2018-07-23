@@ -29,10 +29,23 @@ caption = "Illustration of DTVEM"
 +++
 Differential Time-Varying Effect Model (DTVEM)
 This site is an accompaniment to the following paper:
-Jacobson, N. C., Chow, S, & Newman, M.G The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data.
+Jacobson, N. C., Chow, S, & Newman, M.G (2018, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. *Behavior Research Methods.*
 
 This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another. 
 
-The package was written in the R statistical package.
+The package was written in the R statistical package. You can download the DTVEM package by clicking the following links:
 
-The package is available upon request by emailing: njacobson88@gmail.com. Following it's publication the code will be made publically available on this web page.
+[Download the DTVEM R Package Manual.](/files/DTVEM/DTVEM_manual.pdf)
+
+[Windows Build of the DTVEM Package Version 1.0006](/files/DTVEM/DTVEM_1.0006.zip)
+[Mac and Linux Builds of the DTVEM Package Version 1.0006](/files/DTVEM/DTVEM_1.0006.tar.gz)
+
+Instructions on how to install:
+1. Click the download for either the Windows, Mac, or Linux version above.
+2. Install the package in R via the package download.
+3. Install the following dependencies: mgcv, plyr, zoo, reshape2, Rcpp, OpenMx
+This can be accomplished via the following command in R:
+install.packages(c("mgcv","plyr","zoo","reshape2","Rcpp","OpenMx"))
+4. Load the DTVEM package using library(DTVEM).
+
+A usage Example of DTVEM accompanies the [following post](/post/illustration_of_dtvem/index.html)
