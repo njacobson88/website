@@ -17,7 +17,7 @@ authors = ["Michael J. Roche", "**Nicholas C. Jacobson**","Jennifer Phillips"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Journal of Psychological Assessment"
+publication = "Journal of Personality Assessment"
 #publication_short = "*JPA*"
 
 # Abstract and optional shortened version.

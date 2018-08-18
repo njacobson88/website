@@ -36,7 +36,7 @@ selected = true
 projects = ["DTVEM"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Jacobson, Newman, & Goldfried 2015.pdf"
+#url_pdf = "/files/PDFs/Jacobson, Chow, & Newman, 2018.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""
@@ -44,7 +44,7 @@ projects = ["DTVEM"]
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "https://www.sciencedirect.com/science/article/abs/pii/S0005789415000921"
+url_source = "https://link.springer.com/article/10.3758/s13428-018-1101-0"
 
 # Does the content use math formatting?
 math = true
