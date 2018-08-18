@@ -36,7 +36,7 @@ selected = true
 projects = ["DTVEM"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Jacobson, Chow, & Newman, 2018.pdf"
+url_pdf = "/files/PDFs/Jacobson, Chow, & Newman, 2018.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""
