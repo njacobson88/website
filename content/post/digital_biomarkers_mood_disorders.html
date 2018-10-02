@@ -1,0 +1,637 @@
+---
+title: "Digital Phenotyping Mood Disorders Reproducible R Code"
+author: "Nick Jacobson"
+date: "September 12, 2018"
+output: html_document
+---
+
+
+
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>This post documents reproducible code accompanying the manuscript draft “Digital Biomarkers of Mood Disorders and Symptom Change” by Nicholas C. Jacobson, Hilary M. Weingardenm and Sabine Wilhelm. This code uses machine learning to predict the diagnostic status and depressive symptom change in a a group of 23 patients with bipolar disorder or major depressive disorder and 32 non-disordered controls using actigraphy data.</p>
+<p>The data in the following code is available publicly using the following <a href="/http://datasets.simula.no/depresjon/data/depresjon-dataset.zip">link</a></p>
+<p>Read in the data.</p>
+<pre class="r"><code>setwd(&quot;C:/Users/njaco/Dropbox/Depresion and Motor Activity/data&quot;)
+scores=read.csv(&quot;scores.csv&quot;)</code></pre>
+<p>Load the required packages.</p>
+<pre class="r"><code>library(psych) #for the rmssd function
+library(e1071) #For distribution
+library(mgcv) #To run stage 1 of DTVEM (see Jacobson, Chow, and Newman, 2018)</code></pre>
+<pre><code>## Loading required package: nlme</code></pre>
+<pre><code>## This is mgcv 1.8-23. For overview type &#39;help(&quot;mgcv-package&quot;)&#39;.</code></pre>
+<pre class="r"><code>library(gtools) #For the mixsort</code></pre>
+<pre><code>## 
+## Attaching package: &#39;gtools&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:mgcv&#39;:
+## 
+##     scat</code></pre>
+<pre><code>## The following object is masked from &#39;package:e1071&#39;:
+## 
+##     permutations</code></pre>
+<pre><code>## The following object is masked from &#39;package:psych&#39;:
+## 
+##     logit</code></pre>
+<pre class="r"><code>library(caret) #To run the machine learning techniques.</code></pre>
+<pre><code>## Loading required package: lattice</code></pre>
+<pre><code>## Loading required package: ggplot2</code></pre>
+<pre><code>## 
+## Attaching package: &#39;ggplot2&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:psych&#39;:
+## 
+##     %+%, alpha</code></pre>
+<pre class="r"><code>library(ggplot2) #For plots
+library(scales) #For plots</code></pre>
+<pre><code>## 
+## Attaching package: &#39;scales&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:psych&#39;:
+## 
+##     alpha, rescale</code></pre>
+<pre class="r"><code>library(Hmisc) #For correlations</code></pre>
+<pre><code>## Loading required package: survival</code></pre>
+<pre><code>## 
+## Attaching package: &#39;survival&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:caret&#39;:
+## 
+##     cluster</code></pre>
+<pre><code>## Loading required package: Formula</code></pre>
+<pre><code>## 
+## Attaching package: &#39;Hmisc&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:e1071&#39;:
+## 
+##     impute</code></pre>
+<pre><code>## The following object is masked from &#39;package:psych&#39;:
+## 
+##     describe</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     format.pval, round.POSIXt, trunc.POSIXt, units</code></pre>
+<p>Create and define biomarker new feature functions.</p>
+<pre class="r"><code>getmode &lt;- function(v) {
+  uniqv &lt;- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+meanvariabilitystats=function(x){
+  rmssd1=rmssd(x,lag=1)
+  rmssd2=rmssd(x,lag=2)
+  max1=max(x,na.rm=TRUE)
+  min1=min(x,na.rm=TRUE)
+  mean1=mean(x,na.rm=TRUE)
+  median1=median(x,na.rm=TRUE)
+  mode1=getmode(x)
+  sd1=sd(x,na.rm=TRUE)
+  skewness1=skewness(x,na.rm=TRUE)
+  kurtosis1=kurtosis(x,na.rm=TRUE)
+  quantiles1=quantile(x,seq(.01,.99,by=.01))
+  return(c(rmssd1,rmssd2,max1,min1,mean1,median1,mode1,sd1,skewness1,kurtosis1,quantiles1))
+}
+
+dtvemstage1=function(x){
+  x2=data.frame(outcome=NA,lag=NA,pred=NA)
+  for(i in 1:100){
+    outcome=x[1:(length(x)-i)]
+    pred=x[-1:-i]
+    tempx=data.frame(outcome=outcome,lag=i,pred=pred)
+    x2=rbind(x2,tempx)
+  }
+  out=bam(outcome~s(lag,by=pred),data=x2)
+  pdat=data.frame(pred=1,lag=1:100)
+  stage1est=predict(out,pdat,type=&quot;terms&quot;)
+  return(stage1est)
+}</code></pre>
+<p>Next we’ll use the functions to create a set of digital biomarkers from the actigraphy data.</p>
+<pre class="r"><code>setwd(&quot;C:/Users/njaco/Dropbox/Depresion and Motor Activity/data&quot;)
+
+condlist=list.files(&quot;condition/&quot;)
+condlist=mixedsort(condlist) #PUTS THEM IN NUMERICAL ORDER
+conddatalist=list()
+condspectrumlist=list()
+condmeanvariabilitystats=list()
+conddtvemstage1=list()
+
+for(i in 1:length(condlist)){
+  conddatalist[[i]]=read.csv(paste(&quot;condition/&quot;,condlist[i],sep=&quot;&quot;))
+  condspectrumlist[[i]]=stats::spectrum(conddatalist[[i]]$activity[1:19299]) #19299 is last minute available for all subjects
+  condmeanvariabilitystats[[i]]=meanvariabilitystats(conddatalist[[i]]$activity)
+  conddtvemstage1[[i]]=dtvemstage1(conddatalist[[i]]$activity)
+}</code></pre>
+<p><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-1.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-2.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-3.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-4.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-5.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-6.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-7.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-8.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-9.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-10.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-11.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-12.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-13.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-14.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-15.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-16.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-17.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-18.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-19.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-20.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-21.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-22.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-23.png" width="672" /></p>
+<pre class="r"><code>controllist=list.files(&quot;control/&quot;)
+library(gtools)
+controllist=mixedsort(controllist) #PUTS THEM IN NUMERICAL ORDER
+controldatalist=list()
+controlspectrumlist=list()
+controlmeanvariabilitystats=list()
+controldtvemstage1=list()
+
+for(i in 1:length(controllist)){
+  controldatalist[[i]]=read.csv(paste(&quot;control/&quot;,controllist[i],sep=&quot;&quot;))
+  controlspectrumlist[[i]]=stats::spectrum(controldatalist[[i]]$activity[1:19299]) #19299 is last minute available for all subjects
+  controlmeanvariabilitystats[[i]]=meanvariabilitystats(controldatalist[[i]]$activity)
+  controldtvemstage1[[i]]=dtvemstage1(controldatalist[[i]]$activity)
+}</code></pre>
+<p><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-24.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-25.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-26.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-27.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-28.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-29.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-30.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-31.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-32.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-33.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-34.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-35.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-36.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-37.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-38.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-39.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-40.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-41.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-42.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-43.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-44.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-45.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-46.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-47.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-48.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-49.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-50.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-51.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-52.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-53.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-54.png" width="672" /><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Read%20in%20actigraphy%20data%20and%20create%20biomarkers-55.png" width="672" /></p>
+<p>Next merge the features into the main dataset.</p>
+<pre class="r"><code>scores[,paste(&quot;f&quot;,1:9929,sep=&quot;&quot;)]=NA
+#IGNORE SPECTRAL ANALSYSI FOR NOW
+for(i in 1:length(condlist)){
+  scores[i,paste(&quot;f&quot;,1:109,sep=&quot;&quot;)]=condmeanvariabilitystats[[i]]
+  scores[i,paste(&quot;f&quot;,110:209,sep=&quot;&quot;)]=conddtvemstage1[[i]]
+  scores[i,paste(&quot;f&quot;,210:9929,sep=&quot;&quot;)]=condspectrumlist[[i]]$spec
+}
+
+for(i in 1:length(controllist)){
+  scores[(i+23),paste(&quot;f&quot;,1:109,sep=&quot;&quot;)]=controlmeanvariabilitystats[[i]]
+  scores[(i+23),paste(&quot;f&quot;,110:209,sep=&quot;&quot;)]=controldtvemstage1[[i]]
+  scores[(i+23),paste(&quot;f&quot;,210:9929,sep=&quot;&quot;)]=controlspectrumlist[[i]]$spec
+}</code></pre>
+</div>
+<div id="result-1-diagnostic-group-status" class="section level1">
+<h1>Result 1: Diagnostic Group Status</h1>
+<p>Define the outcome.</p>
+<pre class="r"><code>scores$TYPE=c(rep(&quot;Patient&quot;,length(condlist)),rep(&quot;Control&quot;,length(controllist)))</code></pre>
+<p>Create the training dataset for the mood classification. Note that this is important so that only the biomarker features are use in predicting the diagnostic status.</p>
+<pre class="r"><code>traindata=scores[,c(&quot;TYPE&quot;,paste(&quot;f&quot;,1:9929,sep=&quot;&quot;))]</code></pre>
+<p>Train a machine learning model utilizing xgboost and leave-one-out cross-validation.</p>
+<pre class="r"><code>train_control&lt;- trainControl(method=&quot;LOOCV&quot;,savePredictions = TRUE)
+
+set.seed(87626) #SET A RANDOM SEED
+model&lt;- train(TYPE~., data=traindata, trControl=train_control, method=&quot;xgbTree&quot;,na.action=na.pass) #xgboost</code></pre>
+<pre><code>## Loading required package: xgboost</code></pre>
+<pre><code>## Loading required package: plyr</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:Hmisc&#39;:
+## 
+##     is.discrete, summarize</code></pre>
+<pre class="r"><code>model</code></pre>
+<pre><code>## eXtreme Gradient Boosting 
+## 
+##   55 samples
+## 9929 predictors
+##    2 classes: &#39;Control&#39;, &#39;Patient&#39; 
+## 
+## No pre-processing
+## Resampling: Leave-One-Out Cross-Validation 
+## Summary of sample sizes: 54, 54, 54, 54, 54, 54, ... 
+## Resampling results across tuning parameters:
+## 
+##   nrounds  max_depth  eta  colsample_bytree  subsample  Accuracy 
+##    50      1          0.3  0.6               0.50       0.6909091
+##    50      1          0.3  0.6               0.75       0.7636364
+##    50      1          0.3  0.6               1.00       0.8909091
+##    50      1          0.3  0.8               0.50       0.7454545
+##    50      1          0.3  0.8               0.75       0.7636364
+##    50      1          0.3  0.8               1.00       0.8727273
+##    50      1          0.4  0.6               0.50       0.6727273
+##    50      1          0.4  0.6               0.75       0.7454545
+##    50      1          0.4  0.6               1.00       0.8909091
+##    50      1          0.4  0.8               0.50       0.8000000
+##    50      1          0.4  0.8               0.75       0.7818182
+##    50      1          0.4  0.8               1.00       0.8363636
+##    50      2          0.3  0.6               0.50       0.7818182
+##    50      2          0.3  0.6               0.75       0.6909091
+##    50      2          0.3  0.6               1.00       0.6909091
+##    50      2          0.3  0.8               0.50       0.6727273
+##    50      2          0.3  0.8               0.75       0.7818182
+##    50      2          0.3  0.8               1.00       0.7636364
+##    50      2          0.4  0.6               0.50       0.6727273
+##    50      2          0.4  0.6               0.75       0.6909091
+##    50      2          0.4  0.6               1.00       0.7272727
+##    50      2          0.4  0.8               0.50       0.7454545
+##    50      2          0.4  0.8               0.75       0.7272727
+##    50      2          0.4  0.8               1.00       0.7272727
+##    50      3          0.3  0.6               0.50       0.6181818
+##    50      3          0.3  0.6               0.75       0.6363636
+##    50      3          0.3  0.6               1.00       0.7272727
+##    50      3          0.3  0.8               0.50       0.7454545
+##    50      3          0.3  0.8               0.75       0.7454545
+##    50      3          0.3  0.8               1.00       0.7272727
+##    50      3          0.4  0.6               0.50       0.7272727
+##    50      3          0.4  0.6               0.75       0.7454545
+##    50      3          0.4  0.6               1.00       0.7636364
+##    50      3          0.4  0.8               0.50       0.7272727
+##    50      3          0.4  0.8               0.75       0.7090909
+##    50      3          0.4  0.8               1.00       0.7272727
+##   100      1          0.3  0.6               0.50       0.6181818
+##   100      1          0.3  0.6               0.75       0.7636364
+##   100      1          0.3  0.6               1.00       0.8909091
+##   100      1          0.3  0.8               0.50       0.7454545
+##   100      1          0.3  0.8               0.75       0.7818182
+##   100      1          0.3  0.8               1.00       0.8727273
+##   100      1          0.4  0.6               0.50       0.6727273
+##   100      1          0.4  0.6               0.75       0.7636364
+##   100      1          0.4  0.6               1.00       0.8909091
+##   100      1          0.4  0.8               0.50       0.7818182
+##   100      1          0.4  0.8               0.75       0.7818182
+##   100      1          0.4  0.8               1.00       0.8363636
+##   100      2          0.3  0.6               0.50       0.7272727
+##   100      2          0.3  0.6               0.75       0.6909091
+##   100      2          0.3  0.6               1.00       0.6909091
+##   100      2          0.3  0.8               0.50       0.6909091
+##   100      2          0.3  0.8               0.75       0.7818182
+##   100      2          0.3  0.8               1.00       0.7636364
+##   100      2          0.4  0.6               0.50       0.6909091
+##   100      2          0.4  0.6               0.75       0.6909091
+##   100      2          0.4  0.6               1.00       0.7272727
+##   100      2          0.4  0.8               0.50       0.7090909
+##   100      2          0.4  0.8               0.75       0.7272727
+##   100      2          0.4  0.8               1.00       0.7272727
+##   100      3          0.3  0.6               0.50       0.6363636
+##   100      3          0.3  0.6               0.75       0.6363636
+##   100      3          0.3  0.6               1.00       0.7272727
+##   100      3          0.3  0.8               0.50       0.7636364
+##   100      3          0.3  0.8               0.75       0.7818182
+##   100      3          0.3  0.8               1.00       0.7272727
+##   100      3          0.4  0.6               0.50       0.7454545
+##   100      3          0.4  0.6               0.75       0.7090909
+##   100      3          0.4  0.6               1.00       0.7636364
+##   100      3          0.4  0.8               0.50       0.7090909
+##   100      3          0.4  0.8               0.75       0.7090909
+##   100      3          0.4  0.8               1.00       0.7272727
+##   150      1          0.3  0.6               0.50       0.6545455
+##   150      1          0.3  0.6               0.75       0.7454545
+##   150      1          0.3  0.6               1.00       0.8909091
+##   150      1          0.3  0.8               0.50       0.7454545
+##   150      1          0.3  0.8               0.75       0.7454545
+##   150      1          0.3  0.8               1.00       0.8727273
+##   150      1          0.4  0.6               0.50       0.6545455
+##   150      1          0.4  0.6               0.75       0.7454545
+##   150      1          0.4  0.6               1.00       0.8909091
+##   150      1          0.4  0.8               0.50       0.7818182
+##   150      1          0.4  0.8               0.75       0.7818182
+##   150      1          0.4  0.8               1.00       0.8363636
+##   150      2          0.3  0.6               0.50       0.7454545
+##   150      2          0.3  0.6               0.75       0.6909091
+##   150      2          0.3  0.6               1.00       0.6909091
+##   150      2          0.3  0.8               0.50       0.6727273
+##   150      2          0.3  0.8               0.75       0.7818182
+##   150      2          0.3  0.8               1.00       0.7636364
+##   150      2          0.4  0.6               0.50       0.6727273
+##   150      2          0.4  0.6               0.75       0.6727273
+##   150      2          0.4  0.6               1.00       0.7272727
+##   150      2          0.4  0.8               0.50       0.7272727
+##   150      2          0.4  0.8               0.75       0.7272727
+##   150      2          0.4  0.8               1.00       0.7272727
+##   150      3          0.3  0.6               0.50       0.6363636
+##   150      3          0.3  0.6               0.75       0.6181818
+##   150      3          0.3  0.6               1.00       0.7272727
+##   150      3          0.3  0.8               0.50       0.7454545
+##   150      3          0.3  0.8               0.75       0.7454545
+##   150      3          0.3  0.8               1.00       0.7272727
+##   150      3          0.4  0.6               0.50       0.7454545
+##   150      3          0.4  0.6               0.75       0.7454545
+##   150      3          0.4  0.6               1.00       0.7636364
+##   150      3          0.4  0.8               0.50       0.7272727
+##   150      3          0.4  0.8               0.75       0.7090909
+##   150      3          0.4  0.8               1.00       0.7272727
+##   Kappa    
+##   0.3529412
+##   0.5112782
+##   0.7730399
+##   0.4500000
+##   0.4989488
+##   0.7335640
+##   0.3274457
+##   0.4704264
+##   0.7730399
+##   0.5813149
+##   0.5285714
+##   0.6574394
+##   0.5345557
+##   0.3364088
+##   0.3447793
+##   0.3105850
+##   0.5460798
+##   0.4989488
+##   0.3105850
+##   0.3529412
+##   0.4290657
+##   0.4704264
+##   0.4069015
+##   0.4144784
+##   0.2006920
+##   0.2434663
+##   0.4218641
+##   0.4704264
+##   0.4704264
+##   0.4218641
+##   0.4218641
+##   0.4569817
+##   0.4989488
+##   0.4218641
+##   0.3871866
+##   0.4290657
+##   0.1906097
+##   0.5112782
+##   0.7730399
+##   0.4500000
+##   0.5345557
+##   0.7335640
+##   0.3274457
+##   0.5112782
+##   0.7730399
+##   0.5403900
+##   0.5285714
+##   0.6574394
+##   0.4218641
+##   0.3364088
+##   0.3447793
+##   0.3364088
+##   0.5460798
+##   0.4989488
+##   0.3364088
+##   0.3529412
+##   0.4290657
+##   0.4021739
+##   0.4069015
+##   0.4144784
+##   0.2339833
+##   0.2434663
+##   0.4218641
+##   0.5051903
+##   0.5403900
+##   0.4218641
+##   0.4637883
+##   0.3794076
+##   0.4989488
+##   0.3794076
+##   0.3871866
+##   0.4290657
+##   0.2676945
+##   0.4704264
+##   0.7730399
+##   0.4500000
+##   0.4500000
+##   0.7335640
+##   0.2857143
+##   0.4704264
+##   0.7730399
+##   0.5403900
+##   0.5285714
+##   0.6574394
+##   0.4569817
+##   0.3364088
+##   0.3447793
+##   0.3018336
+##   0.5460798
+##   0.4989488
+##   0.3018336
+##   0.3191197
+##   0.4290657
+##   0.4360902
+##   0.4069015
+##   0.4144784
+##   0.2339833
+##   0.2006920
+##   0.4218641
+##   0.4704264
+##   0.4637883
+##   0.4218641
+##   0.4637883
+##   0.4500000
+##   0.4989488
+##   0.4144784
+##   0.3871866
+##   0.4290657
+## 
+## Tuning parameter &#39;gamma&#39; was held constant at a value of 0
+## 
+## Tuning parameter &#39;min_child_weight&#39; was held constant at a value of 1
+## Accuracy was used to select the optimal model using  the largest value.
+## The final values used for the model were nrounds = 50, max_depth = 1,
+##  eta = 0.3, gamma = 0, colsample_bytree = 0.6, min_child_weight = 1
+##  and subsample = 1.</code></pre>
+<p>List the most important biomarkers.</p>
+<pre class="r"><code>varImp(model)</code></pre>
+<pre><code>## xgbTree variable importance
+## 
+##        Overall
+## f385  100.0000
+## f6107  98.3969
+## f2895  97.6980
+## f2194  54.2520
+## f6304  47.7481
+## f616   38.2510
+## f1297  29.4178
+## f8410  27.3270
+## f8158  25.0654
+## f1658  18.8667
+## f3759  11.7415
+## f9762   8.1432
+## f5381   6.0256
+## f290    5.1177
+## f340    3.3526
+## f3091   2.6076
+## f5833   0.1289
+## f6225   0.0000</code></pre>
+<p>Next plot the classification results.</p>
+<pre class="r"><code>ggplotConfusionMatrix &lt;- function(m){
+  mytitle &lt;- paste(&quot;Accuracy&quot;, percent_format()(m$overall[1]),
+                   &quot;Kappa&quot;, percent_format()(m$overall[2]))
+  p &lt;-
+    ggplot(data = as.data.frame(m$table) ,
+           aes(x = Reference, y = Prediction)) +
+    geom_tile(aes(fill = log(Freq)), colour = &quot;white&quot;) +
+    scale_fill_gradient(low = &quot;white&quot;, high = &quot;steelblue&quot;) +
+    geom_text(aes(x = Reference, y = Prediction, label = Freq)) +
+    theme(legend.position = &quot;none&quot;) +
+    ggtitle(&quot;Diagnostic Status&quot;,subtitle=mytitle)
+  return(p)
+}
+xgpred=model$pred$pred[model$pred$eta==model$bestTune$eta&amp;model$pred$max_depth==model$bestTune$max_depth&amp;model$pred$gamma==model$bestTune$gamma&amp;model$pred$colsample_bytree==model$bestTune$colsample_bytree&amp;model$pred$min_child_weight==model$bestTune$min_child_weight&amp;model$pred$subsample==model$bestTune$subsample&amp;model$pred$nrounds==model$bestTune$nrounds]
+observed=scores$TYPE
+ggplotConfusionMatrix(caret::confusionMatrix(xgpred,observed))</code></pre>
+<p><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Plot%20the%20classification%20results-1.png" width="672" /></p>
+<p>Calculate the diagnostic group’s results.</p>
+<pre class="r"><code>caret::confusionMatrix(xgpred,observed)</code></pre>
+<pre><code>## Confusion Matrix and Statistics
+## 
+##           Reference
+## Prediction Control Patient
+##    Control      30       4
+##    Patient       2      19
+##                                           
+##                Accuracy : 0.8909          
+##                  95% CI : (0.7775, 0.9589)
+##     No Information Rate : 0.5818          
+##     P-Value [Acc &gt; NIR] : 5.513e-07       
+##                                           
+##                   Kappa : 0.773           
+##  Mcnemar&#39;s Test P-Value : 0.6831          
+##                                           
+##             Sensitivity : 0.9375          
+##             Specificity : 0.8261          
+##          Pos Pred Value : 0.8824          
+##          Neg Pred Value : 0.9048          
+##              Prevalence : 0.5818          
+##          Detection Rate : 0.5455          
+##    Detection Prevalence : 0.6182          
+##       Balanced Accuracy : 0.8818          
+##                                           
+##        &#39;Positive&#39; Class : Control         
+## </code></pre>
+</div>
+<div id="result-2-predicting-change-in-depression" class="section level1">
+<h1>Result 2: Predicting Change in Depression</h1>
+<p>The next phase is to predict the change in depression across the two weeks.</p>
+<p>Define the training set for the symptoms set.</p>
+<pre class="r"><code>scores$changedep=scores$madrs2-scores$madrs1 #DEFINE CHANGE IN SYMPTOMS
+traindataSX=scores[,c(&quot;changedep&quot;,paste(&quot;f&quot;,1:9929,sep=&quot;&quot;))] #DEFINE TRAINING SET
+traindataSX=traindataSX[!is.na(traindataSX$changedep),] #only use the patients.</code></pre>
+<p>Define a function that will maximize the correlation between variables. Note that the correlation function will result in a negative number so all predictions need to be reversed.</p>
+<pre class="r"><code>cormax &lt;- function(data, model = NULL,lev=NULL) {
+  y_pred = data$pred
+  y_true = data$obs
+  cormax &lt;- cor(y_pred,y_true)
+  c(cormaxout=cormax)
+}</code></pre>
+<p>Train the model.</p>
+<pre class="r"><code>train_control&lt;- trainControl(method=&quot;LOOCV&quot;,savePredictions = TRUE,summaryFunction = cormax)
+set.seed(38552) #min(modelSX$results$cormaxout)=-0.7819468
+modelSX&lt;- train(changedep~., data=traindataSX, trControl=train_control, method=&quot;xgbTree&quot;,na.action=na.pass,maximize=FALSE,metric=&quot;cormaxout&quot;) #xgboost
+modelSX </code></pre>
+<pre><code>## eXtreme Gradient Boosting 
+## 
+##   23 samples
+## 9929 predictors
+## 
+## No pre-processing
+## Resampling: Leave-One-Out Cross-Validation 
+## Summary of sample sizes: 22, 22, 22, 22, 22, 22, ... 
+## Resampling results across tuning parameters:
+## 
+##   nrounds  max_depth  eta  colsample_bytree  subsample  cormaxout  
+##    50      1          0.3  0.6               0.50        0.16617190
+##    50      1          0.3  0.6               0.75       -0.14486941
+##    50      1          0.3  0.6               1.00       -0.67087572
+##    50      1          0.3  0.8               0.50       -0.32786366
+##    50      1          0.3  0.8               0.75       -0.52801809
+##    50      1          0.3  0.8               1.00       -0.78194675
+##    50      1          0.4  0.6               0.50        0.04267227
+##    50      1          0.4  0.6               0.75       -0.22606989
+##    50      1          0.4  0.6               1.00       -0.58630595
+##    50      1          0.4  0.8               0.50       -0.47850903
+##    50      1          0.4  0.8               0.75       -0.62954059
+##    50      1          0.4  0.8               1.00       -0.58639334
+##    50      2          0.3  0.6               0.50       -0.41075895
+##    50      2          0.3  0.6               0.75       -0.09244586
+##    50      2          0.3  0.6               1.00       -0.50194429
+##    50      2          0.3  0.8               0.50       -0.14716882
+##    50      2          0.3  0.8               0.75       -0.51548546
+##    50      2          0.3  0.8               1.00       -0.37542250
+##    50      2          0.4  0.6               0.50       -0.45288506
+##    50      2          0.4  0.6               0.75       -0.33770685
+##    50      2          0.4  0.6               1.00       -0.54328952
+##    50      2          0.4  0.8               0.50       -0.41916662
+##    50      2          0.4  0.8               0.75       -0.23226072
+##    50      2          0.4  0.8               1.00       -0.30689632
+##    50      3          0.3  0.6               0.50       -0.38902617
+##    50      3          0.3  0.6               0.75        0.21024049
+##    50      3          0.3  0.6               1.00       -0.31715668
+##    50      3          0.3  0.8               0.50       -0.18758863
+##    50      3          0.3  0.8               0.75       -0.49439659
+##    50      3          0.3  0.8               1.00       -0.46324068
+##    50      3          0.4  0.6               0.50       -0.12577266
+##    50      3          0.4  0.6               0.75       -0.43003281
+##    50      3          0.4  0.6               1.00       -0.49639161
+##    50      3          0.4  0.8               0.50       -0.13755568
+##    50      3          0.4  0.8               0.75        0.07731012
+##    50      3          0.4  0.8               1.00       -0.30194459
+##   100      1          0.3  0.6               0.50        0.15176723
+##   100      1          0.3  0.6               0.75       -0.14680596
+##   100      1          0.3  0.6               1.00       -0.67157327
+##   100      1          0.3  0.8               0.50       -0.33786952
+##   100      1          0.3  0.8               0.75       -0.52507854
+##   100      1          0.3  0.8               1.00       -0.78012772
+##   100      1          0.4  0.6               0.50        0.05249711
+##   100      1          0.4  0.6               0.75       -0.22685517
+##   100      1          0.4  0.6               1.00       -0.58622481
+##   100      1          0.4  0.8               0.50       -0.46845677
+##   100      1          0.4  0.8               0.75       -0.62825228
+##   100      1          0.4  0.8               1.00       -0.58626054
+##   100      2          0.3  0.6               0.50       -0.42143889
+##   100      2          0.3  0.6               0.75       -0.09244758
+##   100      2          0.3  0.6               1.00       -0.50198402
+##   100      2          0.3  0.8               0.50       -0.13967037
+##   100      2          0.3  0.8               0.75       -0.51493330
+##   100      2          0.3  0.8               1.00       -0.37548410
+##   100      2          0.4  0.6               0.50       -0.46470840
+##   100      2          0.4  0.6               0.75       -0.33792991
+##   100      2          0.4  0.6               1.00       -0.54328939
+##   100      2          0.4  0.8               0.50       -0.41617313
+##   100      2          0.4  0.8               0.75       -0.23227399
+##   100      2          0.4  0.8               1.00       -0.30689632
+##   100      3          0.3  0.6               0.50       -0.39768087
+##   100      3          0.3  0.6               0.75        0.20885109
+##   100      3          0.3  0.6               1.00       -0.31719193
+##   100      3          0.3  0.8               0.50       -0.18730556
+##   100      3          0.3  0.8               0.75       -0.49406211
+##   100      3          0.3  0.8               1.00       -0.46322477
+##   100      3          0.4  0.6               0.50       -0.12970602
+##   100      3          0.4  0.6               0.75       -0.43006568
+##   100      3          0.4  0.6               1.00       -0.49639165
+##   100      3          0.4  0.8               0.50       -0.13882637
+##   100      3          0.4  0.8               0.75        0.07727875
+##   100      3          0.4  0.8               1.00       -0.30194464
+##   150      1          0.3  0.6               0.50        0.15306324
+##   150      1          0.3  0.6               0.75       -0.14665606
+##   150      1          0.3  0.6               1.00       -0.67156424
+##   150      1          0.3  0.8               0.50       -0.33509150
+##   150      1          0.3  0.8               0.75       -0.52505063
+##   150      1          0.3  0.8               1.00       -0.78013294
+##   150      1          0.4  0.6               0.50        0.05244080
+##   150      1          0.4  0.6               0.75       -0.22684606
+##   150      1          0.4  0.6               1.00       -0.58622480
+##   150      1          0.4  0.8               0.50       -0.46818627
+##   150      1          0.4  0.8               0.75       -0.62824085
+##   150      1          0.4  0.8               1.00       -0.58626053
+##   150      2          0.3  0.6               0.50       -0.42160780
+##   150      2          0.3  0.6               0.75       -0.09245073
+##   150      2          0.3  0.6               1.00       -0.50198409
+##   150      2          0.3  0.8               0.50       -0.13952336
+##   150      2          0.3  0.8               0.75       -0.51493350
+##   150      2          0.3  0.8               1.00       -0.37548411
+##   150      2          0.4  0.6               0.50       -0.46480550
+##   150      2          0.4  0.6               0.75       -0.33792367
+##   150      2          0.4  0.6               1.00       -0.54328939
+##   150      2          0.4  0.8               0.50       -0.41624653
+##   150      2          0.4  0.8               0.75       -0.23227661
+##   150      2          0.4  0.8               1.00       -0.30689632
+##   150      3          0.3  0.6               0.50       -0.39795293
+##   150      3          0.3  0.6               0.75        0.20884824
+##   150      3          0.3  0.6               1.00       -0.31719194
+##   150      3          0.3  0.8               0.50       -0.18778564
+##   150      3          0.3  0.8               0.75       -0.49405535
+##   150      3          0.3  0.8               1.00       -0.46322477
+##   150      3          0.4  0.6               0.50       -0.12968043
+##   150      3          0.4  0.6               0.75       -0.43006488
+##   150      3          0.4  0.6               1.00       -0.49639165
+##   150      3          0.4  0.8               0.50       -0.13872841
+##   150      3          0.4  0.8               0.75        0.07727625
+##   150      3          0.4  0.8               1.00       -0.30194464
+## 
+## Tuning parameter &#39;gamma&#39; was held constant at a value of 0
+## 
+## Tuning parameter &#39;min_child_weight&#39; was held constant at a value of 1
+## cormaxout was used to select the optimal model using  the smallest value.
+## The final values used for the model were nrounds = 50, max_depth = 1,
+##  eta = 0.3, gamma = 0, colsample_bytree = 0.8, min_child_weight = 1
+##  and subsample = 1.</code></pre>
+<p>Identify the predictions vs the observed values.</p>
+<pre class="r"><code>ps=modelSX$pred[modelSX$pred$eta==modelSX$bestTune$eta&amp;modelSX$pred$max_depth==modelSX$bestTune$max_depth&amp;modelSX$pred$gamma==modelSX$bestTune$gamma&amp;modelSX$pred$colsample_bytree==modelSX$bestTune$colsample_bytree&amp;modelSX$pred$min_child_weight==modelSX$bestTune$min_child_weight&amp;modelSX$pred$subsample==modelSX$bestTune$subsample&amp;modelSX$pred$nrounds==modelSX$bestTune$nrounds,c(&quot;pred&quot;,&quot;obs&quot;)]
+
+ps[,1]=ps[,1]*-1 #REVERSE THE PREDICTIONS</code></pre>
+<p>Get the correlation between the predicted and observed symptom change.</p>
+<pre class="r"><code>cormat=rcorr(data.matrix(ps))
+cormat$r[1,2] #CORRELATION</code></pre>
+<pre><code>## [1] 0.7819468</code></pre>
+<pre class="r"><code>cormat$P[1,2] #P-VALUE</code></pre>
+<pre><code>## [1] 1.048242e-05</code></pre>
+<p>Plot the results.</p>
+<pre class="r"><code>longpreds=data.frame(Type=c(rep(&quot;Predicted&quot;,23),rep(&quot;Observed&quot;,23)),PatientIndex=c(1:23,1:23),zscore=c(scale(ps[,1]),scale(ps[,2])))
+
+ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+ylab(&quot;Z-Score&quot;)+xlab(&quot;Patient Index&quot;)+ggtitle(paste(&quot;Change in Depressive Symptoms&quot;),subtitle=expression(paste(italic(&quot;r&quot;),&quot; = 0.782, &quot;,italic(&quot;p&quot;),&quot; = 1.04e-05&quot;,sep=&quot;&quot;)))</code></pre>
+<p><img src="/post/digital_biomarkers_mood_disorders_files/figure-html/Plot%20the%20results%20for%20change%20in%20depressive%20symptoms-1.png" width="672" /></p>
+</div>

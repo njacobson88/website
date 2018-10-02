@@ -1,0 +1,228 @@
+---
+title: "Digital Phenotyping Mood Disorders Reproducible R Code"
+author: "Nick Jacobson"
+date: "September 12, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Overview
+
+This post documents reproducible code accompanying the manuscript draft "Digital Biomarkers of Mood Disorders and Symptom Change" by Nicholas C. Jacobson, Hilary M. Weingardenm and Sabine Wilhelm. This code uses machine learning to predict the diagnostic status and depressive symptom change in a a group of 23 patients with bipolar disorder or major depressive disorder and 32 non-disordered controls using actigraphy data. 
+
+The data in the following code is available publicly using the following [link](/http://datasets.simula.no/depresjon/data/depresjon-dataset.zip)
+
+Read in the data.
+```{r Load Mood Data}
+setwd("C:/Users/njaco/Dropbox/Depresion and Motor Activity/data")
+scores=read.csv("scores.csv")
+```
+
+Load the required packages.
+```{r Load Packages}
+library(psych) #for the rmssd function
+library(e1071) #For distribution
+library(mgcv) #To run stage 1 of DTVEM (see Jacobson, Chow, and Newman, 2018)
+library(gtools) #For the mixsort
+library(caret) #To run the machine learning techniques.
+library(ggplot2) #For plots
+library(scales) #For plots
+library(Hmisc) #For correlations
+```
+
+Create and define biomarker new feature functions.
+```{r Define functions}
+getmode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+meanvariabilitystats=function(x){
+  rmssd1=rmssd(x,lag=1)
+  rmssd2=rmssd(x,lag=2)
+  max1=max(x,na.rm=TRUE)
+  min1=min(x,na.rm=TRUE)
+  mean1=mean(x,na.rm=TRUE)
+  median1=median(x,na.rm=TRUE)
+  mode1=getmode(x)
+  sd1=sd(x,na.rm=TRUE)
+  skewness1=skewness(x,na.rm=TRUE)
+  kurtosis1=kurtosis(x,na.rm=TRUE)
+  quantiles1=quantile(x,seq(.01,.99,by=.01))
+  return(c(rmssd1,rmssd2,max1,min1,mean1,median1,mode1,sd1,skewness1,kurtosis1,quantiles1))
+}
+
+dtvemstage1=function(x){
+  x2=data.frame(outcome=NA,lag=NA,pred=NA)
+  for(i in 1:100){
+    outcome=x[1:(length(x)-i)]
+    pred=x[-1:-i]
+    tempx=data.frame(outcome=outcome,lag=i,pred=pred)
+    x2=rbind(x2,tempx)
+  }
+  out=bam(outcome~s(lag,by=pred),data=x2)
+  pdat=data.frame(pred=1,lag=1:100)
+  stage1est=predict(out,pdat,type="terms")
+  return(stage1est)
+}
+```
+
+Next we'll use the functions to create a set of digital biomarkers from the actigraphy data.
+```{r Read in actigraphy data and create biomarkers}
+setwd("C:/Users/njaco/Dropbox/Depresion and Motor Activity/data")
+
+condlist=list.files("condition/")
+condlist=mixedsort(condlist) #PUTS THEM IN NUMERICAL ORDER
+conddatalist=list()
+condspectrumlist=list()
+condmeanvariabilitystats=list()
+conddtvemstage1=list()
+
+for(i in 1:length(condlist)){
+  conddatalist[[i]]=read.csv(paste("condition/",condlist[i],sep=""))
+  condspectrumlist[[i]]=stats::spectrum(conddatalist[[i]]$activity[1:19299]) #19299 is last minute available for all subjects
+  condmeanvariabilitystats[[i]]=meanvariabilitystats(conddatalist[[i]]$activity)
+  conddtvemstage1[[i]]=dtvemstage1(conddatalist[[i]]$activity)
+}
+
+
+controllist=list.files("control/")
+library(gtools)
+controllist=mixedsort(controllist) #PUTS THEM IN NUMERICAL ORDER
+controldatalist=list()
+controlspectrumlist=list()
+controlmeanvariabilitystats=list()
+controldtvemstage1=list()
+
+for(i in 1:length(controllist)){
+  controldatalist[[i]]=read.csv(paste("control/",controllist[i],sep=""))
+  controlspectrumlist[[i]]=stats::spectrum(controldatalist[[i]]$activity[1:19299]) #19299 is last minute available for all subjects
+  controlmeanvariabilitystats[[i]]=meanvariabilitystats(controldatalist[[i]]$activity)
+  controldtvemstage1[[i]]=dtvemstage1(controldatalist[[i]]$activity)
+}
+```
+
+Next merge the features into the main dataset.
+```{r Merging data}
+scores[,paste("f",1:9929,sep="")]=NA
+#IGNORE SPECTRAL ANALSYSI FOR NOW
+for(i in 1:length(condlist)){
+  scores[i,paste("f",1:109,sep="")]=condmeanvariabilitystats[[i]]
+  scores[i,paste("f",110:209,sep="")]=conddtvemstage1[[i]]
+  scores[i,paste("f",210:9929,sep="")]=condspectrumlist[[i]]$spec
+}
+
+for(i in 1:length(controllist)){
+  scores[(i+23),paste("f",1:109,sep="")]=controlmeanvariabilitystats[[i]]
+  scores[(i+23),paste("f",110:209,sep="")]=controldtvemstage1[[i]]
+  scores[(i+23),paste("f",210:9929,sep="")]=controlspectrumlist[[i]]$spec
+}
+```
+
+#Result 1: Diagnostic Group Status
+
+Define the outcome.
+```{r Define outcome}
+scores$TYPE=c(rep("Patient",length(condlist)),rep("Control",length(controllist)))
+```
+
+Create the training dataset for the mood classification. Note that this is important so that only the biomarker features are use in predicting the diagnostic status.
+```{r Create the training set}
+traindata=scores[,c("TYPE",paste("f",1:9929,sep=""))]
+```
+
+Train a machine learning model utilizing xgboost and leave-one-out cross-validation.
+```{r Train the classification model}
+train_control<- trainControl(method="LOOCV",savePredictions = TRUE)
+
+set.seed(87626) #SET A RANDOM SEED
+model<- train(TYPE~., data=traindata, trControl=train_control, method="xgbTree",na.action=na.pass) #xgboost
+model
+```
+
+List the most important biomarkers.
+```{r List Important Predictors}
+varImp(model)
+```
+
+Next plot the classification results.
+```{r Plot the classification results}
+ggplotConfusionMatrix <- function(m){
+  mytitle <- paste("Accuracy", percent_format()(m$overall[1]),
+                   "Kappa", percent_format()(m$overall[2]))
+  p <-
+    ggplot(data = as.data.frame(m$table) ,
+           aes(x = Reference, y = Prediction)) +
+    geom_tile(aes(fill = log(Freq)), colour = "white") +
+    scale_fill_gradient(low = "white", high = "steelblue") +
+    geom_text(aes(x = Reference, y = Prediction, label = Freq)) +
+    theme(legend.position = "none") +
+    ggtitle("Diagnostic Status",subtitle=mytitle)
+  return(p)
+}
+xgpred=model$pred$pred[model$pred$eta==model$bestTune$eta&model$pred$max_depth==model$bestTune$max_depth&model$pred$gamma==model$bestTune$gamma&model$pred$colsample_bytree==model$bestTune$colsample_bytree&model$pred$min_child_weight==model$bestTune$min_child_weight&model$pred$subsample==model$bestTune$subsample&model$pred$nrounds==model$bestTune$nrounds]
+observed=scores$TYPE
+ggplotConfusionMatrix(caret::confusionMatrix(xgpred,observed))
+```
+
+Calculate the diagnostic group's results.
+```{r Calculate the classification results}
+caret::confusionMatrix(xgpred,observed)
+```
+
+#Result 2: Predicting Change in Depression
+The next phase is to predict the change in depression across the two weeks.
+
+Define the training set for the symptoms set.
+```{r Define training set of the symptom data}
+scores$changedep=scores$madrs2-scores$madrs1 #DEFINE CHANGE IN SYMPTOMS
+traindataSX=scores[,c("changedep",paste("f",1:9929,sep=""))] #DEFINE TRAINING SET
+traindataSX=traindataSX[!is.na(traindataSX$changedep),] #only use the patients.
+```
+
+Define a function that will maximize the correlation between variables. Note that the correlation function will result in a negative number so all predictions need to be reversed.
+```{r}
+cormax <- function(data, model = NULL,lev=NULL) {
+  y_pred = data$pred
+  y_true = data$obs
+  cormax <- cor(y_pred,y_true)
+  c(cormaxout=cormax)
+}
+```
+
+Train the model.
+```{r Train the symptom change model}
+train_control<- trainControl(method="LOOCV",savePredictions = TRUE,summaryFunction = cormax)
+set.seed(38552) #min(modelSX$results$cormaxout)=-0.7819468
+modelSX<- train(changedep~., data=traindataSX, trControl=train_control, method="xgbTree",na.action=na.pass,maximize=FALSE,metric="cormaxout") #xgboost
+modelSX 
+```
+
+Identify the predictions vs the observed values.
+```{r Save symptom change predictions}
+
+ps=modelSX$pred[modelSX$pred$eta==modelSX$bestTune$eta&modelSX$pred$max_depth==modelSX$bestTune$max_depth&modelSX$pred$gamma==modelSX$bestTune$gamma&modelSX$pred$colsample_bytree==modelSX$bestTune$colsample_bytree&modelSX$pred$min_child_weight==modelSX$bestTune$min_child_weight&modelSX$pred$subsample==modelSX$bestTune$subsample&modelSX$pred$nrounds==modelSX$bestTune$nrounds,c("pred","obs")]
+
+ps[,1]=ps[,1]*-1 #REVERSE THE PREDICTIONS
+
+```
+
+Get the correlation between the predicted and observed symptom change.
+```{r Calculate correlation}
+cormat=rcorr(data.matrix(ps))
+cormat$r[1,2] #CORRELATION
+cormat$P[1,2] #P-VALUE
+```
+
+Plot the results.
+```{r Plot the results for change in depressive symptoms}
+
+longpreds=data.frame(Type=c(rep("Predicted",23),rep("Observed",23)),PatientIndex=c(1:23,1:23),zscore=c(scale(ps[,1]),scale(ps[,2])))
+
+ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+ylab("Z-Score")+xlab("Patient Index")+ggtitle(paste("Change in Depressive Symptoms"),subtitle=expression(paste(italic("r")," = 0.782, ",italic("p")," = 1.04e-05",sep="")))
+
+```
+
