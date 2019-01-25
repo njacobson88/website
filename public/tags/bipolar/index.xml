@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bipolar on Nicholas C. Jacobson</title>
+    <link>http://www.nicholasjacobson.com/tags/bipolar/</link>
+    <description>Recent content in Bipolar on Nicholas C. Jacobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.nicholasjacobson.com/tags/bipolar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Phenotyping Mood Disorders Reproducible R Code</title>
+      <link>http://www.nicholasjacobson.com/post/digital_biomarkers_mood_disorders/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/post/digital_biomarkers_mood_disorders/</guid>
+      <description>OverviewThis post documents reproducible code accompanying the manuscript draft “Digital Biomarkers of Mood Disorders and Symptom Change” by Nicholas C. Jacobson, Hilary M. Weingardenm and Sabine Wilhelm (published in Nature Partner Journal (npj): Digital Medicine). This code uses machine learning to predict the diagnostic status and depressive symptom change in a a group of 23 patients with bipolar disorder or major depressive disorder and 32 non-disordered controls using actigraphy data.</description>
+    </item>
+    
+  </channel>
+</rss>

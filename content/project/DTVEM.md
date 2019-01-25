@@ -29,7 +29,7 @@ caption = "Illustration of DTVEM"
 +++
 This site is an accompaniment to the following paper:
 
-* Jacobson, N. C., Chow, S, & Newman, M.G (2018, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. *Behavior Research Methods.*
+* Jacobson, N. C., Chow, S, & Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. *Behavior Research Methods.*
 
 This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another. 
 
@@ -38,9 +38,12 @@ The package was written in the R statistical package. You can download the DTVEM
 
 [Download the DTVEM R Package Manual.](/files/DTVEM/DTVEM_manual.pdf)
 
-[Windows Build of the DTVEM Package Version 1.0006](/files/DTVEM/DTVEM_1.0006.zip)
+[Windows Build of the DTVEM Package Version 1.0007](/files/DTVEM/DTVEM_1.0007.zip)
 
-[Mac and Linux Builds of the DTVEM Package Version 1.0006](/files/DTVEM/DTVEM_1.0006.tar.gz)
+[Mac and Linux Builds of the DTVEM Package Version 1.0007](/files/DTVEM/DTVEM_1.0007.tar.gz)
+
+
+* Please note that the package was updated on 1/25/2019 for bug fixes, and expediting the "hybrid" model fitting.
 
 
 Instructions on how to install:
