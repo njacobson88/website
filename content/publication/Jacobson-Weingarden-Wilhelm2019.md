@@ -1,6 +1,6 @@
 +++
-title = "The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing and Modeling Time Lags in Intensive Longitudinal Data"
-date = 2018-07-23T00:00:00
+title = "Digital biomarkers of mood disorders and symptom change"
+date = 2019-01-25T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Nicholas C. Jacobson**","Hilary Weingarden","Sabine Wilhelm"]
@@ -36,7 +36,7 @@ selected = true
 projects = ["DTVEM"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Jacobson, Chow, & Newman, 2018.pdf"
+url_pdf = "/files/PDFs/Jacobson, Weingarden, & Wilhelm, 2019.pdf"
 #url_preprint = ""
 url_code = "/post/digital_biomarkers_mood_disorders/"
 url_dataset = "http://datasets.simula.no/depresjon/data/depresjon-dataset.zip"

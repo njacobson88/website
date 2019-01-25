@@ -11,11 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Digital biomarkers of mood disorders and symptom change</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Current evolutionary adaptiveness of anxiety: Extreme phenotypes of anxiety predict increased fertility across multiple generations</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-roche2018/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-roche2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effects of Worry in Daily Life: An Ecological Momentary Assessment Study Supporting the Tenets of the Contrast Avoidance Model</title>
+      <link>http://www.nicholasjacobson.com/publication/newman-jacobson-et-al2019/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/newman-jacobson-et-al2019/</guid>
       <description></description>
     </item>
     
@@ -666,15 +684,6 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
     </item>
     
     <item>
-      <title>The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing and Modeling Time Lags in Intensive Longitudinal Data</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Relaxation-induced anxiety: Effects of peak and trajectories of change on treatment outcome for generalized anxiety disorder</title>
       <link>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2018/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
@@ -974,15 +983,6 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/talk/example-talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Current evolutionary adaptiveness of psychiatric disorders: Fertility rates, parent−child relationship quality, and psychiatric disorders across the lifespan</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson2016/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson2016/</guid>
       <description></description>
     </item>
     
