@@ -228,10 +228,12 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "mailto:njacobson88@gmail.com"
 
-  #[[params.social]]
-  #  icon = "twitter"
-  #  icon_pack = "fa"
-  #  link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/NC_Jacobson"
+
+
 
   [[params.social]]
     icon = "google-scholar"
