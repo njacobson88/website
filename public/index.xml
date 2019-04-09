@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Digital biomarkers of mood disorders and symptom change</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Current evolutionary adaptiveness of anxiety: Extreme phenotypes of anxiety predict increased fertility across multiple generations</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-roche2018/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-roche2018/</guid>
       <description></description>
@@ -31,7 +31,7 @@
     <item>
       <title>The Effects of Worry in Daily Life: An Ecological Momentary Assessment Study Supporting the Tenets of the Contrast Avoidance Model</title>
       <link>http://www.nicholasjacobson.com/publication/newman-jacobson-et-al2019/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/newman-jacobson-et-al2019/</guid>
       <description></description>
@@ -677,7 +677,7 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
     <item>
       <title>The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing and Modeling Time Lags in Intensive Longitudinal Data</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-chow-newman2018/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-chow-newman2018/</guid>
       <description></description>
@@ -686,7 +686,7 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
     <item>
       <title>Relaxation-induced anxiety: Effects of peak and trajectories of change on treatment outcome for generalized anxiety disorder</title>
       <link>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2018/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2018/</guid>
       <description></description>
@@ -917,7 +917,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Expanding the validity of the Level of Personality Functioning Scale Observer-Report and Self-Report versions across psychodynamic and interpersonal paradigms</title>
       <link>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</guid>
       <description></description>
@@ -926,7 +926,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Handling missing data in the modeling of intensive longitudinal data</title>
       <link>http://www.nicholasjacobson.com/publication/ji-et-al2018/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/ji-et-al2018/</guid>
       <description></description>
@@ -935,7 +935,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Elections have consequences for student mental health: An accidental daily diary study</title>
       <link>http://www.nicholasjacobson.com/publication/roche-jacobson2018/</link>
-      <pubDate>Tue, 09 Jan 2018 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/roche-jacobson2018/</guid>
       <description></description>
@@ -944,7 +944,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>A theoretical and empirical modeling of anxiety integrated with RDoC and temporal dynamics</title>
       <link>http://www.nicholasjacobson.com/publication/frank-et-al2017/</link>
-      <pubDate>Sun, 08 Oct 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/frank-et-al2017/</guid>
       <description></description>
@@ -953,7 +953,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Anxiety and depression as bidirectional risk factors for one another: A meta-analysis of longitudinal studies</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-newman2017/</link>
-      <pubDate>Sun, 08 Oct 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-newman2017/</guid>
       <description></description>
@@ -962,7 +962,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Perceived emotional social support in bereaved spouses mediates the relationship between anxiety and depression</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-lord-newman2017/</link>
-      <pubDate>Mon, 08 May 2017 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-lord-newman2017/</guid>
       <description></description>
@@ -971,7 +971,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Teaching strategies for personality assessment at the undergraduate level</title>
       <link>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</link>
-      <pubDate>Wed, 08 Feb 2017 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</guid>
       <description></description>
@@ -980,7 +980,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
     <item>
       <title>Depression Variability Predicts Later Anxiety for Those with Depressive Disorders</title>
       <link>http://www.nicholasjacobson.com/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/talk/example-talk/</guid>
       <description></description>
