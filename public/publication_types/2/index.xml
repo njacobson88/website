@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="http://www.nicholasjacobson.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Digital Phenotyping to Accurately Detect Depression Severity</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019b/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019b/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Digital biomarkers of mood disorders and symptom change</title>

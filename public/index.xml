@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Using Digital Phenotyping to Accurately Detect Depression Severity</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019b/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Digital biomarkers of mood disorders and symptom change</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 -0500</pubDate>
@@ -974,15 +983,6 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
       <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Depression Variability Predicts Later Anxiety for Those with Depressive Disorders</title>
-      <link>http://www.nicholasjacobson.com/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/example-talk/</guid>
       <description></description>
     </item>
     
