@@ -25,7 +25,7 @@ abstract = "Because no studies have examined learning in hypnosis in an academic
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false

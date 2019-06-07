@@ -25,7 +25,7 @@ abstract = "Background. Previous research has demonstrated that anxiety reliably
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false

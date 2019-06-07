@@ -4,12 +4,12 @@
     <title>Projects on Nicholas C. Jacobson</title>
     <link>http://www.nicholasjacobson.com/project/</link>
     <description>Recent content in Projects on Nicholas C. Jacobson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://www.nicholasjacobson.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,11 +18,38 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/project/mood-triggers/</guid>
-      <description>Mood Triggers is an Android App released on the Google Play Store.
-Link to Mood Triggers App on the Google Play Store
-Youtube video of Mood Triggers
-Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.
-Features of Mood Triggers: Mood Triggers can help you keep a diary of: 1. Your anxiety and depression in your daily life 2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)</description>
+      <description>&lt;p&gt;&lt;strong&gt;Mood Triggers&lt;/strong&gt; is an Android App released on the Google Play Store.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.nick.moodtriggers.anxietyanddepressionapp&#34; target=&#34;_blank&#34;&gt;Link to Mood Triggers App on the Google Play Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/Lx-hqXYDEGE&#34; target=&#34;_blank&#34;&gt;Youtube video of Mood Triggers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.&lt;/p&gt;
+
+&lt;p&gt;Features of Mood Triggers:
+Mood Triggers can help you keep a diary of:
+1. Your anxiety and depression in your daily life
+2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)&lt;/p&gt;
+
+&lt;p&gt;Having trouble with anxiety or depression, want to log it, or can&amp;rsquo;t figure out why you&amp;rsquo;re anxious or depressed?&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers will help you identify things that can trigger your worry, panic, anxious, and depressed moods for FREE.&lt;/p&gt;
+
+&lt;p&gt;Features of Mood Triggers:
+Mood Triggers can help you keep a diary of:
+1. Your anxiety and depression in your daily life
+2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers can also figure out why you are anxious or depressed based on data in your daily life. Mood Triggers will use your own data and run statistical analyses on them to tell you what&amp;rsquo;s associated with your anxiety and depression, including, but not limited to, your heart rate, avoidance, arousal, helplessness, hopelessness, negative and positive events, fatigue, and the weather.&lt;/p&gt;
+
+&lt;p&gt;This app can be used to help improve your awareness of your mood over time.&lt;/p&gt;
+
+&lt;p&gt;This app can be used for self-help or with a therapist or psychologist to help give him/her more information about how you experience anxiety and depression in your daily life, related health behaviors, and help the therapist to learn what triggers your anxiety and depressed mood.&lt;/p&gt;
+
+&lt;p&gt;This app is used for research purposes to help better understand anxiety and depression by researchers at Penn State University. This application will prompt you about your mood, your heart rate, your phone’s movement, information about your phone’s location, and the times of outgoing and incoming text messages and calls (no content about the texts or calls themselves will be recorded). This application will prompt you to complete information once per hour until you decide to stop. Your participation in this research is confidential. To help protect your confidentiality, we will assign you a participant number. The participant number will be used to identify your questionnaire data. The data will be stored on a secure online server and in locked offices. In the event a publication or presentation results from the research, no personally identifiable information will be shared. Your confidentiality will be maintained to the degree permitted by the technology used.&lt;/p&gt;
+
+&lt;p&gt;Researchers interested in this app can contact me at njacobson88@gmail.com&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -31,8 +58,42 @@ Features of Mood Triggers: Mood Triggers can help you keep a diary of: 1. Your a
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
-      <description>This site is an accompaniment to the following paper:
- Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. Behavior Research Methods.  This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
+      <description>&lt;p&gt;This site is an accompaniment to the following paper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. &lt;em&gt;Behavior Research Methods.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.&lt;/p&gt;
+
+&lt;p&gt;The package was written in the R statistical package. You can download the DTVEM package by clicking the following links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_manual.pdf&#34;&gt;Download the DTVEM R Package Manual.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.zip&#34;&gt;Windows Build of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.tar.gz&#34;&gt;Mac and Linux Builds of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please note that the package was updated on 1/25/2019 for bug fixes, and expediting the &amp;ldquo;hybrid&amp;rdquo; model fitting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instructions on how to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click the download for either the Windows, Mac, or Linux version above.&lt;/li&gt;
+&lt;li&gt;Install the package in R via the package download.&lt;/li&gt;
+&lt;li&gt;Install the following dependencies: mgcv, plyr, zoo, reshape2, Rcpp, OpenMx. This can be accomplished via the following command in R:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;install.packages(c(&amp;ldquo;mgcv&amp;rdquo;,&amp;ldquo;plyr&amp;rdquo;,&amp;ldquo;zoo&amp;rdquo;,&amp;ldquo;reshape2&amp;rdquo;,&amp;ldquo;Rcpp&amp;rdquo;,&amp;ldquo;OpenMx&amp;rdquo;))&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load the DTVEM package using library(DTVEM).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A usage Example of DTVEM accompanies the &lt;a href=&#34;http://www.nicholasjacobson.com/post/illustration_of_dtvem/index.html&#34;&gt;following post.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

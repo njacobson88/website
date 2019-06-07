@@ -4,12 +4,12 @@
     <title>Homes on Nicholas C. Jacobson</title>
     <link>http://www.nicholasjacobson.com/home/</link>
     <description>Recent content in Homes on Nicholas C. Jacobson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/home/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://www.nicholasjacobson.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,7 +18,12 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/home/about/</guid>
-      <description>Biography Nick Jacobson is a clinical fellow in psychology at Massachusetts General Hospital/Harvard Medical School. His research interests include the comorbidity between anxiety and depression, the role of technology in assessment and treatment, and longitudinal data analysis. He recently developed an anxiety and depression monitoring application entitled Mood Triggers which helps users to figure out the triggers of anxiety and depression in their daily lives. He also created an statistical package (written in R) called the Differential Time-Varying Effect Model (DTVEM) which is used to explore optimal time lags in intensive longitudinal data.</description>
+      <description>
+
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;Nick Jacobson is a clinical fellow in psychology at Massachusetts General Hospital/Harvard Medical School. His research interests include the comorbidity between anxiety and depression, the role of technology in assessment and treatment, and longitudinal data analysis. He recently developed an anxiety and depression monitoring application entitled &lt;a href=&#34;http://www.nicholasjacobson.com/project/mood-triggers/&#34;&gt;Mood Triggers&lt;/a&gt; which helps users to figure out the triggers of anxiety and depression in their daily lives. He also created an statistical package (written in R) called the &lt;a href=&#34;http://www.nicholasjacobson.com/project/dtvem/&#34;&gt;Differential Time-Varying Effect Model (DTVEM)&lt;/a&gt; which is used to explore optimal time lags in intensive longitudinal data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -72,8 +77,14 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/home/teaching/</guid>
-      <description>I have taught the following courses at Pennsylvania State University:
- PSYCH 238: Introduction to Personality Psychology PSYCH 301W: Basic Research Methods in Psychology PSYCH 481: Introduction to Clinical Psychology  </description>
+      <description>&lt;p&gt;I have taught the following courses at Pennsylvania State University:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PSYCH 238: Introduction to Personality Psychology&lt;/li&gt;
+&lt;li&gt;PSYCH 301W: Basic Research Methods in Psychology&lt;/li&gt;
+&lt;li&gt;PSYCH 481: Introduction to Clinical Psychology&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

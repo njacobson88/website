@@ -4,13 +4,94 @@
     <title>Tags on Nicholas C. Jacobson</title>
     <link>http://www.nicholasjacobson.com/tags/</link>
     <description>Recent content in Tags on Nicholas C. Jacobson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://www.nicholasjacobson.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bipolar</title>
+      <link>http://www.nicholasjacobson.com/tags/bipolar/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/bipolar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depression</title>
+      <link>http://www.nicholasjacobson.com/tags/depression/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/depression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Phenotyping</title>
+      <link>http://www.nicholasjacobson.com/tags/digital-phenotyping/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/digital-phenotyping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://www.nicholasjacobson.com/tags/machine-learning/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Major depression</title>
+      <link>http://www.nicholasjacobson.com/tags/major-depression/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/major-depression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intensive-longitudinal-data</title>
+      <link>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lags</title>
+      <link>http://www.nicholasjacobson.com/tags/lags/</link>
+      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/lags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DTVEM</title>
+      <link>http://www.nicholasjacobson.com/tags/dtvem/</link>
+      <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/dtvem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>partial autocorrelation function</title>
+      <link>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</link>
+      <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
@@ -18,7 +99,8 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,15 +149,6 @@
     </item>
     
     <item>
-      <title>Bipolar</title>
-      <link>http://www.nicholasjacobson.com/tags/bipolar/</link>
-      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/bipolar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Causes</title>
       <link>http://www.nicholasjacobson.com/tags/causes/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
@@ -85,92 +158,11 @@
     </item>
     
     <item>
-      <title>DTVEM</title>
-      <link>http://www.nicholasjacobson.com/tags/dtvem/</link>
-      <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/dtvem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Depression</title>
-      <link>http://www.nicholasjacobson.com/tags/depression/</link>
-      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/depression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Phenotyping</title>
-      <link>http://www.nicholasjacobson.com/tags/digital-phenotyping/</link>
-      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/digital-phenotyping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intensive-Longitudinal-Data</title>
-      <link>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intensive-longitudinal-data</title>
-      <link>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Intraindividual Variability</title>
       <link>http://www.nicholasjacobson.com/tags/intraindividual-variability/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/tags/intraindividual-variability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lags</title>
-      <link>http://www.nicholasjacobson.com/tags/lags/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/lags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lags</title>
-      <link>http://www.nicholasjacobson.com/tags/lags/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/lags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>http://www.nicholasjacobson.com/tags/machine-learning/</link>
-      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Major depression</title>
-      <link>http://www.nicholasjacobson.com/tags/major-depression/</link>
-      <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/major-depression/</guid>
       <description></description>
     </item>
     
@@ -189,15 +181,6 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/tags/mood-log/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Partial autocorrelation function</title>
-      <link>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</link>
-      <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</guid>
       <description></description>
     </item>
     

@@ -55,7 +55,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 #[header]
-image = "JacobsonWeingardenWilhelm2019b_BDI.png"
+#image = "JacobsonWeingardenWilhelm2019b_BDI.png"
 #caption = ""
 
 +++

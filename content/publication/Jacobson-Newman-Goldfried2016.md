@@ -25,7 +25,7 @@ abstract = "Previous evidence for the treatment of obsessive-compulsive disorder
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false

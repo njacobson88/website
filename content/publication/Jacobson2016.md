@@ -25,7 +25,7 @@ abstract = "This study sought to evaluate the current evolutionary adaptiveness 
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
