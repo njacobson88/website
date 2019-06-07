@@ -25,7 +25,7 @@ abstract = "Background. Prior research has shown that anxiety symptoms predict l
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true

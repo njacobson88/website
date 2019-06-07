@@ -25,7 +25,7 @@ abstract = "Objective: Although recent research has begun to examine the impact 
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true

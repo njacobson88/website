@@ -25,7 +25,7 @@ abstract = "With the recent growth in intensive longitudinal designs and corresp
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true

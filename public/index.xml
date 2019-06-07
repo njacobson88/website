@@ -1,14 +1,109 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nicholas C. Jacobson on Nicholas C. Jacobson</title>
+    <title>Nicholas C. Jacobson</title>
     <link>http://www.nicholasjacobson.com/</link>
-    <description>Recent content in Nicholas C. Jacobson on Nicholas C. Jacobson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Nicholas C. Jacobson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 -0400</lastBuildDate>
+    
+	    <atom:link href="http://www.nicholasjacobson.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.nicholasjacobson.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;Nick Jacobson is a clinical fellow in psychology at Massachusetts General Hospital/Harvard Medical School. His research interests include the comorbidity between anxiety and depression, the role of technology in assessment and treatment, and longitudinal data analysis. He recently developed an anxiety and depression monitoring application entitled &lt;a href=&#34;http://www.nicholasjacobson.com/project/mood-triggers/&#34;&gt;Mood Triggers&lt;/a&gt; which helps users to figure out the triggers of anxiety and depression in their daily lives. He also created an statistical package (written in R) called the &lt;a href=&#34;http://www.nicholasjacobson.com/project/dtvem/&#34;&gt;Differential Time-Varying Effect Model (DTVEM)&lt;/a&gt; which is used to explore optimal time lags in intensive longitudinal data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://www.nicholasjacobson.com/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>http://www.nicholasjacobson.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://www.nicholasjacobson.com/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://www.nicholasjacobson.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.nicholasjacobson.com/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://www.nicholasjacobson.com/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/teaching/</guid>
+      <description>&lt;p&gt;I have taught the following courses at Pennsylvania State University:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PSYCH 238: Introduction to Personality Psychology&lt;/li&gt;
+&lt;li&gt;PSYCH 301W: Basic Research Methods in Psychology&lt;/li&gt;
+&lt;li&gt;PSYCH 481: Introduction to Clinical Psychology&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://www.nicholasjacobson.com/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.nicholasjacobson.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/contact/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Using Digital Phenotyping to Accurately Detect Depression Severity</title>
@@ -52,7 +147,10 @@
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/post/digital_biomarkers_mood_disorders/</guid>
-      <description>&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+      <description>
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This post documents reproducible code accompanying the manuscript draft “Digital Biomarkers of Mood Disorders and Symptom Change” by Nicholas C. Jacobson, Hilary M. Weingardenm and Sabine Wilhelm (published in Nature Partner Journal (npj): Digital Medicine). This code uses machine learning to predict the diagnostic status and depressive symptom change in a a group of 23 patients with bipolar disorder or major depressive disorder and 32 non-disordered controls using actigraphy data.&lt;/p&gt;
 &lt;p&gt;The data in the following code is available publicly using the following &lt;a href=&#34;http://www.nicholasjacobson.com/http://datasets.simula.no/depresjon/data/depresjon-dataset.zip&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
@@ -707,7 +805,10 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</guid>
-      <description>&lt;div id=&#34;loading-in-the-dataset&#34; class=&#34;section level2&#34;&gt;
+      <description>
+
+
+&lt;div id=&#34;loading-in-the-dataset&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Loading in the Dataset&lt;/h2&gt;
 &lt;p&gt;This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/project/dtvem/&#34;&gt;Click here to download and install the DTVEM package.&lt;/a&gt;&lt;/p&gt;
@@ -983,6 +1084,207 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
       <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depression Variability Predicts Later Anxiety for Those with Depressive Disorders</title>
+      <link>http://www.nicholasjacobson.com/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/talk/example-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Current evolutionary adaptiveness of psychiatric disorders: Fertility rates, parent−child relationship quality, and psychiatric disorders across the lifespan</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mood Triggers</title>
+      <link>http://www.nicholasjacobson.com/project/mood-triggers/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/project/mood-triggers/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Mood Triggers&lt;/strong&gt; is an Android App released on the Google Play Store.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.nick.moodtriggers.anxietyanddepressionapp&#34; target=&#34;_blank&#34;&gt;Link to Mood Triggers App on the Google Play Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/Lx-hqXYDEGE&#34; target=&#34;_blank&#34;&gt;Youtube video of Mood Triggers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.&lt;/p&gt;
+
+&lt;p&gt;Features of Mood Triggers:
+Mood Triggers can help you keep a diary of:
+1. Your anxiety and depression in your daily life
+2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)&lt;/p&gt;
+
+&lt;p&gt;Having trouble with anxiety or depression, want to log it, or can&amp;rsquo;t figure out why you&amp;rsquo;re anxious or depressed?&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers will help you identify things that can trigger your worry, panic, anxious, and depressed moods for FREE.&lt;/p&gt;
+
+&lt;p&gt;Features of Mood Triggers:
+Mood Triggers can help you keep a diary of:
+1. Your anxiety and depression in your daily life
+2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)&lt;/p&gt;
+
+&lt;p&gt;Mood Triggers can also figure out why you are anxious or depressed based on data in your daily life. Mood Triggers will use your own data and run statistical analyses on them to tell you what&amp;rsquo;s associated with your anxiety and depression, including, but not limited to, your heart rate, avoidance, arousal, helplessness, hopelessness, negative and positive events, fatigue, and the weather.&lt;/p&gt;
+
+&lt;p&gt;This app can be used to help improve your awareness of your mood over time.&lt;/p&gt;
+
+&lt;p&gt;This app can be used for self-help or with a therapist or psychologist to help give him/her more information about how you experience anxiety and depression in your daily life, related health behaviors, and help the therapist to learn what triggers your anxiety and depressed mood.&lt;/p&gt;
+
+&lt;p&gt;This app is used for research purposes to help better understand anxiety and depression by researchers at Penn State University. This application will prompt you about your mood, your heart rate, your phone’s movement, information about your phone’s location, and the times of outgoing and incoming text messages and calls (no content about the texts or calls themselves will be recorded). This application will prompt you to complete information once per hour until you decide to stop. Your participation in this research is confidential. To help protect your confidentiality, we will assign you a participant number. The participant number will be used to identify your questionnaire data. The data will be stored on a secure online server and in locked offices. In the event a publication or presentation results from the research, no personally identifiable information will be shared. Your confidentiality will be maintained to the degree permitted by the technology used.&lt;/p&gt;
+
+&lt;p&gt;Researchers interested in this app can contact me at njacobson88@gmail.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Differential Time Varying Effect Model</title>
+      <link>http://www.nicholasjacobson.com/project/dtvem/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
+      <description>&lt;p&gt;This site is an accompaniment to the following paper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. &lt;em&gt;Behavior Research Methods.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.&lt;/p&gt;
+
+&lt;p&gt;The package was written in the R statistical package. You can download the DTVEM package by clicking the following links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_manual.pdf&#34;&gt;Download the DTVEM R Package Manual.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.zip&#34;&gt;Windows Build of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.tar.gz&#34;&gt;Mac and Linux Builds of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please note that the package was updated on 1/25/2019 for bug fixes, and expediting the &amp;ldquo;hybrid&amp;rdquo; model fitting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instructions on how to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click the download for either the Windows, Mac, or Linux version above.&lt;/li&gt;
+&lt;li&gt;Install the package in R via the package download.&lt;/li&gt;
+&lt;li&gt;Install the following dependencies: mgcv, plyr, zoo, reshape2, Rcpp, OpenMx. This can be accomplished via the following command in R:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;install.packages(c(&amp;ldquo;mgcv&amp;rdquo;,&amp;ldquo;plyr&amp;rdquo;,&amp;ldquo;zoo&amp;rdquo;,&amp;ldquo;reshape2&amp;rdquo;,&amp;ldquo;Rcpp&amp;rdquo;,&amp;ldquo;OpenMx&amp;rdquo;))&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load the DTVEM package using library(DTVEM).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A usage Example of DTVEM accompanies the &lt;a href=&#34;http://www.nicholasjacobson.com/post/illustration_of_dtvem/index.html&#34;&gt;following post.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Intensive Longitudinal Data to Study Affective Dynamics</title>
+      <link>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/project/intensive-longitudinal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using repeated daily assessments to uncover oscillating patterns and temporally-dynamic triggers in structures of psychopathology: Applications to the DSM–5 alternative model of personality disorders</title>
+      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-pincus2016/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-pincus2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical feedback about empirically supported treatments for obsessive-compulsive disorder</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-newman-goldfried2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-newman-goldfried2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpersonal problems predict differential response to cognitive versus behavioral treatment in a randomized controlled trial</title>
+      <link>http://www.nicholasjacobson.com/publication/newman-et-al2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/newman-et-al2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceptions of close and group relationships mediate the relationship between anxiety and depression over a decade later</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-newman2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-newman2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adult attachment as a moderator of treatment outcome for GAD: Comparison between CBT plus supportive listening and CBT plus interpersonal and emotional processing therapy</title>
+      <link>http://www.nicholasjacobson.com/publication/newman-et-al-2015/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/newman-et-al-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Avoidance mediates the relationship between anxiety and depression over a decade later</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-newman2014/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-newman2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized anxiety disorder</title>
+      <link>http://www.nicholasjacobson.com/publication/szkodny-jacobson-newman2014/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/szkodny-jacobson-newman2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpersonal and emotion-focused processing psychotherapy for generalized anxiety disorder</title>
+      <link>http://www.nicholasjacobson.com/publication/newman-jacobson-castonguay2014/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/newman-jacobson-castonguay2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deficits of encoding in hypnosis: A result of altered state of awareness</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-et-al2013/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-et-al2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effects of encoding under hypnosis and post-hypnotic suggestion on academic performance</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-et-al2011/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-et-al2011/</guid>
       <description></description>
     </item>
     

@@ -25,7 +25,7 @@ abstract = "Anxiety and depression are often highly correlated with each other. 
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false
