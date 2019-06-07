@@ -4,12 +4,12 @@
     <title>Intraindividual Variability on Nicholas C. Jacobson</title>
     <link>http://www.nicholasjacobson.com/tags/intraindividual-variability/</link>
     <description>Recent content in Intraindividual Variability on Nicholas C. Jacobson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/tags/intraindividual-variability/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://www.nicholasjacobson.com/tags/intraindividual-variability/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,42 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
-      <description>This site is an accompaniment to the following paper:
- Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. Behavior Research Methods.  This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
+      <description>&lt;p&gt;This site is an accompaniment to the following paper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. &lt;em&gt;Behavior Research Methods.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.&lt;/p&gt;
+
+&lt;p&gt;The package was written in the R statistical package. You can download the DTVEM package by clicking the following links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_manual.pdf&#34;&gt;Download the DTVEM R Package Manual.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.zip&#34;&gt;Windows Build of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/files/DTVEM/DTVEM_1.0007.tar.gz&#34;&gt;Mac and Linux Builds of the DTVEM Package Version 1.0007&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please note that the package was updated on 1/25/2019 for bug fixes, and expediting the &amp;ldquo;hybrid&amp;rdquo; model fitting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instructions on how to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click the download for either the Windows, Mac, or Linux version above.&lt;/li&gt;
+&lt;li&gt;Install the package in R via the package download.&lt;/li&gt;
+&lt;li&gt;Install the following dependencies: mgcv, plyr, zoo, reshape2, Rcpp, OpenMx. This can be accomplished via the following command in R:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;install.packages(c(&amp;ldquo;mgcv&amp;rdquo;,&amp;ldquo;plyr&amp;rdquo;,&amp;ldquo;zoo&amp;rdquo;,&amp;ldquo;reshape2&amp;rdquo;,&amp;ldquo;Rcpp&amp;rdquo;,&amp;ldquo;OpenMx&amp;rdquo;))&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load the DTVEM package using library(DTVEM).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A usage Example of DTVEM accompanies the &lt;a href=&#34;http://www.nicholasjacobson.com/post/illustration_of_dtvem/index.html&#34;&gt;following post.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

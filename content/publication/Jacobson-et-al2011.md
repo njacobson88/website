@@ -25,7 +25,7 @@ abstract = "This study examined the relationship between proactive learning in h
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+#image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false
