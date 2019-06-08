@@ -1,6 +1,6 @@
 +++
 title = "Objective Digital Phenotypes of Worry Severity, Pain Severity, and Pain Chronicity in Persons Living with HIV"
-date = 2019-01-25T00:00:00
+date = 2019-06-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Nicholas C. Jacobson**","Conall M. O'Cleirigh"]
@@ -54,7 +54,7 @@ highlight = true
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-#[header]
+[header]
 image = "Jacobson_OCleirigh_2019.png"
 #caption = ""
 
