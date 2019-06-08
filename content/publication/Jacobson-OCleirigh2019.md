@@ -1,9 +1,9 @@
 +++
-title = "Using Digital Phenotyping to Accurately Detect Depression Severity"
-date = 2019-04-22T00:00:00
+title = "Objective Digital Phenotypes of Worry Severity, Pain Severity, and Pain Chronicity in Persons Living with HIV"
+date = 2019-01-25T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Nicholas C. Jacobson**","Hilary Weingarden","Sabine Wilhelm"]
+authors = ["**Nicholas C. Jacobson**","Conall M. O'Cleirigh"]
 
 # Publication type.
 # Legend:
@@ -17,11 +17,11 @@ authors = ["**Nicholas C. Jacobson**","Hilary Weingarden","Sabine Wilhelm"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Journal of Nervous and Mental Disease"
+publication = "British Journal of Psychiatry"
 #publication_short = "In *SITIS*"
 
 # Abstract and optional shortened version.
-abstract = "Development of digital biomarkers holds promise for enabling scalable, time-sensitive, and cost-effective strategies to monitor symptom severity among those with major depressive disorder. The current study examined the use of passive movement and light data from wearable devices to assess depression severity in 15 patients with major depressive disorder. Using over one week of movement data, we were able to significantly assess depression severity with high precision for self-reported (r = 0.855, 95% CI 0.610 to 0.950, p = 4.95x10-5) and clinician-rated (r = 0.604, 95% CI 0.133 to 0.894, p = .017) symptom severity. Pending replication, the present data suggests that the use of passive wearable sensors to inform healthcare decisions holds considerable promise. "
+abstract = "Persons living with HIV (PLWH) report experiencing disproportionally severe and chronic pain and worry. However, no objective biomarkers of these subjective experiences have been developed. To address the lack of objective measures and assist in treatment planning, the current study examined whether digital biomarkers of pain severity, pain chronicity, and worry could be developed using passive wearable sensors continuously monitoring movement. Results suggest that digital biomarkers can predict pain severity (r(35) = 0.690), pain chronicity (74.63% accuracy), and worry severity (r(65) = 0.642) with high precision, suggesting that objective digital biomarkers alone accurately capture internal symptom experiences in PLWH."
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -33,7 +33,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#projects = ["DTVEM"]
+projects = ["DTVEM"]
 
 # Links (optional).
 #url_pdf = "/files/PDFs/Jacobson, Weingarden, & Wilhelm, 2019.pdf"
@@ -55,7 +55,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 #[header]
-image = "JacobsonWeingardenWilhelm2019b_BDI.png"
+image = "Jacobson_OCleirigh_2019.png"
 #caption = ""
 
 +++
