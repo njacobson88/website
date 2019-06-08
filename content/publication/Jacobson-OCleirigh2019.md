@@ -3,7 +3,7 @@ title = "Objective Digital Phenotypes of Worry Severity, Pain Severity, and Pain
 date = 2019-06-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Nicholas C. Jacobson**","Conall M. O'Cleirigh"]
+authors = ["**Nicholas C. Jacobson**","Conall M. OCleirigh"]
 
 # Publication type.
 # Legend:
