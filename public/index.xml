@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Objective Digital Phenotypes of Worry Severity, Pain Severity, and Pain Chronicity in Persons Living with HIV</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-ocleirigh2019/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-ocleirigh2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using Digital Phenotyping to Accurately Detect Depression Severity</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-weingarden-wilhelm2019b/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 -0400</pubDate>
@@ -974,15 +983,6 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
       <pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-lord-newman2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching strategies for personality assessment at the undergraduate level</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</link>
-      <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-roche2017/</guid>
       <description></description>
     </item>
     
