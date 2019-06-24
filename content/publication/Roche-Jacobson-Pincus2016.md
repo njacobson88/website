@@ -3,7 +3,7 @@ title = "Using repeated daily assessments to uncover oscillating patterns and te
 date = 2016-01-02T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Michael J. Roche","**Nicholas C. Jacobson**","Thane M. Erickson","Aaron J. Fisher"]
+authors = ["Michael J. Roche","**Nicholas C. Jacobson**","Aaron L. Pincus"]
 
 # Publication type.
 # Legend:
@@ -36,7 +36,7 @@ selected = false
 projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
-url_pdf = "/files/PDFs/Roche, Jacobson, & Pincus 2016.pdf"
+#url_pdf = "/files/PDFs/Roche, Jacobson, & Pincus 2016.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""

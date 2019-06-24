@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Newman, Jacobson, et al., 2019.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "http://psycnet.apa.org/record/2016-32094-001"
+url_source = "https://journals.sagepub.com/doi/abs/10.1177/2167702619827019"
 
 # Does the content use math formatting?
 math = false

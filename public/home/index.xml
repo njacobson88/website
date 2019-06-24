@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="http://www.nicholasjacobson.com/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/home/about/</guid>
-      <description>Biography Nick Jacobson is a clinical fellow in psychology at Massachusetts General Hospital/Harvard Medical School. His research interests include the comorbidity between anxiety and depression, the role of technology in assessment and treatment, and longitudinal data analysis. He recently developed an anxiety and depression monitoring application entitled Mood Triggers which helps users to figure out the triggers of anxiety and depression in their daily lives. He also created an statistical package (written in R) called the Differential Time-Varying Effect Model (DTVEM) which is used to explore optimal time lags in intensive longitudinal data.</description>
+      <description>Biography Nick Jacobson is a tenure-track assistant professor in the departments of Biomedical Data Science and Psychiatry within the Center for Technology and Behavioral Health in the Geisel School of Medicine at Dartmouth College. His research interests include the comorbidity between anxiety and depression, the role of technology in assessment and treatment, and longitudinal data analysis. He recently developed an anxiety and depression monitoring application entitled Mood Triggers which helps users to learn the triggers of their anxiety and depression in their daily lives.</description>
     </item>
     
     <item>
@@ -92,6 +92,18 @@
       
       <guid>http://www.nicholasjacobson.com/home/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Join Our Team</title>
+      <link>http://www.nicholasjacobson.com/home/join/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/home/join/</guid>
+      <description>We are currently recruiting:
+ Undergraduate research assistants Lab manager Graduate students Postdoctoral students Smartphone App Programmer    Specific Areas of Involvement for Undergraduate Research Assistants
+The current lab has many foci concentrating around:
+ Developing statistical methods for densely sampled data collection. The integration of smartphone-based and wearable data to draw inferences about a person’s mental health status. Creating new smartphone applications to assess and treat anxiety, depression, and substance abuse.</description>
     </item>
     
   </channel>

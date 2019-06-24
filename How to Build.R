@@ -2,7 +2,7 @@
 library(blogdown)
 # build_site() #BUILD THE SITE, note use 
 blogdown::hugo_build() #if I don't want to rebuild Rmd files
-#serve_site() #VIEW THE SITE
+#serve_site() #VIEW THE SITE, BUT THIS REBUILDS THE SITE
 
 #TO PUSH THE SITE DO THE FOLLOWING:
 #Go to terminal and type:
@@ -12,3 +12,8 @@ blogdown::hugo_build() #if I don't want to rebuild Rmd files
 
 #last go backto the terminal and type:
 #git push -u origin master
+
+
+#TRYING TO SEE IF I CAN DO IT W/O REBUILD
+options(blogdown.generator.server = TRUE)
+serve_site()

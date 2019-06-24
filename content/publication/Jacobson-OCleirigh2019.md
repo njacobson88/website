@@ -17,7 +17,7 @@ authors = ["**Nicholas C. Jacobson**","Conall M. O'Cleirigh"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "British Journal of Psychiatry"
+publication = "The British Journal of Psychiatry"
 #publication_short = "In *SITIS*"
 
 # Abstract and optional shortened version.

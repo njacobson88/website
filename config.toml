@@ -10,7 +10,7 @@ title = "Nicholas C. Jacobson"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -55,16 +55,16 @@ enableGitInfo = false
 
   # Your details.
   name = "Nicholas Jacobson"
-  role = "Clinical Fellow in Psychology, Doctoral Candidate in Clinical Psychology "
+  role = "Assistant Professor in Biomedical Data Science and Psychiatry"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Massachusetts General Hospital", url = "" },{ name = "Harvard Medical School", url = "" },{ name = "Pennsylvania State University", url = "" }  ]
+  organizations = [ { name = "Center for Technology and Behavioral Health", url = "" },{ name = "Geisel School of Medicine at Dartmouth College", url = "" }  ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "Jacobson_N2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "njacobson88@gmail.com"
-  address = "185 Cambridge Street, Suite 2000, Boston, MA 02114"
+  address = "46 Centerra Parkway, EverGreen Center, Suite 315, Lebanon, NH 03766"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "(814) 863-0115"
   skype = "njacobson88@gmail.com"
@@ -98,9 +98,9 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 2
   map_api_key = ""
-  latitude = "42.362000"
-  longitude = "-71.066145"
-  zoom = 15
+  latitude = "43.679200"
+  longitude = "-72.263733"
+  zoom = 12
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -299,6 +299,11 @@ enableGitInfo = false
   name = "Contact"
   url = "#contact"
   weight = 7
+  
+[[menu.main]]
+  name = "Join Our Team"
+  url = "#join"
+  weight = 8
 
 # Taxonomies.
 [taxonomies]
@@ -317,3 +322,5 @@ enableGitInfo = false
 enableRobotsTXT = true
 canonifyURLs = true
 # and if you think your md file names or locations might change:  
+
+

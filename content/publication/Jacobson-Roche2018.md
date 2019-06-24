@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Jacobson&Roche2018_Accepted_Manuscript.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "http://psycnet.apa.org/record/2016-32094-001"
+url_source = "https://www.sciencedirect.com/science/article/abs/pii/S0022395618303911?via%3Dihub"
 
 # Does the content use math formatting?
 math = false

@@ -36,7 +36,7 @@ selected = false
 #projects = ["example-external-project"]
 
 # Links (optional).
-#url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+url_pdf = "files/Roche, Jacobson, & Phillips 2018.pdf"
 #url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 #url_code = "#"
 #url_dataset = "#"
@@ -44,7 +44,7 @@ selected = false
 #url_slides = "#"
 #url_video = "#"
 #url_poster = "#"
-#url_source = "#"
+url_source = "https://www.tandfonline.com/doi/abs/10.1080/00223891.2018.1475394?journalCode=hjpa20"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
