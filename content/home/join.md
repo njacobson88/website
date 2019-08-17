@@ -34,6 +34,7 @@ The current lab has many foci concentrating around:
 2. The integration of smartphone-based and wearable data to draw inferences about a person’s mental health status.
 3. Creating new smartphone applications to assess and treat anxiety, depression, and substance abuse. 
 
+Research assistants do *not* need to be interested in participating in all projects. For example, someone with a major of the psychology and the brain sciences may be interested in that involve digital mental health, but they are not interested in projects that involve any coding/syntax writing. Alternatively, someone in computer science may be more interested in the creation of a digital platform, and they would not be required to have an interest in mental health or statistics. 
 
 Concrete practical benefits to undergraduate research assistants:
 
