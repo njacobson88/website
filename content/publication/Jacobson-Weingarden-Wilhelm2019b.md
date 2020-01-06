@@ -36,7 +36,7 @@ selected = true
 #projects = ["DTVEM"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Jacobson, Weingarden, & Wilhelm, 2019.pdf"
+url_pdf = "/files/PDFs/Jacobson, Weingarden, & Wilhelm, 2019b.pdf"
 #url_preprint = ""
 #url_code = "/post/digital_biomarkers_mood_disorders/"
 #url_dataset = "http://datasets.simula.no/depresjon/data/depresjon-dataset.zip"

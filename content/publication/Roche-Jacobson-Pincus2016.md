@@ -36,7 +36,7 @@ selected = false
 projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Roche, Jacobson, & Pincus 2016.pdf"
+url_pdf = "/files/PDFs/Roche, Jacobson, & Pincus 2016.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""

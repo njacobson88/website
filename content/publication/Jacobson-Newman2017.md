@@ -36,7 +36,7 @@ selected = true
 #projects = ["deep-learning"]
 
 # Links (optional).
-#url_pdf = "/files/PDFs/Jacobson & Newman, 2017.pdf"
+url_pdf = "/files/PDFs/Jacobson & Newman, 2017.pdf"
 #url_preprint = ""
 #url_code = ""
 #url_dataset = ""
