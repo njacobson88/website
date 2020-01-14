@@ -20,7 +20,7 @@ projects = ["Intensive-Longitudinal-Data"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "/files/SAA2020_Compliance_Thresholds.pdf"
+url_slides = "/files/talks/SAA2020_Compliance_Thresholds.pdf"
 url_video = ""
 url_code = ""
 
