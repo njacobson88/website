@@ -33,7 +33,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "talks/SAA2020_ROC_compliant.tiff"
+image = "talks/SAA2020_ROC_compliant.jpeg"
 caption = "AUC Predicting Compliance Thresholds from Personality and Psychopathology Data"
 
 +++
