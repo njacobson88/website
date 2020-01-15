@@ -1,5 +1,5 @@
 +++
-date = 2020-01-15T11:00:00  # Schedule page publish date.
+date = 2020-01-16T11:00:00  # Schedule page publish date.
 
 title = "It's time to ask when: Investigating the timing of dynamics in intensive longitudinal data"
 time_start = 2020-01-15T11:00:00
