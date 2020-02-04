@@ -55,7 +55,7 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE</code></pre>
 <div id="showing-the-strength-of-dtvem" class="section level2">
 <h2>Showing the strength of DTVEM</h2>
 <p>Let’s see what DTVEM has to say about this.</p>
-<pre class="r"><code>out=LAG(&quot;X&quot;,differntialtimevaryingpredictors=c(&quot;X&quot;),outcome=c(&quot;X&quot;),data=exampledat1,ID=&quot;ID&quot;,Time=&quot;Time&quot;,k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)</code></pre>
+<pre class="r"><code>out=LAG(&quot;X&quot;,differentialtimevaryingpredictors=c(&quot;X&quot;),outcome=c(&quot;X&quot;),data=exampledat1,ID=&quot;ID&quot;,Time=&quot;Time&quot;,k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)</code></pre>
 <pre><code>## OpenMx version: 2.8.3 [GIT v2.8.3]
 ## R version: R version 3.4.4 (2018-03-15)
 ## Platform: x86_64-w64-mingw32

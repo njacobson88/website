@@ -63,7 +63,7 @@ The results look like for any given individual the PACF results are highly unrel
 ##Showing the strength of DTVEM
 Let's see what DTVEM has to say about this.
 ```{r}
-out=LAG("X",differntialtimevaryingpredictors=c("X"),outcome=c("X"),data=exampledat1,ID="ID",Time="Time",k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)
+out=LAG("X",differentialtimevaryingpredictors=c("X"),outcome=c("X"),data=exampledat1,ID="ID",Time="Time",k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)
 ```
 Unlike the PACF, DTVEM identifies the correct lag structure, which is based on true positive lags at lag 1, true negative lags at lag 2, and true positive lags at lag 3. 
 
