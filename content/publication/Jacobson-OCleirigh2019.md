@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Jacobson & O'Cleirigh 2019.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "http://doi.org/10.1038/s41746-019-0078-0"
+url_source = "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/objective-digital-phenotypes-of-worry-severity-pain-severity-and-pain-chronicity-in-persons-living-with-hiv/B89CBB2343760D08282AF3B1D54F49AF"
 
 # Does the content use math formatting?
 math = true

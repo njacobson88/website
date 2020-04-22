@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Jacobson, Weingarden, & Wilhelm, 2019b.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "http://doi.org/10.1038/s41746-019-0078-0"
+url_source = "https://journals.lww.com/jonmd/Abstract/2019/10000/Using_Digital_Phenotyping_to_Accurately_Detect.12.aspx"
 
 # Does the content use math formatting?
 math = true

@@ -53,7 +53,7 @@ Concrete practical benefits to undergraduate research assistants:
 * **Developing Apps for Mental Health.** Very few persons have access to care for their mental health. A major focus of this lab is creating digital solutions to assess and treat mental health problems. The main mental health problems that we treat are anxiety and depressive disorders, although there are opportunities to develop treatments for other types of mental health problems. These include smartphone-based and web-based applications. To date, we have created applications with more than 50,000 installs, and, consequently, this work can have profound and wide impact on persons daily lives. 
 * Specific opportunities: writing and altering app code (in Java for Android and/or Swift for iOS); working on the server-side code for data management; creating design prototypes; marketing and promotion of applications; potential opportunities for manuscript writing
 
-Interested students should contact Nick directly (njacobson88@gmail.com).
+Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
 
 <br/><br/>
 <br/><br/>
@@ -61,7 +61,7 @@ Interested students should contact Nick directly (njacobson88@gmail.com).
 
 The lab manager will be integral to the functioning of the team. The lab manager will help facilitate all lab projects, supervise all undergraduate research assistants, coordinate all meetings, and conduct trainings. The lab manager will also work closely with Nick, the grad students, and post-docs. The lab manager may also have opportunities to conduct original research (see above). Given the broad exposure to a number of diverse projects, this will be excellent preparation for those interested in attending graduate school. 
 
-Interested persons should contact Nick directly (njacobson88@gmail.com)
+Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu)
 
 <br/><br/>
 <br/><br/>
@@ -85,7 +85,7 @@ Graduate students in the lab will have the opportunity to choose and build upon 
 Graduate students will be expected to both participate in lab projects and develop their own independent areas of study. Graduate students will have the opportunity and be expected to participate fully in the research process, writing and submiting manuscripts, presenting posters or talks at research conferences, and writing graduate student fellowships and/or contributing to preliminary analyses to a full grant proposal. Graduate students will also be expected to mentor undergraduate students. 
 
 Graduate students will have access to existing lab data and have the opportunities to collect new original data.
-Interested students should contact Nick directly (njacobson88@gmail.com).
+Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
 <br/><br/>
 <br/><br/>
 **Specific Areas of Involvement for Postdoctoral Students**
@@ -94,17 +94,17 @@ Postdoctoral students within the lab may be recruited through the [National Inst
 
 Alternative funding opportunities may also be possible by applying for post-doctoral grants. 
 
-Interested persons should contact Nick directly (njacobson88@gmail.com).
+Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
 <br/><br/>
 <br/><br/>
 **Specific Areas of Involvement for Smartphone App Programmer**
 
 The lab is also hiring a smartphone app programmer. Anyone interested should have experience in programming applications in Java for Android and Swift for iOS. The programmer will also manage the remote data servers. The programmer will be responsible for creating and revising applications related to assessing and treating mental health problems. 
 
-Interested persons should contact Nick directly (njacobson88@gmail.com).
+Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
 
 <br/><br/>
 <br/><br/>
 **Collaborators**
 
-The lab tackles many interdisciplinary problems that are best addressed by team-science approaches, and we welcome the involvement of collaborators within both academia and industry. If you are interested in collaborating with the lab, please contact Nick directly (njacobson88@gmail.com).
+The lab tackles many interdisciplinary problems that are best addressed by team-science approaches, and we welcome the involvement of collaborators within both academia and industry. If you are interested in collaborating with the lab, please contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).

@@ -63,7 +63,7 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "Jacobson_N2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "njacobson88@gmail.com"
+  email = "Nicholas.C.Jacobson@dartmouth.edu"
   address = "46 Centerra Parkway, EverGreen Center, Suite 315, Lebanon, NH 03766"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "(814) 863-0115"
@@ -226,7 +226,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:njacobson88@gmail.com"
+    link = "mailto:Nicholas.C.Jacobson@dartmouth.edu"
 
   [[params.social]]
     icon = "twitter"
