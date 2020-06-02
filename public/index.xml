@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Guidelines for Wrist-Worn Consumer Wearables Assessment of Heart Rate in Biobehavioral Research</title>
+      <link>http://www.nicholasjacobson.com/publication/nelson-low-et-al2020/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/nelson-low-et-al2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flattening the Mental Health Curve: COVID-19 Stay-at-Home Orders Are Associated With Alterations in Mental Health Search Behavior in the United States</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2020/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Social Criticism Moderates the Relationship Between Anxiety and Depression 10 Years Later</title>
       <link>http://www.nicholasjacobson.com/publication/lord-jacobson-et-al-2020/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 -0400</pubDate>
@@ -753,237 +771,6 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-chow-newman2018/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Relaxation-induced anxiety: Effects of peak and trajectories of change on treatment outcome for generalized anxiety disorder</title>
-      <link>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2018/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/newman-lafreniere-jacobson2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DTVEM Package Illustration</title>
-      <link>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</link>
-      <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</guid>
-      <description>&lt;div id=&#34;loading-in-the-dataset&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Loading in the Dataset&lt;/h2&gt;
-&lt;p&gt;This code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.nicholasjacobson.com/project/dtvem/&#34;&gt;Click here to download and install the DTVEM package.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;First load the DTVEM package.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(DTVEM)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next load the simulated data included in the DTVEM package, called exampledat1.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(exampledat1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Get a look at the file structure.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(exampledat1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   Time         X ID
-## 1    1 -1.076422  1
-## 2    2 -1.904713  1
-## 3    3  1.307456  1
-## 4    4        NA  1
-## 5    5 -4.224493  1
-## 6    6        NA  1&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;illustrating-the-inadequacies-of-the-partial-autocorrelation-function&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Illustrating the Inadequacies of the Partial Autocorrelation Function&lt;/h2&gt;
-&lt;p&gt;Next we want to explore lags with typical time series techniques. Run a partial autocorrelation function for the variable for each ID.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#DEFINE THE NUMBER OF UNIQUE IDs
-uniqueIDs=unique(exampledat1$ID)
-pacfmatrix=matrix(NA,nrow=length(uniqueIDs),ncol=10) #SAVE THE PACF RESULTS FOR THE FIRST 10 lags
-#CREATE A FOR LOOP TO RUN OVER EACH ID
-for(i in 1:length(uniqueIDs)){
-  temporarydata=exampledat1[exampledat1$ID==uniqueIDs[i],] #EXTRACT THE DATA FOR A GIVEN INDIVIDUAL
-  pacfout=pacf(temporarydata[,&amp;quot;X&amp;quot;],na.action = na.pass,plot=FALSE) #RUN THE PARTIAL AUTOCORRELATION FUNCTION WITHIN R, IGNORE THE MISSING DATA
-  pacfmatrix[i,]=pacfout$acf[1:10]
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Okay, we have the results, now we have to plot them. Each grey line will represent a PACF estimate for a given individual. The black lines will represent the mean PACF estimate.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(1:10,pacfmatrix[1,],xlab=&amp;quot;Lag&amp;quot;,ylab=&amp;quot;PACF Estimate&amp;quot;,type=&amp;quot;l&amp;quot;,col=&amp;quot;grey&amp;quot;,ylim=c(-1,1))
-#FOR EACH UNIQUE ID
-for(i in 1:length(uniqueIDs)){
-  lines(1:10,pacfmatrix[i,],col=&amp;quot;grey&amp;quot;)
-}
-lines(1:10,colMeans(pacfmatrix,na.rm = TRUE)) #PLOT THE AVERAGE LAGGED ESTIMTES
-poscrit=2/sqrt(14-1)
-negcrit=-2/sqrt(14-1)
-lines(1:10,rep(poscrit,10),lty=2) #PLOT POSITIVE CRITICAL VALUE
-lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The results look like for any given individual the PACF results are highly unreliable. However, the PACF does suggest that there are potentially significantly negative lags at lag 6, 7, 8, 9, and 10.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;showing-the-strength-of-dtvem&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Showing the strength of DTVEM&lt;/h2&gt;
-&lt;p&gt;Let’s see what DTVEM has to say about this.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out=LAG(&amp;quot;X&amp;quot;,differentialtimevaryingpredictors=c(&amp;quot;X&amp;quot;),outcome=c(&amp;quot;X&amp;quot;),data=exampledat1,ID=&amp;quot;ID&amp;quot;,Time=&amp;quot;Time&amp;quot;,k=9,standardized=FALSE,predictionstart = 1,predictionsend = 10,predictionsinterval = 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## OpenMx version: 2.8.3 [GIT v2.8.3]
-## R version: R version 3.4.4 (2018-03-15)
-## Platform: x86_64-w64-mingw32
-## Default optimiser: CSOLNP
-## NPSOL-enabled?: Yes
-## OpenMP-enabled?: No&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Setting up the data for variable #1 of 1.&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
-## DTVEM stage 1 identified the following variables as potential peaks or valleys: XlagonXlag1, XlagonXlag2, XlagonXlag3, XlagonXlag4 
-## Removing group-based time of residuals&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Begin fit attempt 1 of at maximum 11 tries&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-##  Lowest minimum so far:  3274.70348452396&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Solution found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Start values from best fit:&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 0.225059455018684,-0.237669113091979,0.275143492004439,0.0240822052277956,2.08939869379243&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Summary of multisujbject 
-##  
-## free parameters:
-##          name matrix row col    Estimate  Std.Error A
-## 1 XlagonXlag1   s1.A   1   1  0.22505946 0.05061653  
-## 2 XlagonXlag2   s1.A   1   2 -0.23766911 0.04816207  
-## 3 XlagonXlag3   s1.A   1   3  0.27514349 0.04666714  
-## 4 XlagonXlag4   s1.A   1   4  0.02408221 0.05312983  
-## 5      Xresid   s1.Q   1   1  2.08939869 0.10551147  
-## 
-## Model Statistics: 
-##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
-##        Model:              5                    895              3274.703
-##    Saturated:             NA                     NA                    NA
-## Independence:             NA                     NA                    NA
-## Number of observations/statistics: 1400/900
-## 
-## Information Criteria: 
-##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
-## AIC:       1484.703               3284.703                       NA
-## BIC:      -3208.880               3310.925                 3295.041
-## CFI: NA 
-## TLI: 1   (also known as NNFI) 
-## RMSEA:  0  [95% CI (NA, NA)]
-## Prob(RMSEA &amp;lt;= 0.05): NA
-## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-08-18 10:58:28 
-## Wall clock time: 7.172824 secs 
-## optimizer:  CSOLNP 
-## OpenMx version number: 2.8.3 
-## Need help?  See help(mxSummary) 
-## 
-## [1] &amp;quot;Variables that should be controlled for are: XlagonXlag1&amp;quot;
-## [2] &amp;quot;Variables that should be controlled for are: XlagonXlag2&amp;quot;
-## [3] &amp;quot;Variables that should be controlled for are: XlagonXlag3&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;## Completed stage 1 of DTVEM, now identifying the significant peaks/valleys.
-## Completed stage 2 of DTVEM (wide format). Now passing to Stage 1.5. Controlling for the following lags in the varying-coefficient model:  XlagonXlag1, XlagonXlag2, XlagonXlag3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Removing group-based time of residuals&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Begin fit attempt 1 of at maximum 11 tries&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-##  Lowest minimum so far:  3274.90917415861&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Solution found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Start values from best fit:&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 0.236008799391563,-0.248531920453681,0.2835748499677,2.08271335137451&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-6-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;## Summary of multisujbject 
-##  
-## free parameters:
-##          name matrix row col   Estimate  Std.Error A
-## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888  
-## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480  
-## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307  
-## 4      Xresid   s1.Q   1   1  2.0827134 0.10448100  
-## 
-## Model Statistics: 
-##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
-##        Model:              4                    896              3274.909
-##    Saturated:             NA                     NA                    NA
-## Independence:             NA                     NA                    NA
-## Number of observations/statistics: 1400/900
-## 
-## Information Criteria: 
-##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
-## AIC:       1482.909               3282.909                       NA
-## BIC:      -3215.919               3303.886                  3291.18
-## CFI: NA 
-## TLI: 1   (also known as NNFI) 
-## RMSEA:  0  [95% CI (NA, NA)]
-## Prob(RMSEA &amp;lt;= 0.05): NA
-## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-08-18 10:58:41 
-## Wall clock time: 9.826756 secs 
-## optimizer:  CSOLNP 
-## OpenMx version number: 2.8.3 
-## Need help?  See help(mxSummary) 
-## 
-## [1] &amp;quot;Variables that should be controlled for are: XlagonXlag1&amp;quot;
-## [2] &amp;quot;Variables that should be controlled for are: XlagonXlag2&amp;quot;
-## [3] &amp;quot;Variables that should be controlled for are: XlagonXlag3&amp;quot;
-## This is the #2 out of a possible 10 passes 
-## Completed loop between 1.5 and 2
-## DTVEM analysis completed,congradulations!
-## Contact the author - Nick Jacobson: njacobson88@gmail.com if you have any questions.
-## Summary of multisujbject 
-##  
-## free parameters:
-##          name matrix row col   Estimate  Std.Error A
-## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888  
-## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480  
-## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307  
-## 4      Xresid   s1.Q   1   1  2.0827134 0.10448100  
-## 
-## Model Statistics: 
-##                |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
-##        Model:              4                    896              3274.909
-##    Saturated:             NA                     NA                    NA
-## Independence:             NA                     NA                    NA
-## Number of observations/statistics: 1400/900
-## 
-## Information Criteria: 
-##       |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
-## AIC:       1482.909               3282.909                       NA
-## BIC:      -3215.919               3303.886                  3291.18
-## CFI: NA 
-## TLI: 1   (also known as NNFI) 
-## RMSEA:  0  [95% CI (NA, NA)]
-## Prob(RMSEA &amp;lt;= 0.05): NA
-## To get additional fit indices, see help(mxRefModels)
-## timestamp: 2018-08-18 10:58:41 
-## Wall clock time: 9.826756 secs 
-## optimizer:  CSOLNP 
-## OpenMx version number: 2.8.3 
-## Need help?  See help(mxSummary) 
-## 
-##          name matrix row col   Estimate  Std.Error lbound ubound lboundMet
-## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888     NA     NA     FALSE
-## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480     NA     NA     FALSE
-## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307     NA     NA     FALSE
-##   uboundMet     tstat       pvalue  sig
-## 1     FALSE  5.289438 1.226928e-07 TRUE
-## 2     FALSE -5.888712 3.892167e-09 TRUE
-## 3     FALSE  6.594293 4.272871e-11 TRUE&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Unlike the PACF, DTVEM identifies the correct lag structure, which is based on true positive lags at lag 1, true negative lags at lag 2, and true positive lags at lag 3.&lt;/p&gt;
-&lt;p&gt;Let’s plot the 3-Dimensional 1st phase of the results as an illustration.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(mgcv) #MGCV is used to plot the vary-coefficient model in stage 1.&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: nlme&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## This is mgcv 1.8-23. For overview type &amp;#39;help(&amp;quot;mgcv-package&amp;quot;)&amp;#39;.&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vis.gam(out$stage1out$mod,xlab=&amp;quot;Time Differences&amp;quot;,ylab=&amp;quot;X lagged&amp;quot;,zlab=&amp;quot;Estimate&amp;quot;,theta=-30,ticktype=&amp;quot;detailed&amp;quot;) #theta is used to rotate the output, &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/post/Illustration_of_DTVEM_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This clearly shows a positive lag at 1, a negative lag at 2, and a positive lag at 3.&lt;/p&gt;
-&lt;p&gt;Okay, the results of the final state-space model were:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out$OpenMxstage2out$OpenMxout&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##          name matrix row col   Estimate  Std.Error lbound ubound lboundMet
-## 1 XlagonXlag1   s1.A   1   1  0.2360088 0.04461888     NA     NA     FALSE
-## 2 XlagonXlag2   s1.A   1   2 -0.2485319 0.04220480     NA     NA     FALSE
-## 3 XlagonXlag3   s1.A   1   3  0.2835748 0.04300307     NA     NA     FALSE
-##   uboundMet     tstat       pvalue  sig
-## 1     FALSE  5.289438 1.226928e-07 TRUE
-## 2     FALSE -5.888712 3.892167e-09 TRUE
-## 3     FALSE  6.594293 4.272871e-11 TRUE&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So, X predicts significantly itself positively 1 lag later, negatively 2 hours later, and positively again 3 hours later.&lt;/p&gt;
-&lt;/div&gt;
-</description>
     </item>
     
   </channel>
