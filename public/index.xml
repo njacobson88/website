@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Social Criticism Moderates the Relationship Between Anxiety and Depression 10 Years Later</title>
+      <link>http://www.nicholasjacobson.com/publication/lord-jacobson-et-al-2020/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/lord-jacobson-et-al-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Digital Biomarkers of Social Anxiety Severity: Digital Phenotyping using Passive Smartphone Sensors</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-summers-wilhelm2020/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 -0400</pubDate>
@@ -975,15 +984,6 @@ lines(1:10,rep(negcrit,10),lty=2) #PLOT NEGATIVE CRITICAL VALUE&lt;/code&gt;&lt;
 &lt;p&gt;So, X predicts significantly itself positively 1 lag later, negatively 2 hours later, and positively again 3 hours later.&lt;/p&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Expanding the validity of the Level of Personality Functioning Scale Observer-Report and Self-Report versions across psychodynamic and interpersonal paradigms</title>
-      <link>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/roche-jacobson-phillips2018/</guid>
-      <description></description>
     </item>
     
   </channel>
