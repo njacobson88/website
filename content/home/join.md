@@ -19,7 +19,7 @@ weight = 80
 **We are currently recruiting:**
 
 1.	Undergraduate research assistants
-2.	Lab manager
+2.	Post-Baccalaureate Research Assistants
 3.	Graduate students
 4.	Postdoctoral students
 
@@ -56,9 +56,14 @@ Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.
 
 <br/><br/>
 <br/><br/>
-**Specific Areas of Involvement for Lab Manager**
+**Specific Areas of Involvement for Post-Baccalaureate Research Assistant**
 
-The lab manager will be integral to the functioning of the team. The lab manager will help facilitate all lab projects, supervise all undergraduate research assistants, coordinate all meetings, and conduct trainings. The lab manager will also work closely with Nick, the grad students, and post-docs. The lab manager may also have opportunities to conduct original research (see above). Given the broad exposure to a number of diverse projects, this will be excellent preparation for those interested in attending graduate school. 
+The Research Assistant (RA) will play a key role in a research project examining the use of smartphones and wearable sensors in monitoring depressive symptoms. More specifically, the RA will be responsible for assisting with preparation of IRB materials and study protocols, drafting progress reports to the study investigation team, participant recruitment, data collection and completion of participant follow-up assessments.
+
+The project is expected to be funded by National Institute of Mental Health (NIMH). This project specifically seeks to evaluate the potential to use smartphone and wearable sensor data to develop personalized models of rapid symptom changes in major depressive disorder (MDD). In addition, this study will use an innovative digital national recruitment strategy. The RA will be part of the Center for Technology and Behavioral Health (CTBH) at Dartmouth College, and will work under the direct supervision of the Project Principal Investigator, Dr. Nicholas Jacobson.
+
+The RA will be responsible for assisting in the drafting of IRB materials and study protocols, drafting progress reports to the study investigation team, participant recruitment, data collection and completion of participant follow-up assessments A research assistant will be responsible for reviewing screening data from an online survey platform to determine who screens positive for major depressive disorder, and the research assistant will also be responsible for contacting those persons regarding their possible participation in the study. The research assistant will then be responsible for scheduling participants’ diagnostic interviews with the postdoctoral fellow following the screen. The research assistant will also be responsible for most of the primary routine contact with participants, including contacting participants if they are showing signs of non-compliance with study procedures (after being advised of this by the graduate research assistant), as well as conducting participant check-ins and debriefs. The research assistant will also be responsible for managing a phone messaging system and answering questions from participants. The research assistant will be responsible for mailing the wearable devices to participants. The research assistant will perform financial analysis and prepare management reports and projections for ongoing project activities. In addition, the research assistant will communicate with investigators regarding fiscal matters. The research assistant will be responsible for communicating with the graduate research assistant to determine the reimbursement rate based on participant compliance. If participants report that there are problems with app or wearable devices, the research assistant will coordinate with a graduate research assistant and study PI and co-Is.
+
 
 Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu)
 
