@@ -22,7 +22,6 @@ weight = 80
 2.	Lab manager
 3.	Graduate students
 4.	Postdoctoral students
-5.  Smartphone App Programmer
 
 <br/><br/>
 <br/><br/>
@@ -90,19 +89,18 @@ Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.
 <br/><br/>
 **Specific Areas of Involvement for Postdoctoral Students**
 
-Postdoctoral students within the lab may be recruited through the [National Institute on Drug Abuse (NIDA) T32 program](https://geiselmed.dartmouth.edu/scd/overview/). Postdoctoral students are expected to get involved in all areas of the lab, including: (1) digital mental health and (2) statistical analysis of longitudinal data. In addition to all of the lab interests specified above, a specific area of emphasis within the T32 will be addressing the complexities of co-occuring substance use and other mental health disorders. The fellow is expected to conduct research that will evaluate co-occuring disorders (i.e. substance use and mental disorders). Postdocs will be expected to develop project ideas, write grants, conduct analyses, mentor other lab members, and write and submit manuscripts. 
+![Postdoc](/img/NIMH_Postdoctoral_Position_Posting.png)
+
+Dr. Jacobson is seeking applicants for a postdoctoral research fellow position in the Center for Technology and Behavioral Health within the Geisel School of Medicine at Dartmouth College in Hanover, New Hampshire. The position is available for start as early as July 1, 2020. Persons with doctorates in clinical or counseling psychology are desired. 
+
+The postdoctoral research fellow will be primarily working on a project related to the use of personalized digital phenotyping based on passively collected data from smartphones and wearable sensors to predict rapid symptom changes in major depressive disorder. The position is expected to be funded by the National Institute of Health.  
+
+Interested applicants should contact Dr. Jacobson directly at Nicholas.C.Jacobson@Dartmouth.edu.
+
 
 Alternative funding opportunities may also be possible by applying for post-doctoral grants. 
 
 Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
-<br/><br/>
-<br/><br/>
-**Specific Areas of Involvement for Smartphone App Programmer**
-
-The lab is also hiring a smartphone app programmer. Anyone interested should have experience in programming applications in Java for Android and Swift for iOS. The programmer will also manage the remote data servers. The programmer will be responsible for creating and revising applications related to assessing and treating mental health problems. 
-
-Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
-
 <br/><br/>
 <br/><br/>
 **Collaborators**
