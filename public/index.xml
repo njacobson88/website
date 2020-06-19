@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Passive Sensing of Prediction of Moment-to-Moment Depressed Mood among Undergraduates with Clinical Levels of Depression Sample using Smartphones</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-chung-et-al2020/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-chung-et-al2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Guidelines for Wrist-Worn Consumer Wearables Assessment of Heart Rate in Biobehavioral Research</title>
       <link>http://www.nicholasjacobson.com/publication/nelson-low-et-al2020/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 -0400</pubDate>
@@ -762,15 +771,6 @@ ggplot(data=longpreds,aes(x=PatientIndex, y=zscore, colour=Type)) +geom_line()+y
 &lt;p&gt;&lt;img src=&#34;http://www.nicholasjacobson.com/post/digital_biomarkers_mood_disorders_files/figure-html/Plot%20the%20results%20for%20change%20in%20depressive%20symptoms-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing and Modeling Time Lags in Intensive Longitudinal Data</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-chow-newman2018/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-chow-newman2018/</guid>
-      <description></description>
     </item>
     
   </channel>
