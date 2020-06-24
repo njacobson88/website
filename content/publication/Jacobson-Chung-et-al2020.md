@@ -21,7 +21,7 @@ publication = "Sensors"
 #publication_short = "In *SITIS*"
 
 # Abstract and optional shortened version.
-abstract = "Prior research has recently shown that passively collected sensor data collected within the contexts of persons daily lives via smartphones and wearable sensors can distinguish those with major depressive disorder (MDD) from controls, predict MDD severity, and predict changes in MDD severity across days and weeks. Nevertheless, very little research has examined predicting depressed mood within a day, which is essential given the large amount of variation occurring within days. The current study utilized passively collected sensor data collected from a smartphone application to future depressed mood from hour-to-hour in an ecological momentary assessment study in a sample reporting clinical levels of depression (N = 31). Using a combination of nomothetic and idiographically weighted machine learning models, the results suggest that depressed mood can be accurately from hour to hour with an average correlation between out of sample predicted depressed mood levels and observed depressed mood of 0.587, CI [0.552, 0.621]. This suggests that passively collected smartphone data can accurately predict future depressed mood among a sample reporting clinical levels of depression. If replicated in other samples, this modeling framework may allow just-in-time adaptive interventions to treat depression as it changes in the context of daily life."
+abstract = "Prior research has recently shown that passively collected sensor data collected within the contexts of persons daily lives via smartphones and wearable sensors can distinguish those with major depressive disorder (MDD) from controls, predict MDD severity, and predict changes in MDD severity across days and weeks. Nevertheless, very little research has examined predicting depressed mood within a day, which is essential given the large amount of variation occurring within days. The current study utilized passively collected sensor data collected from a smartphone application to future depressed mood from hour-to-hour in an ecological momentary assessment study in a sample reporting clinical levels of depression (N = 31). Using a combination of nomothetic and idiographically-weighted machine learning models, the results suggest that depressed mood can be accurately predicted from hour to hour with an average correlation between out of sample predicted depressed mood levels and observed depressed mood of 0.587, CI [0.552, 0.621]. This suggests that passively collected smartphone data can accurately predict future depressed mood among a sample reporting clinical levels of depression. If replicated in other samples, this modeling framework may allow just-in-time adaptive interventions to treat depression as it changes in the context of daily life."
 #abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Jacobson & Chung, 2020.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "https://mental.jmir.org/2020/6/e19347/"
+url_source = "https://doi.org/10.3390/s20123572"
 
 # Does the content use math formatting?
 math = true
