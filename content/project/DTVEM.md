@@ -38,10 +38,12 @@ The package was written in the R statistical package. You can download the DTVEM
 
 [Download the DTVEM R Package Manual.](/files/DTVEM/DTVEM_manual.pdf)
 
-[Windows Build of the DTVEM Package Version 1.0008](/files/DTVEM/DTVEM_1.0008.zip)
+[Windows Build of the DTVEM Package Version 1.0009](/files/DTVEM/DTVEM_1.0009.zip)
 
-[Mac and Linux Builds of the DTVEM Package Version 1.0008](/files/DTVEM/DTVEM_1.0008.tar.gz)
+[Mac and Linux Builds of the DTVEM Package Version 1.0009](/files/DTVEM/DTVEM_1.0009.tar.gz)
 
+
+* Please note that the package was updated on 10/05/2020 for upgrade to R 4.0
 
 * Please note that the package was updated on 1/25/2019 for bug fixes, and expediting the "hybrid" model fitting.
 
