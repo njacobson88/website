@@ -16,6 +16,7 @@ weight = 60
 +++
 I currently teach the following courses at Dartmouth College:
 
+- QBS 126: Analysis of Densely Collected Longitudinal Data
 - QBS 270: Quantitative Biomedical Sciences Journal Club
 
 I have taught the following courses at Pennsylvania State University:
