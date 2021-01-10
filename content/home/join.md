@@ -19,9 +19,7 @@ weight = 80
 **We are currently recruiting:**
 
 1.	Undergraduate research assistants
-2.	Post-Baccalaureate Research Assistants
-3.	Graduate students
-4.	Postdoctoral students
+2.	Graduate students
 
 <br/><br/>
 <br/><br/>
@@ -56,32 +54,13 @@ Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.
 
 <br/><br/>
 <br/><br/>
-**Specific Areas of Involvement for Post-Baccalaureate Research Assistant**
-
-The Research Assistant (RA) will play a key role in a research project examining the use of smartphones and wearable sensors in monitoring depressive symptoms. More specifically, the RA will be responsible for assisting with preparation of IRB materials and study protocols, drafting progress reports to the study investigation team, participant recruitment, data collection and completion of participant follow-up assessments.
-
-The project is expected to be funded by National Institute of Mental Health (NIMH). This project specifically seeks to evaluate the potential to use smartphone and wearable sensor data to develop personalized models of rapid symptom changes in major depressive disorder (MDD). In addition, this study will use an innovative digital national recruitment strategy. The RA will be part of the Center for Technology and Behavioral Health (CTBH) at Dartmouth College, and will work under the direct supervision of the Project Principal Investigator, Dr. Nicholas Jacobson.
-
-The RA will be responsible for assisting in the drafting of IRB materials and study protocols, drafting progress reports to the study investigation team, participant recruitment, data collection and completion of participant follow-up assessments A research assistant will be responsible for reviewing screening data from an online survey platform to determine who screens positive for major depressive disorder, and the research assistant will also be responsible for contacting those persons regarding their possible participation in the study. The research assistant will then be responsible for scheduling participants’ diagnostic interviews with the postdoctoral fellow following the screen. The research assistant will also be responsible for most of the primary routine contact with participants, including contacting participants if they are showing signs of non-compliance with study procedures (after being advised of this by the graduate research assistant), as well as conducting participant check-ins and debriefs. The research assistant will also be responsible for managing a phone messaging system and answering questions from participants. The research assistant will be responsible for mailing the wearable devices to participants. The research assistant will perform financial analysis and prepare management reports and projections for ongoing project activities. In addition, the research assistant will communicate with investigators regarding fiscal matters. The research assistant will be responsible for communicating with the graduate research assistant to determine the reimbursement rate based on participant compliance. If participants report that there are problems with app or wearable devices, the research assistant will coordinate with a graduate research assistant and study PI and co-Is.
-
-
-Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu)
-
-<br/><br/>
-<br/><br/>
 **Specific Areas of Involvement for Graduate Students**
 
 To be a graduate student, you must first gain admission to a graduate program within Dartmouth College. 
 The lab focuses on problems which are highly interdisciplinary in nature, intersecting psychiatry/clinical psychology, computer science/computer engineering, and data science/statistics. Graduate programs of interest could include, but are not limited to, the following degree programs:
 
 * [Quantitative Biomedical Sciences (Master’s, or PhD)](https://www.dartmouth.edu/~qbs/)
-* [Psychology and Brain Sciences (PhD)](http://pbs.dartmouth.edu/)
 * [Computer Science (Master’s, or PhD)](http://web.cs.dartmouth.edu/)
-* [Health Policy and Clinical Practice/The Dartmouth Institute (PhD)]( https://tdi.dartmouth.edu/education/degree-programs/phd/health-policy-phd)
-* [Healthcare Research (Master’s)]( https://tdi.dartmouth.edu/education/degree-programs/master-science-healthcare-research/curriculum)
-* [Cognitive Neuroscience: Psychology and Brain Sciences (PhD)]( http://pbs.dartmouth.edu/)
-* [Engineering (Master’s or PhD)](http://engineering.dartmouth.edu/academics/graduate/phd/)
-* [MD/PhD Program](https://geiselmed.dartmouth.edu/mdphd/)
 
 
 Graduate students in the lab will have the opportunity to choose and build upon their own areas of interest, as long as they align within the broader research areas of the lab. Graduate students will have the opportunity to be trained in paradigms of digital mental health and in the analysis of intensive longitudinal data related to the assessment of mental health in daily life. Graduate students will develop expertise that will prepare them for careers in academia and/or industry. 
@@ -90,22 +69,8 @@ Graduate students will be expected to both participate in lab projects and devel
 
 Graduate students will have access to existing lab data and have the opportunities to collect new original data.
 Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
-<br/><br/>
-<br/><br/>
-**Specific Areas of Involvement for Postdoctoral Students**
-
-![Postdoc](/img/NIMH_Postdoctoral_Position_Posting.png)
-
-Dr. Jacobson is seeking applicants for a postdoctoral research fellow position in the Center for Technology and Behavioral Health within the Geisel School of Medicine at Dartmouth College in Hanover, New Hampshire. The position is available for start as early as July 1, 2020. Persons with doctorates in clinical or counseling psychology are desired. 
-
-The postdoctoral research fellow will be primarily working on a project related to the use of personalized digital phenotyping based on passively collected data from smartphones and wearable sensors to predict rapid symptom changes in major depressive disorder. The position is expected to be funded by the National Institute of Health.  
-
-Interested applicants should contact Dr. Jacobson directly at Nicholas.C.Jacobson@Dartmouth.edu.
 
 
-Alternative funding opportunities may also be possible by applying for post-doctoral grants. 
-
-Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
 <br/><br/>
 <br/><br/>
 **Collaborators**

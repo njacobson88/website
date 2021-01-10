@@ -11,6 +11,33 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Deep Learning Paired with Wearable Passive Sensing Data Predicts Deterioration in Anxiety Disorder Symptoms across 17-18 Years</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Modeling of Psychiatric Illness using Electronic Medical Records and a Novel Machine Learning Approach with Artificial Intelligence</title>
+      <link>http://www.nicholasjacobson.com/publication/nemesure-et-al2020/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/nemesure-et-al2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Artificial Intelligence to Predict Change in Depression and Anxiety Symptoms in a Digital Intervention: Evidence from A Transdiagnostic Randomized Controlled Trial</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-nemesure2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-nemesure2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Temporal Dynamics of Sleep Disturbance and Psychopathology in Psychosis: A Digital Sampling Study</title>
       <link>http://www.nicholasjacobson.com/publication/meyer-et-al2020/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 -0500</pubDate>
@@ -115,33 +142,6 @@
       <pubDate>Sun, 22 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/jacobson-et-al2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>It&#39;s time to ask when: Investigating the timing of dynamics in intensive longitudinal data</title>
-      <link>http://www.nicholasjacobson.com/talk/saa2020_timing/</link>
-      <pubDate>Thu, 16 Jan 2020 11:00:00 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/saa2020_timing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compliance Thresholds in Intensive Longitudinal Data: Worse than Listwise Deletion</title>
-      <link>http://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</link>
-      <pubDate>Tue, 14 Jan 2020 11:00:00 -0500</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cognitive-Behavioral Therapy in the Digital Age: Presidential Address</title>
-      <link>http://www.nicholasjacobson.com/publication/wilhelm-et-al-jacobson2019/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/wilhelm-et-al-jacobson2019/</guid>
       <description></description>
     </item>
     
