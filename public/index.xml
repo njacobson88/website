@@ -11,6 +11,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A randomized controlled feasibility trial of internet-delivered guided self-help for GAD among university students in India</title>
+      <link>http://www.nicholasjacobson.com/publication/lekkas-jacobson-2021/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/lekkas-jacobson-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mental Health and Behavior of College Students in the COVID-19 Pandemic: A Longitudinal Mobile Smartphone and Ecological Momentary Assessment Study - Part II</title>
+      <link>http://www.nicholasjacobson.com/publication/mack-et-al2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/mack-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Association of COVID19-induced anosmia and ageusia with depression and suicidal ideation</title>
+      <link>http://www.nicholasjacobson.com/publication/yomtov-et-al2021/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/yomtov-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initial Evaluation of Domain-Specific Episodic Future Thinking on Delay Discounting and Cannabis Use</title>
+      <link>http://www.nicholasjacobson.com/publication/sofis-et-al2021/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/sofis-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Learning Paired with Wearable Passive Sensing Data Predicts Deterioration in Anxiety Disorder Symptoms across 17-18 Years</title>
       <link>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
@@ -20,11 +56,38 @@
     </item>
     
     <item>
+      <title>Emotion network density is a potential clinical marker for anxiety and depression: Comparison of ecological momentary assessment and daily diary</title>
+      <link>http://www.nicholasjacobson.com/publication/shin-et-al2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/shin-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Predictive Modeling of Psychiatric Illness using Electronic Medical Records and a Novel Machine Learning Approach with Artificial Intelligence</title>
       <link>http://www.nicholasjacobson.com/publication/nemesure-et-al2020/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 -0500</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/nemesure-et-al2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harnessing mobile technology to reduce mental health disorders in college populations: A randomized controlled trial study protocol</title>
+      <link>http://www.nicholasjacobson.com/publication/fitzsimmons-craft-et-al2021/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/fitzsimmons-craft-et-al2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision Assessment of COVID-19 Phenotypes Using Large-Scale Clinic Visit Audio Recordings</title>
+      <link>http://www.nicholasjacobson.com/publication/barr-et-al2021/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/barr-et-al2021/</guid>
       <description></description>
     </item>
     
@@ -79,69 +142,6 @@
       <pubDate>Sat, 01 Aug 2020 00:00:00 -0400</pubDate>
       
       <guid>http://www.nicholasjacobson.com/publication/sofis-pike-et-al2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Longitudinal Data</title>
-      <link>http://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</link>
-      <pubDate>Wed, 08 Jul 2020 11:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Passive Sensing of Prediction of Moment-to-Moment Depressed Mood among Undergraduates with Clinical Levels of Depression Sample using Smartphones</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-chung-et-al2020/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-chung-et-al2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guidelines for Wrist-Worn Consumer Wearables Assessment of Heart Rate in Biobehavioral Research</title>
-      <link>http://www.nicholasjacobson.com/publication/nelson-low-et-al2020/</link>
-      <pubDate>Sat, 30 May 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/nelson-low-et-al2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flattening the Mental Health Curve: COVID-19 Stay-at-Home Orders Are Associated With Alterations in Mental Health Search Behavior in the United States</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2020/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-lekkas-et-al2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social Criticism Moderates the Relationship Between Anxiety and Depression 10 Years Later</title>
-      <link>http://www.nicholasjacobson.com/publication/lord-jacobson-et-al-2020/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/lord-jacobson-et-al-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Biomarkers of Social Anxiety Severity: Digital Phenotyping using Passive Smartphone Sensors</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-summers-wilhelm2020/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-summers-wilhelm2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethical dilemmas posed by mobile health and machine learning in psychiatry research</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-et-al2020/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-et-al2020/</guid>
       <description></description>
     </item>
     

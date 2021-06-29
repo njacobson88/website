@@ -4,6 +4,8 @@ library(blogdown)
 # blogdown::install_hugo(version="0.40") #Note that an update to hugo broke academic theme, need to update at some point
 
 
+#if new build; blogdown::install_hugo(version="0.43")
+
 blogdown::hugo_build() #if I don't want to rebuild Rmd files
 #serve_site() #VIEW THE SITE, BUT THIS REBUILDS THE SITE
 
