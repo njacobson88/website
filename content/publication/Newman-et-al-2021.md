@@ -1,5 +1,5 @@
 +++
-title = "A randomized controlled feasibility trial of internet-delivered guided self-help for GAD among university students in India"
+title = "A Randomized Controlled Feasibility Trial of Internet-Delivered Guided Self-Help for Generalized Anxiety Disorder (GAD) Among University Students in India"
 date = 2021-04-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -44,7 +44,7 @@ url_pdf = "/files/PDFs/Newman, et al., 2021.pdf"
 #url_slides = ""
 #url_video = ""
 #url_poster = ""
-#url_source = "https://doi.org/10.1038/s41598-021-89768-2"
+url_source = "https://doi.org/10.1037/pst0000383"
 
 # Does the content use math formatting?
 math = true
