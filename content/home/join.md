@@ -20,6 +20,7 @@ weight = 80
 
 1.	Undergraduate research assistants
 2.	Graduate students
+3. Postdoctoral Scholars
 
 <br/><br/>
 <br/><br/>
@@ -69,6 +70,22 @@ Graduate students will be expected to both participate in lab projects and devel
 
 Graduate students will have access to existing lab data and have the opportunities to collect new original data.
 Interested students should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
+
+**Specific Areas of Involvement for Postdoctoral Students**
+
+![Postdoc](/img/NIMH_Postdoctoral_Position_Posting_2.png)
+
+Dr. Jacobson is seeking applicants for a postdoctoral research fellow position in the Center for Technology and Behavioral Health within the Geisel School of Medicine at Dartmouth College in Hanover, New Hampshire. The position start date is flexible, with options to start immediately or in Summer of 2023. Persons with doctorates in clinical psychology, counseling psychology, or psychiatry are desired. 
+
+The postdoctoral research fellow will be primarily working on a project related to the use of personalized digital phenotyping based on passively collected data from smartphones and wearable sensors to predict rapid symptom changes in major depressive disorder. The position is expected to be funded by the National Institute of Health.  
+
+Interested applicants should contact Dr. Jacobson directly at Nicholas.C.Jacobson@Dartmouth.edu.
+
+
+#Alternative funding opportunities may also be possible by applying for post-doctoral grants. 
+
+#Interested persons should contact Nick directly (Nicholas.C.Jacobson@dartmouth.edu).
+
 
 
 <br/><br/>
