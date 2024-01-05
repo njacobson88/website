@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.44-DEV" />
+  <meta name="author" content="Nicholas C. Jacobson, PhD">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Major depressive disorder (MDD) is the leading cause of global disease burden. Diagnostically, major depressive episodes are conceptualized as a series of individual symptoms occurring most of the day for at least two weeks. Despite this operationalization, among those meeting criteria for MDD, symptoms are highly variable, showing greater variation within and across days than across weeks. Moreover, MDD is highly heterogeneous, varying considerably across people in both function and form. Recent efforts have examined this heterogeneity by studying MDD as a system where symptoms influence one another over time across individuals. In studying MDD symptom dynamics, however, most studies have made a strong assumption: that the symptom dynamics themselves are static and do not dynamically change over time. Nevertheless, there is a possibility that the individual MDD system dynamics change continuously across time. As a part of the Tracking Depression Study, funded by the National Institute of Mental Health and the National Institute of General Medical Sciences, participants (N = 105) completed ratings of MDD depressive symptoms three times a day for 90 days. In the current manuscript, we conducted time-varying vector autoregressive models to investigate the idiographic symptom networks of the entire sample of participants collected to date, and illustrate the finding with a case series of five persons with MDD. Aligned with prior research, the results indicate that there is high heterogeneity across persons, such that the individual network composition is unique from person to person. Moreover, the results suggest that for most persons, individual MDD symptom networks change rather dramatically across the 90 days. This is supported by the fact that 86% of individuals experienced at least one change in their most influential symptom with the median number of shifts being three over the 90 days. Additionally, the majority of individuals had at least one symptom that acted as both the most and least influential symptom at any given point over the 90-day tracking period. Our findings offer further insight into short-term symptom dynamics, suggesting that the composition and driving factors of MDD are not only heterogeneous across persons but also within-persons across time.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-65562584-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Nicholas C. Jacobson">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Nicholas C. Jacobson">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@NC_Jacobson">
+  <meta property="twitter:creator" content="@NC_Jacobson">
+  
+  <meta property="og:site_name" content="Nicholas C. Jacobson">
+  <meta property="og:url" content="/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/">
+  <meta property="og:title" content="Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder | Nicholas C. Jacobson">
+  <meta property="og:description" content="Major depressive disorder (MDD) is the leading cause of global disease burden. Diagnostically, major depressive episodes are conceptualized as a series of individual symptoms occurring most of the day for at least two weeks. Despite this operationalization, among those meeting criteria for MDD, symptoms are highly variable, showing greater variation within and across days than across weeks. Moreover, MDD is highly heterogeneous, varying considerably across people in both function and form. Recent efforts have examined this heterogeneity by studying MDD as a system where symptoms influence one another over time across individuals. In studying MDD symptom dynamics, however, most studies have made a strong assumption: that the symptom dynamics themselves are static and do not dynamically change over time. Nevertheless, there is a possibility that the individual MDD system dynamics change continuously across time. As a part of the Tracking Depression Study, funded by the National Institute of Mental Health and the National Institute of General Medical Sciences, participants (N = 105) completed ratings of MDD depressive symptoms three times a day for 90 days. In the current manuscript, we conducted time-varying vector autoregressive models to investigate the idiographic symptom networks of the entire sample of participants collected to date, and illustrate the finding with a case series of five persons with MDD. Aligned with prior research, the results indicate that there is high heterogeneity across persons, such that the individual network composition is unique from person to person. Moreover, the results suggest that for most persons, individual MDD symptom networks change rather dramatically across the 90 days. This is supported by the fact that 86% of individuals experienced at least one change in their most influential symptom with the median number of shifts being three over the 90 days. Additionally, the majority of individuals had at least one symptom that acted as both the most and least influential symptom at any given point over the 90-day tracking period. Our findings offer further insight into short-term symptom dynamics, suggesting that the composition and driving factors of MDD are not only heterogeneous across persons but also within-persons across time."><meta property="og:image" content="/img/Nemesure-Collins-Price-Griffin-Pillai-Nepal-Heinz-Lekkas-Campbell-Jacobson-2023.gif">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2024-01-05T00:00:00-05:00">
+  
+  <meta property="article:modified_time" content="2024-01-05T00:00:00-05:00">
+  
+
+  
+
+  
+  
+  <script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "/"
+    },
+    "articleSection" : "publication",
+    "name" : "Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder",
+    "headline" : "Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder",
+    "description" : "",
+    "inLanguage" : "en-US",
+    "author" : "",
+    "creator" : "",
+    "publisher": "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2024",
+    "datePublished": "2024-01-05 00:00:00 -0500 EST",
+    "dateModified" : "2024-01-05 00:00:00 -0500 EST",
+    "url" : "/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/",
+    "wordCount" : "0",
+    "keywords" : [ "Blog" ]
+}
+</script>
+
+  <title>Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder | Nicholas C. Jacobson</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Nicholas C. Jacobson</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/files/cv/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#join">
+            
+            <span>Join Our Team</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/Nemesure-Collins-Price-Griffin-Pillai-Nepal-Heinz-Lekkas-Campbell-Jacobson-2023.gif" class="article-banner" itemprop="image">
+  
+
+  
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Matthew D. Nemesure, Amanda C. Collins, George D. Price, Tess Z. Griffin, Arvind Pillai, Subigya Nepal, Michael V. Heinz, Damien Lekkas, Andrew T. Campbell, <strong>Nicholas C. Jacobson</strong>
+      
+    </span>
+    <span class="pull-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Depressive%20Symptoms%20as%20a%20Heterogeneous%20and%20Constantly%20Evolving%20Dynamical%20System%3a%20Idiographic%20Depressive%20Symptom%20Networks%20of%20Rapid%20Symptom%20Changes%20among%20Persons%20with%20Major%20Depressive%20Disorder&amp;url=%2fpublication%2fnemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fnemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fnemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023%2f&amp;title=Depressive%20Symptoms%20as%20a%20Heterogeneous%20and%20Constantly%20Evolving%20Dynamical%20System%3a%20Idiographic%20Depressive%20Symptom%20Networks%20of%20Rapid%20Symptom%20Changes%20among%20Persons%20with%20Major%20Depressive%20Disorder"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fnemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023%2f&amp;title=Depressive%20Symptoms%20as%20a%20Heterogeneous%20and%20Constantly%20Evolving%20Dynamical%20System%3a%20Idiographic%20Depressive%20Symptom%20Networks%20of%20Rapid%20Symptom%20Changes%20among%20Persons%20with%20Major%20Depressive%20Disorder"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Depressive%20Symptoms%20as%20a%20Heterogeneous%20and%20Constantly%20Evolving%20Dynamical%20System%3a%20Idiographic%20Depressive%20Symptom%20Networks%20of%20Rapid%20Symptom%20Changes%20among%20Persons%20with%20Major%20Depressive%20Disorder&amp;body=%2fpublication%2fnemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Major depressive disorder (MDD) is the leading cause of global disease burden. Diagnostically, major depressive episodes are conceptualized as a series of individual symptoms occurring most of the day for at least two weeks. Despite this operationalization, among those meeting criteria for MDD, symptoms are highly variable, showing greater variation within and across days than across weeks. Moreover, MDD is highly heterogeneous, varying considerably across people in both function and form. Recent efforts have examined this heterogeneity by studying MDD as a system where symptoms influence one another over time across individuals. In studying MDD symptom dynamics, however, most studies have made a strong assumption: that the symptom dynamics themselves are static and do not dynamically change over time. Nevertheless, there is a possibility that the individual MDD system dynamics change continuously across time. As a part of the Tracking Depression Study, funded by the National Institute of Mental Health and the National Institute of General Medical Sciences, participants (N = 105) completed ratings of MDD depressive symptoms three times a day for 90 days. In the current manuscript, we conducted time-varying vector autoregressive models to investigate the idiographic symptom networks of the entire sample of participants collected to date, and illustrate the finding with a case series of five persons with MDD. Aligned with prior research, the results indicate that there is high heterogeneity across persons, such that the individual network composition is unique from person to person. Moreover, the results suggest that for most persons, individual MDD symptom networks change rather dramatically across the 90 days. This is supported by the fact that 86% of individuals experienced at least one change in their most influential symptom with the median number of shifts being three over the 90 days. Additionally, the majority of individuals had at least one symptom that acted as both the most and least influential symptom at any given point over the 90-day tracking period. Our findings offer further insight into short-term symptom dynamics, suggesting that the composition and driving factors of MDD are not only heterogeneous across persons but also within-persons across time.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">Journal of Psychopathology and Clinical Science</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            January, 2024
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="/files/PDFs/Nemesure-Collins-Price-Griffin-Pillai-Nepal-Heinz-Lekkas-Campbell-Jacobson-2023.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://doi.org/10.31234/osf.io/pf4kc" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2019 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
