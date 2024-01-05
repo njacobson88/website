@@ -2,220 +2,220 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>http://www.nicholasjacobson.com/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
       <title>Affective Dynamics</title>
-      <link>http://www.nicholasjacobson.com/tags/affective-dynamics/</link>
+      <link>/tags/affective-dynamics/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/affective-dynamics/</guid>
+      <guid>/tags/affective-dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anxiety</title>
-      <link>http://www.nicholasjacobson.com/tags/anxiety/</link>
+      <link>/tags/anxiety/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/anxiety/</guid>
+      <guid>/tags/anxiety/</guid>
       <description></description>
     </item>
     
     <item>
       <title>App</title>
-      <link>http://www.nicholasjacobson.com/tags/app/</link>
+      <link>/tags/app/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/app/</guid>
+      <guid>/tags/app/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Application</title>
-      <link>http://www.nicholasjacobson.com/tags/application/</link>
+      <link>/tags/application/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/application/</guid>
+      <guid>/tags/application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessment</title>
-      <link>http://www.nicholasjacobson.com/tags/assessment/</link>
+      <link>/tags/assessment/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/assessment/</guid>
+      <guid>/tags/assessment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bipolar</title>
-      <link>http://www.nicholasjacobson.com/tags/bipolar/</link>
+      <link>/tags/bipolar/</link>
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/bipolar/</guid>
+      <guid>/tags/bipolar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Causes</title>
-      <link>http://www.nicholasjacobson.com/tags/causes/</link>
+      <link>/tags/causes/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/causes/</guid>
+      <guid>/tags/causes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DTVEM</title>
-      <link>http://www.nicholasjacobson.com/tags/dtvem/</link>
+      <link>/tags/dtvem/</link>
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/dtvem/</guid>
+      <guid>/tags/dtvem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Depression</title>
-      <link>http://www.nicholasjacobson.com/tags/depression/</link>
+      <link>/tags/depression/</link>
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/depression/</guid>
+      <guid>/tags/depression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Phenotyping</title>
-      <link>http://www.nicholasjacobson.com/tags/digital-phenotyping/</link>
+      <link>/tags/digital-phenotyping/</link>
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/digital-phenotyping/</guid>
+      <guid>/tags/digital-phenotyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intensive-Longitudinal-Data</title>
-      <link>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</link>
+      <link>/tags/intensive-longitudinal-data/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</guid>
+      <guid>/tags/intensive-longitudinal-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intensive-longitudinal-data</title>
-      <link>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</link>
+      <link>/tags/intensive-longitudinal-data/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/intensive-longitudinal-data/</guid>
+      <guid>/tags/intensive-longitudinal-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intraindividual Variability</title>
-      <link>http://www.nicholasjacobson.com/tags/intraindividual-variability/</link>
+      <link>/tags/intraindividual-variability/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/intraindividual-variability/</guid>
+      <guid>/tags/intraindividual-variability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lags</title>
-      <link>http://www.nicholasjacobson.com/tags/lags/</link>
+      <link>/tags/lags/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/lags/</guid>
+      <guid>/tags/lags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lags</title>
-      <link>http://www.nicholasjacobson.com/tags/lags/</link>
+      <link>/tags/lags/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/lags/</guid>
+      <guid>/tags/lags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://www.nicholasjacobson.com/tags/machine-learning/</link>
+      <link>/tags/machine-learning/</link>
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/machine-learning/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Major depression</title>
-      <link>http://www.nicholasjacobson.com/tags/major-depression/</link>
+      <link>/tags/major-depression/</link>
       <pubDate>Wed, 12 Sep 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/major-depression/</guid>
+      <guid>/tags/major-depression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mood Journal</title>
-      <link>http://www.nicholasjacobson.com/tags/mood-journal/</link>
+      <link>/tags/mood-journal/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/mood-journal/</guid>
+      <guid>/tags/mood-journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mood Log</title>
-      <link>http://www.nicholasjacobson.com/tags/mood-log/</link>
+      <link>/tags/mood-log/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/mood-log/</guid>
+      <guid>/tags/mood-log/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Partial autocorrelation function</title>
-      <link>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</link>
+      <link>/tags/partial-autocorrelation-function/</link>
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/partial-autocorrelation-function/</guid>
+      <guid>/tags/partial-autocorrelation-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>http://www.nicholasjacobson.com/tags/technology/</link>
+      <link>/tags/technology/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/technology/</guid>
+      <guid>/tags/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Treatment</title>
-      <link>http://www.nicholasjacobson.com/tags/treatment/</link>
+      <link>/tags/treatment/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/tags/treatment/</guid>
+      <guid>/tags/treatment/</guid>
       <description></description>
     </item>
     

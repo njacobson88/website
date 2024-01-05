@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicholas C. Jacobson on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/</link>
+    <link>/</link>
     <description>Recent content in Nicholas C. Jacobson on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,137 +11,137 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Development of a digital biomarker and intervention for subclinical depression: Study protocol for a longitudinal waitlist control study</title>
+      <link>/publication/teepe-et-al-2023/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/teepe-et-al-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Early Response to Cognitive Behavioral Therapy for Body Dysmorphic Disorder as a Predictor of Outcomes</title>
-      <link>http://www.nicholasjacobson.com/publication/greenberg-jacobson-et-al-2022/</link>
+      <link>/publication/greenberg-jacobson-et-al-2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/greenberg-jacobson-et-al-2022/</guid>
+      <guid>/publication/greenberg-jacobson-et-al-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring the Digital Footprint of Depression: A PRISMA Systematic Literature Review of the Empirical Evidence</title>
-      <link>http://www.nicholasjacobson.com/publication/zarate-stavropoulos-ball-sena-collier-jacobson-2022/</link>
+      <link>/publication/zarate-stavropoulos-ball-sena-collier-jacobson-2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/zarate-stavropoulos-ball-sena-collier-jacobson-2022/</guid>
+      <guid>/publication/zarate-stavropoulos-ball-sena-collier-jacobson-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The feasibility and utility of harnessing digital health to understand clinical trajectories in medication treatment for Opioid Use Disorder: D-TECT Study Design and Methodological Considerations</title>
-      <link>http://www.nicholasjacobson.com/publication/marsch-et-al-2022/</link>
+      <link>/publication/marsch-et-al-2022/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/marsch-et-al-2022/</guid>
+      <guid>/publication/marsch-et-al-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Smartphone Sensor Paradata and Personalized Machine Learning Models to Infer Participants&#39; Well-being: Ecological Momentary Assessment</title>
-      <link>http://www.nicholasjacobson.com/publication/hart-rais-prestele-jacobson-2022/</link>
+      <link>/publication/hart-rais-prestele-jacobson-2022/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/hart-rais-prestele-jacobson-2022/</guid>
+      <guid>/publication/hart-rais-prestele-jacobson-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Association of Selective Serotonin Reuptake Inhibitor Use With Abnormal Physical Movement Patterns as Detected Using a Piezoelectric Accelerometer and Deep Learning in a Nationally Representative Sample of Noninstitutionalized Persons in the US</title>
-      <link>http://www.nicholasjacobson.com/publication/heinz-2022/</link>
+      <link>/publication/heinz-2022/</link>
       <pubDate>Sun, 23 Jan 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/heinz-2022/</guid>
+      <guid>/publication/heinz-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adolescent emotion regulation and future psychopathology: A prospective transdiagnostic analysis</title>
-      <link>http://www.nicholasjacobson.com/publication/klein-nguyen-gyorda-jacobson2022/</link>
+      <link>/publication/klein-nguyen-gyorda-jacobson2022/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/klein-nguyen-gyorda-jacobson2022/</guid>
+      <guid>/publication/klein-nguyen-gyorda-jacobson2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Standalone Apps for Anxiety and Depression Show Promising Early Efficacy: A Commentary on Meta-Analytic Results</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-chen-huang-2022/</link>
+      <link>/publication/jacobson-chen-huang-2022/</link>
       <pubDate>Sat, 15 Jan 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-chen-huang-2022/</guid>
+      <guid>/publication/jacobson-chen-huang-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effectiveness of a chatbot for eating disorders prevention: A randomized clinical trial</title>
-      <link>http://www.nicholasjacobson.com/publication/fitzsimmons-craft-et-al2022/</link>
+      <link>/publication/fitzsimmons-craft-et-al2022/</link>
       <pubDate>Mon, 03 Jan 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/fitzsimmons-craft-et-al2022/</guid>
+      <guid>/publication/fitzsimmons-craft-et-al2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenges in Designing a Mental Health Prevention Chatbot: Lessons Learned from the Field</title>
-      <link>http://www.nicholasjacobson.com/publication/chan-et-al2022/</link>
+      <link>/publication/chan-et-al2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/chan-et-al2022/</guid>
+      <guid>/publication/chan-et-al2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anxiety, depression, and substance experimentation in childhood</title>
-      <link>http://www.nicholasjacobson.com/publication/klein-gyorda-jacobson-2022/</link>
+      <link>/publication/klein-gyorda-jacobson-2022/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/klein-gyorda-jacobson-2022/</guid>
+      <guid>/publication/klein-gyorda-jacobson-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital biomarkers of anxiety disorder symptom changes: Personalized deep learning models using smartphone sensors accurately predict anxiety symptoms from ecological momentary assessments</title>
-      <link>http://www.nicholasjacobson.com/publication/jacobson-bhattacharya-2021/</link>
+      <link>/publication/jacobson-bhattacharya-2021/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/jacobson-bhattacharya-2021/</guid>
+      <guid>/publication/jacobson-bhattacharya-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Language of the Times: Using the COVID-19 Pandemic to Assess the Influence of News Affect on Online Mental Health-Related Search Behavior across the United States</title>
-      <link>http://www.nicholasjacobson.com/publication/lekkas-gyorda-price-wortzman-jacobson-2021/</link>
+      <link>/publication/lekkas-gyorda-price-wortzman-jacobson-2021/</link>
       <pubDate>Fri, 15 Oct 2021 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/lekkas-gyorda-price-wortzman-jacobson-2021/</guid>
+      <guid>/publication/lekkas-gyorda-price-wortzman-jacobson-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elena&#43; Care for COVID-19, a Pandemic Lifestyle Care Intervention: Intervention Design and Study Protocol</title>
-      <link>http://www.nicholasjacobson.com/publication/ollier-et-al2021/</link>
+      <link>/publication/ollier-et-al2021/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/ollier-et-al2021/</guid>
+      <guid>/publication/ollier-et-al2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using smartphone app use and lagged-ensemble machine learning for the prediction of work fatigue and boredom</title>
-      <link>http://www.nicholasjacobson.com/publication/lekkas-price-jacobson-2021/</link>
+      <link>/publication/lekkas-price-jacobson-2021/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/publication/lekkas-price-jacobson-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Application of Machine Learning to Online Mindfulness Intervention Data: A Primer and Empirical Example in Compliance Assessment</title>
-      <link>http://www.nicholasjacobson.com/publication/lekkas-price-mcfadden-jacobson-2021/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/publication/lekkas-price-mcfadden-jacobson-2021/</guid>
+      <guid>/publication/lekkas-price-jacobson-2021/</guid>
       <description></description>
     </item>
     

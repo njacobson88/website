@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://www.nicholasjacobson.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>Biography Nick Jacobson is a tenure-track assistant professor in the departments of Biomedical Data Science and Psychiatry within the Center for Technology and Behavioral Health in the Geisel School of Medicine at Dartmouth College. He directs the AI and Mental Health: Innovation in Technology Guided Healthcare (AIM HIGH) Laboratory.
 Dr. Jacobson researches the use of technology to enhance both the assessment and treatment of anxiety and depression. His work has focused on (1) enhancing precision assessment of anxiety and depression using intensive longitudinal data, (2) conducting multimethod assessment utilizing passive sensor data from smartphones and wearable devices, and (3) providing scalable, personalized technology-based treatments utilizing smartphones.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>http://www.nicholasjacobson.com/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>http://www.nicholasjacobson.com/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://www.nicholasjacobson.com/home/talks/</link>
+      <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/talks/</guid>
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>http://www.nicholasjacobson.com/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://www.nicholasjacobson.com/home/projects/</link>
+      <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/projects/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://www.nicholasjacobson.com/home/teaching/</link>
+      <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/teaching/</guid>
+      <guid>/home/teaching/</guid>
       <description>I currently teach the following courses at Dartmouth College:
  QBS 126: Analysis of Densely Collected Longitudinal Data QBS 270: Quantitative Biomedical Sciences Journal Club  I have taught the following courses at Pennsylvania State University:
  PSYCH 238: Introduction to Personality Psychology PSYCH 301W: Basic Research Methods in Psychology PSYCH 481: Introduction to Clinical Psychology  </description>
@@ -80,28 +80,28 @@ Dr. Jacobson researches the use of technology to enhance both the assessment and
     
     <item>
       <title>Tags</title>
-      <link>http://www.nicholasjacobson.com/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://www.nicholasjacobson.com/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Join Our Team</title>
-      <link>http://www.nicholasjacobson.com/home/join/</link>
+      <link>/home/join/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/home/join/</guid>
+      <guid>/home/join/</guid>
       <description>We are currently recruiting:
  Undergraduate research assistants Graduate students Postdoctoral Scholars    Specific Areas of Involvement for Undergraduate Research Assistants
 The current lab has many foci concentrating around:

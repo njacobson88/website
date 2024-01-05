@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DTVEM on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/tags/dtvem/</link>
+    <link>/tags/dtvem/</link>
     <description>Recent content in DTVEM on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Fri, 27 Apr 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/tags/dtvem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dtvem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DTVEM Package Illustration</title>
-      <link>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</link>
+      <link>/post/illustration_of_dtvem/</link>
       <pubDate>Fri, 27 Apr 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/post/illustration_of_dtvem/</guid>
+      <guid>/post/illustration_of_dtvem/</guid>
       <description>Loading in the DatasetThis code will illustrate the R package (DTVEM) with simulated data available in the DTVEM package.
 Click here to download and install the DTVEM package.
 First load the DTVEM package.
@@ -28,10 +28,10 @@ head(exampledat1)## Time X ID## 1 1 -1.076422 1## 2 2 -1.904713 1## 3 3 1.</
     
     <item>
       <title>The Differential Time Varying Effect Model</title>
-      <link>http://www.nicholasjacobson.com/project/dtvem/</link>
+      <link>/project/dtvem/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/project/dtvem/</guid>
+      <guid>/project/dtvem/</guid>
       <description>This site is an accompaniment to the following paper:
  Jacobson, N. C., Chow, S, &amp;amp; Newman, M.G (2019, In press). The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Intensive Longitudinal Data. Behavior Research Methods.  This tool allows researchers to predict when processes optimally predict themselves or other processes. DTVEM is designed to identify optimal lag times for processes, combining an automated exploratory and confirmatory approaches to explore optimal time lags, and then using well-validated confirmatory modeling to optimally estimate when processes predict one another.</description>
     </item>
