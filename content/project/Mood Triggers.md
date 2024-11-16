@@ -23,40 +23,40 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "Mood Triggers.png"
-caption = "Illustration of DTVEM"
+image = "Mood Triggers2.png"
+caption = "Illustration of Mood Triggers: Passive Sensing and Digital Phenoptying Application"
 
 +++
-**Mood Triggers** is an Android App released on the Google Play Store.
+**Mood Triggers** is a comprehensive Android and iOS-compatible application designed to help users identify and manage triggers of anxiety and depression in their daily lives. Developed over several years by Dr. Nick Jacobson and his research team, Mood Triggers utilizes advanced smartphone sensing technology, ecological momentary assessment (EMA), and ecological momentary intervention (EMI) to provide personalized feedback and support.
 
-[Link to Mood Triggers App on the Google Play Store](https://play.google.com/store/apps/details?id=com.nick.moodtriggers.anxietyanddepressionapp)
+**Key Features:**
 
-[Youtube video of Mood Triggers](https://youtu.be/Lx-hqXYDEGE)
+1. Personalized Monitoring: Keep a detailed diary of your anxiety and depression levels through regular self-assessments prompted by the app.
+2. Health Behavior Tracking: Automatically monitor health behaviors such as heart rate, steps taken, and sleep duration using your smartphone's sensors.
+3. Passive Sensing Technology: Utilize passive data collection to gain insights into patterns related to mood fluctuations without the need for constant active input.
+4. Personalized Feedback: Receive tailored feedback based on your data to help identify factors associated with changes in your mood, including heart rate, physical activity, social interactions, and environmental conditions.
+5. Ecological Momentary Interventions: Access evidence-based interventions and coping strategies delivered in real-time to address anxiety and depression symptoms as they occur.
 
-Mood Triggers will help you identify things that can trigger your anxious and depressed moods for FREE.
+**Research and Development:**
 
-Features of Mood Triggers:
-Mood Triggers can help you keep a diary of:
-1. Your anxiety and depression in your daily life
-2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)
+Mood Triggers has been extensively validated in research across multiple studies and institutions. The application captures indicators of:
 
+* Psychomotor Agitation: Daytime accelerometer activity to assess restlessness or increased activity levels.
+* Sleep Disturbances: Nighttime accelerometer data, GPS information, and screen unlock patterns to monitor sleep quality and duration.
+* Behavioral Activation: GPS data to evaluate levels of engagement in daily activities.
+* Social Contact: Analysis of calls, texts, and social activity (while maintaining strict privacy) to understand social engagement.
+* Light Exposure: Sensor data to assess exposure to natural light, which can impact mood.
+* Heart Rate Variability: Facial photoplethysmography (PPG) using deep learning algorithms to measure stress and relaxation responses.
+* Screen Time: Monitoring device usage patterns as they relate to mood and mental health.
+Mood Triggers serves as both a self-help tool and a platform for researchers. It helps users improve awareness of their mood over time and can be used in conjunction with mental health professionals to provide deeper insights into individual experiences of anxiety and depression.
 
-Having trouble with anxiety or depression, want to log it, or can't figure out why you're anxious or depressed?
+**For Researchers:**
 
-Mood Triggers will help you identify things that can trigger your worry, panic, anxious, and depressed moods for FREE.
+Mood Triggers is a valuable resource for researchers interested in utilizing smartphone sensing and EMA/EMI platforms in mental health studies. Its capabilities include:
 
-Features of Mood Triggers:
-Mood Triggers can help you keep a diary of:
-1. Your anxiety and depression in your daily life
-2. Health behaviors including your heart rate, number of steps, and sleep duration (all collected by the app)
+1. Passive Sensing Data Collection: Gather extensive data on participant behaviors and environmental factors without imposing additional burdens.
+2. Ecological Momentary Assessment: Capture real-time self-reported data on mood and symptoms.
+3. Ecological Momentary Intervention: Deliver interventions at the moment they are most needed, increasing their effectiveness.
+4. Personalized Feedback Mechanisms: Analyze data to provide individualized insights, enhancing participant engagement and outcomes.
 
-Mood Triggers can also figure out why you are anxious or depressed based on data in your daily life. Mood Triggers will use your own data and run statistical analyses on them to tell you what's associated with your anxiety and depression, including, but not limited to, your heart rate, avoidance, arousal, helplessness, hopelessness, negative and positive events, fatigue, and the weather. 
-
-This app can be used to help improve your awareness of your mood over time. 
-
-This app can be used for self-help or with a therapist or psychologist to help give him/her more information about how you experience anxiety and depression in your daily life, related health behaviors, and help the therapist to learn what triggers your anxiety and depressed mood.
-
-This app is used for research purposes to help better understand anxiety and depression by researchers at Penn State University. This application will prompt you about your mood, your heart rate, your phone’s movement, information about your phone’s location, and the times of outgoing and incoming text messages and calls (no content about the texts or calls themselves will be recorded). This application will prompt you to complete information once per hour until you decide to stop. Your participation in this research is confidential. To help protect your confidentiality, we will assign you a participant number. The participant number will be used to identify your questionnaire data. The data will be stored on a secure online server and in locked offices. In the event a publication or presentation results from the research, no personally identifiable information will be shared. Your confidentiality will be maintained to the degree permitted by the technology used.
-
-
-Researchers interested in this app can contact me at njacobson88@gmail.com
+Researchers interested in using Mood Triggers for their studies or seeking collaboration are encouraged to contact Dr. Nick Jacobson at Nicholas.C.Jacobson@dartmouth.edu.
