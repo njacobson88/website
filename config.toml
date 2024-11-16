@@ -55,7 +55,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Nicholas C. Jacobson, PhD"
-  role = "Assistant Professor in Biomedical Data Science and Psychiatry"
+  role = "Associate Professor in Biomedical Data Science, Psychiatry, and Computer Science"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

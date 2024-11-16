@@ -10,9 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Comorbidity of Psychopathology",
-    "Technology-Driven Assessment & Treatment",
-    "Longitudinal Data Analysis"
+    "Digital Phenotyping",
+    "Digital Interventions",
+    "Artificial Intelligence",
+    "Mental Health"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -45,9 +46,14 @@ weight = 5
 
 # Biography
 
-Nick Jacobson is a tenure-track assistant professor in the departments of Biomedical Data Science and Psychiatry within the Center for Technology and Behavioral Health in the Geisel School of Medicine at Dartmouth College. He directs the [AI and Mental Health: Innovation in Technology Guided Healthcare (AIM HIGH) Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/). 
+Dr. Nick Jacobson is an associate professor in the departments of Biomedical Data Science, Psychiatry, and Computer Science at Dartmouth College's Geisel School of Medicine. He serves as the Director of the Treatment Development and Evaluation Core within the [Center for Technology and Behavioral Health](https://www.c4tbh.org/meet-our-team/nicholas-jacobson/) and leads the [AI and Mental Health: Innovation in Technology Guided Healthcare (AIM HIGH) Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/).
 
-Dr. Jacobson researches the use of technology to enhance both the assessment and treatment of anxiety and depression. His work has focused on (1) enhancing precision assessment of anxiety and depression using intensive longitudinal data, (2) conducting multimethod assessment utilizing passive sensor data from smartphones and wearable devices, and (3) providing scalable, personalized technology-based treatments utilizing smartphones. He has a strong interest in creating personalized just-in-time adaptive interventions and the quantitative tools that make this work possible. To date, Dr. Jacobson's smartphone applications which assess and treat anxiety and depression have been downloaded and installed by more than 50,000 people in over 100 countries. Dr. Jacobson is the principal investigator of an R01 Awarded from the National Institute of Mental Health studying the use of personalized deep learning models to predict rapid changes in major depressive disorder symptoms using passive sensor data from smartphones and wearable devices.
+Driven by a passion to transform mental health care through technology, Dr. Jacobson focuses on harnessing artificial intelligence and passive sensor data from smartphones and wearable devices to develop scalable, personalized interventions for anxiety and depression. His expertise lies in creating personalized just-in-time adaptive interventions and advancing quantitative tools that enable this work.
 
-Additionally, Dr. Jacobson has a strong quantitative background in analyzing intensive longitudinal data. In his work, he employs many different types of analyses including structural equation modeling, multilevel modeling, time-series techniques, dynamical systems modeling, and machine learning. He created a novel modeling technique, entitled the Differential Time-Varying Effect Model (DTVEM), which allows researchers to discover and model optimal lag times in intensive longitudinal data. He recently developed an anxiety and depression monitoring application entitled [Mood Triggers](/project/mood-triggers/) which helps users to learn the triggers of their anxiety and depression in their daily lives. He also created an statistical package (written in R) called the [Differential Time-Varying Effect Model (DTVEM)](/project/dtvem/) which is used to explore optimal time lags in intensive longitudinal data. 
+A pioneer in the field, Dr. Jacobson developed [Therabot](https://osf.io/preprints/psyarxiv/pjqmr), a generative AI therapy chatbot crafted over five years—predating the release of ChatGPT by years. Developed with over 100,000 human hours by the Jacobson Lab, Therabot represents a significant advancement in digital therapeutics. In the first randomized controlled trial of a fully generative AI therapy chatbot, Therabot demonstrated substantial reductions in symptoms of major depressive disorder, generalized anxiety disorder, and feeding and eating disorders. Participants reported exceptional therapeutic alliance, comparable to human therapists. Therabot's groundbreaking impact has been recognized by [NBC Nightly News](https://www.nbcnews.com/tech/tech-news/dartmouth-researchers-look-meld-therapy-apps-modern-ai-rcna146558).
 
+In his commitment to leveraging technology for mental health, Dr. Jacobson also developed [Mood Triggers](/project/mood-triggers/), an Android and iOS compatible smartphone sensing platform. This application integrates ecological momentary assessment and intervention, providing personalized feedback to help users identify and manage triggers of anxiety and depression in their daily lives. His suite of smartphone applications has reached over 50,000 users in more than 100 countries, exemplifying his dedication to making mental health support accessible globally.
+
+As a computational psychologist, Dr. Jacobson created the [Differential Time-Varying Effect Model (DTVEM)](/project/dtvem/), an innovative statistical package in R that allows researchers to discover and model optimal lag times in intensive longitudinal data. His methodological expertise encompasses machine learning, structural equation modeling, multilevel modeling, time-series techniques, and dynamical systems modeling.
+
+With over 110 peer-reviewed publications, Dr. Jacobson has secured more than $6 million in funding as Principal Investigator and over $20 million as a co-Investigator. His influential research has been featured on [CBS Morning News](https://www.cbsnews.com/video/ai-powered-apps-working-to-detect-mental-health-problems/), highlighting his pioneering work in using AI-powered apps to detect and treat mental health problems.
