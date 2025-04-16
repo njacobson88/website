@@ -38,9 +38,9 @@ The package was written in the R statistical package. You can download the DTVEM
 
 [Download the DTVEM R Package Manual.](/files/DTVEM/DTVEM_manual.pdf)
 
-[Windows Build of the DTVEM Package Version 1.0010](/files/DTVEM/DTVEM_1.0010.zip)
+[Windows Build of the DTVEM Package Version 1.0011](/files/DTVEM/DTVEM_1.0011.zip)
 
-[Mac and Linux Builds of the DTVEM Package Version 1.0010](/files/DTVEM/DTVEM_1.0010.tar.gz)
+[Mac and Linux Builds of the DTVEM Package Version 1.0011](/files/DTVEM/DTVEM_1.0011.tar.gz)
 
 * Please note that the package was updated on 10/13/2020 to remove dependency issues with dplyr and issues with ID and Time variables.
 * Please note that the package was updated on 10/05/2020 for upgrade to R 4.0
