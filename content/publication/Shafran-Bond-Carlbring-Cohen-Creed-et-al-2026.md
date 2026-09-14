@@ -9,7 +9,7 @@ publication_types = ["2"]
 publication = "Behaviour Research and Therapy"
 #publication_short = ""
 
-abstract = ""
+abstract = "Artificial intelligence (AI) can transform mental health care globally by improving the efficiency, consistency, effectiveness and accessibility of training and supervision in evidence-based psychotherapies, including cognitive and behavioral therapies. This paper describes the potential role of AI in the training and supervision of clinicians and the associated gains, challenges and risks. AI could revolutionize the process of training and supervision by simulating patients in assessment and therapy sessions, providing real-time personalized fidelity feedback, and helping trainees to develop cultural sensitivity. Key challenges remain, however, including the identification and curation of high-quality datasets and algorithms, ethical considerations, implementation in low-resource settings and lack of rigorous research. The paper concludes by outlining guidelines for the future development, evaluation, and implementation of AI in CBT training and supervision, with the goal of maximizing its potential benefits while mitigating associated risks."
 #abstract_short = ""
 
 image_preview = ""
