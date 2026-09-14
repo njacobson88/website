@@ -33,6 +33,9 @@ defaultContentLanguageInSubdir = false
 # Get last modified date for content from Git?
 enableGitInfo = false
 
+# Build future-dated content so upcoming talks appear in the Talks widget.
+buildFuture = true
+
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]

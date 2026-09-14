@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Causal Activation Interpretability Mapping for Understanding Therapeutic Reasoning in Large Language Models</title>
+      <link>http://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</link>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlling Therapeutic Language Generation in Large Language Models</title>
+      <link>http://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</link>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Personalized Behavioral Networks from Passive Smartphone and Wearable Sensing Outperform Raw Features for Suicidal Ideation in Major Depression</title>
       <link>http://www.nicholasjacobson.com/talk/2026-08-saa-personalized-networks/</link>
       <pubDate>Sat, 01 Aug 2026 09:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
       <guid>http://www.nicholasjacobson.com/talk/2026-03-stanford-grand-rounds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Presentation: AI in Mental Health Seminar Series</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-02-piri/</link>
-      <pubDate>Sun, 01 Feb 2026 09:00:00 +0000</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/2026-02-piri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Presentation: North American Society for Psychotherapy Research (NASPR) Student Webinar</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-02-naspr/</link>
-      <pubDate>Sun, 01 Feb 2026 09:00:00 +0000</pubDate>
-      
-      <guid>http://www.nicholasjacobson.com/talk/2026-02-naspr/</guid>
       <description></description>
     </item>
     
