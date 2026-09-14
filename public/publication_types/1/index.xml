@@ -2,22 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Nicholas C. Jacobson</title>
-    <link>/publication_types/1/</link>
+    <link>http://www.nicholasjacobson.com/publication_types/1/</link>
     <description>Recent content in 1 on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.nicholasjacobson.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Investigating Generalizability of Speech-based Suicidal Ideation Detection Using Mobile Phones</title>
-      <link>/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 -0500</pubDate>
+      <title>LENS: LLM-enabled narrative synthesis for mental health by aligning multimodal sensing with language models</title>
+      <link>http://www.nicholasjacobson.com/publication/xu-pillai-nepal-collins-mackin-et-al-2026/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/xu-pillai-nepal-collins-mackin-et-al-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Prompting: Time2Lang - Bridging Time-Series Foundation Models and Large Language Models for Health Sensing</title>
+      <link>http://www.nicholasjacobson.com/publication/pillai-spathis-nepal-collins-mackin-et-al-2025/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/pillai-spathis-nepal-collins-mackin-et-al-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond detection: Towards actionable sensing research in clinical mental healthcare</title>
+      <link>http://www.nicholasjacobson.com/publication/adler-yang-viranda-xu-mohr-et-al-2024/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/adler-yang-viranda-xu-mohr-et-al-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MindScape study: Integrating LLM and behavioral sensing for personalized AI-driven journaling experiences</title>
+      <link>http://www.nicholasjacobson.com/publication/nepal-pillai-campbell-massachi-heinz-et-al-2024/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/nepal-pillai-campbell-massachi-heinz-et-al-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MoodCapture: Depression detection using in-the-wild smartphone images</title>
+      <link>http://www.nicholasjacobson.com/publication/nepal-pillai-wang-griffin-collins-et-al-2024/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/nepal-pillai-wang-griffin-collins-et-al-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contextual AI journaling: Integrating LLM and time series behavioral sensing technology to promote self-reflection and well-being using the MindScape app</title>
+      <link>http://www.nicholasjacobson.com/publication/nepal-pillai-campbell-massachi-choi-et-al-2024/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/nepal-pillai-campbell-massachi-choi-et-al-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Generalizability of Speech-based Suicidal Ideation Detection Using Mobile Phones</title>
+      <link>http://www.nicholasjacobson.com/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.nicholasjacobson.com/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</guid>
       <description></description>
     </item>
     

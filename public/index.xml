@@ -2,146 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicholas C. Jacobson on Nicholas C. Jacobson</title>
-    <link>/</link>
+    <link>http://www.nicholasjacobson.com/</link>
     <description>Recent content in Nicholas C. Jacobson on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Depressive Symptoms as a Heterogeneous and Constantly Evolving Dynamical System: Idiographic Depressive Symptom Networks of Rapid Symptom Changes among Persons with Major Depressive Disorder</title>
-      <link>/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 -0500</pubDate>
+      <title>Mood in the moment: A study protocol for embedding ecological momentary assessments into established longitudinal cohorts to examine depression in real time</title>
+      <link>http://www.nicholasjacobson.com/publication/kwong-moody-taylor-lockhart-ogden-et-al-2026/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/nemesure-collins-price-griffin-pillai-nepal-heinz-lekkas-campbell-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/kwong-moody-taylor-lockhart-ogden-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Implementing precision methods in personalizing psychological therapies: Barriers and possible ways forward</title>
-      <link>/publication/deisenhofer-barkham-beierl-schwartz-aafjes-van-doorn-beevers-berwian-blackwell-bockting-brakemeier-brown-buckman-castonguay-cusack-dalgleish-de-jong-delgadillo-derubeis-driess-2023b/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <title>A foundation model for wearable movement data in mental health research</title>
+      <link>http://www.nicholasjacobson.com/publication/ruan-zhang-oh-jin-jacobson-2026/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/deisenhofer-barkham-beierl-schwartz-aafjes-van-doorn-beevers-berwian-blackwell-bockting-brakemeier-brown-buckman-castonguay-cusack-dalgleish-de-jong-delgadillo-derubeis-driess-2023b/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/ruan-zhang-oh-jin-jacobson-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Detecting Major Depressive Disorder Presence Using Passively-Collected Wearable Movement Data in a Nationally-Representative Sample</title>
-      <link>/publication/price-heinz-collins-jacobson-2023/</link>
-      <pubDate>Sat, 30 Dec 2023 00:00:00 -0500</pubDate>
+      <title>The Therabot will see you now: Generative AI to scale precision evidence-based psychotherapy</title>
+      <link>http://www.nicholasjacobson.com/publication/jacobson-2026/</link>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/price-heinz-collins-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/jacobson-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Investigating Generalizability of Speech-based Suicidal Ideation Detection Using Mobile Phones</title>
-      <link>/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 -0500</pubDate>
+      <title>Exploratory continuous-time modeling (expct): Extracting dynamic features from irregularly spaced time series</title>
+      <link>http://www.nicholasjacobson.com/publication/ryan-wu-jacobson-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/pillai-nepal-wang-nemesure-heinz-price-lekkas-collins-griffin-buck-preum-cohen-jacobson-ben-zeev-campbell-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/ryan-wu-jacobson-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Using Digital Phenotyping to Capture Depression Symptom Variability: Detecting Naturalistic Variability in Depression Across One Year Using Passively-Collected Wearable Movement and Sleep Data</title>
-      <link>/publication/price-heinz-song-nemesure-jacobson-2023/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 -0500</pubDate>
+      <title>Feasibility and acceptability of a smartphone and wearable assessment protocol for adolescents with depression</title>
+      <link>http://www.nicholasjacobson.com/publication/guo-frederick-cunningham-jacobson-fisher-et-al-2026/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/price-heinz-song-nemesure-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/guo-frederick-cunningham-jacobson-fisher-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The Hidden Depths of Suicidal Discourse: Network Analysis and Natural Language Processing Unmask Uncensored Expression</title>
-      <link>/publication/lekkas-jacobson-2023/</link>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 -0400</pubDate>
+      <title>LENS: LLM-enabled narrative synthesis for mental health by aligning multimodal sensing with language models</title>
+      <link>http://www.nicholasjacobson.com/publication/xu-pillai-nepal-collins-mackin-et-al-2026/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/lekkas-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/xu-pillai-nepal-collins-mackin-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Using Machine Learning to Forecast Depressive Symptom Changes Among Subclinical Depressed Patients Receiving Stepped-Care Delivery or Usual Care</title>
-      <link>/publication/scodari-chacko-masumura-jacobson-2023/</link>
-      <pubDate>Wed, 01 Nov 2023 00:00:00 -0400</pubDate>
+      <title>The dynamics of loneliness: Longitudinal associations of anhedonia and dampening in a clinical sample of depressed individuals</title>
+      <link>http://www.nicholasjacobson.com/publication/bautista-winer-calafiore-griffin-lekkas-et-al-2026/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/scodari-chacko-masumura-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/bautista-winer-calafiore-griffin-lekkas-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Behind the Screen: A Narrative Review of Advancements in Mobile and Wearable Passive Sensing for Mental Health Assessment</title>
-      <link>/publication/bryan-heinz-salzhauer-price-tlachac-jacobson-2023/</link>
-      <pubDate>Sun, 15 Oct 2023 00:00:00 -0400</pubDate>
+      <title>Dynamic bidirectional relationships between perceived stress and emotion regulation in emergency medical services clinicians engaging in regular substance use</title>
+      <link>http://www.nicholasjacobson.com/publication/plaitano-frumkin-jacobson-gray-panchal-et-al-2026/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/bryan-heinz-salzhauer-price-tlachac-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/plaitano-frumkin-jacobson-gray-panchal-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Predicting Individual Response to a Web-Based Positive Psychology Intervention: A Machine Learning Approach</title>
-      <link>/publication/collins-price-woodworth-jacobson-2023/</link>
-      <pubDate>Sun, 03 Sep 2023 00:00:00 -0400</pubDate>
+      <title>The musculoskeletal tumor registry as a diagnosis-based registry: Rationale, development, and current status</title>
+      <link>http://www.nicholasjacobson.com/publication/calvert-levin-bartelstein-henderson-rothrock-et-al-2026/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/collins-price-woodworth-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/calvert-levin-bartelstein-henderson-rothrock-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Depression deconstructed: Wearables and passive digital phenotyping for analyzing individual symptoms</title>
-      <link>/publication/lekkas-gyorda-price-jacobson-2023/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 -0400</pubDate>
+      <title>A hierarchical Bayesian approach for predictive analytics of depression severity in medical students</title>
+      <link>http://www.nicholasjacobson.com/publication/chen-liu-marrero-jacobson-thesen-2026/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/lekkas-gyorda-price-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/chen-liu-marrero-jacobson-thesen-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dysregulated Emotion and Trying Substances in Childhood: Insights from a Large Nationally Representative Cohort Study</title>
-      <link>/publication/klein-gyorda-lekkas-jacobson-2023/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 -0400</pubDate>
+      <title>Who&#39;s at risk for emergent depression years later? Predictive modeling in a nine-year longitudinal cohort</title>
+      <link>http://www.nicholasjacobson.com/publication/zainal-peters-jacobson-hsu-2026/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/klein-gyorda-lekkas-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/zainal-peters-jacobson-hsu-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Development of a digital biomarker and intervention for subclinical depression: Study protocol for a longitudinal waitlist control study</title>
-      <link>/publication/teepe-et-al-2023/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 -0400</pubDate>
+      <title>Just in time or just a guess? Addressing challenges in validating prediction models based on longitudinal data</title>
+      <link>http://www.nicholasjacobson.com/publication/langener-jacobson-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/teepe-et-al-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/langener-jacobson-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Patient Engagement in Multi-Modal Digital Phenotyping for Opioid Use Disorder</title>
-      <link>/publication/campbell-et-al-2023/</link>
-      <pubDate>Tue, 13 Jun 2023 00:00:00 -0400</pubDate>
+      <title>Detecting eating disorders from social media content: What has been done and where do we go next?</title>
+      <link>http://www.nicholasjacobson.com/publication/dadamo-moussaoui-chu-graver-taylor-et-al-2026/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/campbell-et-al-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/dadamo-moussaoui-chu-graver-taylor-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Leveraging Deep Learning Models to Understand the Daily Experience of Anxiety in Teenagers over the Course of a Year</title>
-      <link>/publication/wang-nemesure-park-price-heinz-jacobson-2023/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 -0400</pubDate>
+      <title>Passive data do not improve prediction or detection of alcohol consumption beyond temporal patterns in major depression: A 90-day cross-validated study</title>
+      <link>http://www.nicholasjacobson.com/publication/langener-haddox-mackin-price-lekkas-et-al-2026/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/wang-nemesure-park-price-heinz-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/langener-haddox-mackin-price-lekkas-et-al-2026/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Testing Domain Knowledge and Risk of Bias of a Large Scale General A.I. Model in Mental Health</title>
-      <link>/publication/heinz-bhattacharya-trudeau-quist-song-lee-jacobson-2023/</link>
-      <pubDate>Mon, 17 Apr 2023 00:00:00 -0400</pubDate>
+      <title>Interindividual differences in digital phenotypes of major depressive disorder: A passive sensing study using smartphone and wearable sensor data</title>
+      <link>http://www.nicholasjacobson.com/publication/lampe-collins-lee-enbar-salo-griffin-et-al-2026/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>/publication/heinz-bhattacharya-trudeau-quist-song-lee-jacobson-2023/</guid>
+      <guid>http://www.nicholasjacobson.com/publication/lampe-collins-lee-enbar-salo-griffin-et-al-2026/</guid>
       <description></description>
     </item>
     
