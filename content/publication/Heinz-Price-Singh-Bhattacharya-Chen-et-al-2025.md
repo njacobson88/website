@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Heinz-Price-Singh-Bhattacharya-Chen-et-al-2025.png"
 #caption = ""
 
 +++

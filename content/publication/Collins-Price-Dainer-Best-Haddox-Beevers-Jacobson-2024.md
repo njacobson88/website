@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Collins-Price-Dainer-Best-Haddox-Beevers-Jacobson-2024.png"
 #caption = ""
 
 +++

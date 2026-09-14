@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Plaitano-Frumkin-Jacobson-Gray-Panchal-et-al-2026.png"
 #caption = ""
 
 +++

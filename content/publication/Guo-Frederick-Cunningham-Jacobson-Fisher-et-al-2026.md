@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Guo-Frederick-Cunningham-Jacobson-Fisher-et-al-2026.png"
 #caption = ""
 
 +++

@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Greenberg-Phillips-Hoeppner-Jacobson-Fang-Wilhelm-2022.png"
 #caption = ""
 
 +++

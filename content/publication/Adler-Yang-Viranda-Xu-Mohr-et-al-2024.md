@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Adler-Yang-Viranda-Xu-Mohr-et-al-2024.png"
 #caption = ""
 
 +++

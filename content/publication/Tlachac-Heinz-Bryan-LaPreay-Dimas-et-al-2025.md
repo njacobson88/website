@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Tlachac-Heinz-Bryan-LaPreay-Dimas-et-al-2025.png"
 #caption = ""
 
 +++

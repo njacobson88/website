@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Lekkas-Yom-Tov-Heinz-Gyorda-Nguyen-et-al-2024.png"
 #caption = ""
 
 +++

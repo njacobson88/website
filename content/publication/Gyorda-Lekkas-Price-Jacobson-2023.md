@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Gyorda-Lekkas-Price-Jacobson-2023.png"
 #caption = ""
 
 +++

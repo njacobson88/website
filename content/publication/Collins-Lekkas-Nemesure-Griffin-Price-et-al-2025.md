@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Collins-Lekkas-Nemesure-Griffin-Price-et-al-2025.png"
 #caption = ""
 
 +++

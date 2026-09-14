@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Lampe-Collins-Lee-Enbar-Salo-Griffin-et-al-2026.png"
 #caption = ""
 
 +++

@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Alluri-Chen-Thesen-Jacobson-Marrero-2025.png"
 #caption = ""
 
 +++

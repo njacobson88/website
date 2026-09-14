@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Osweiler-Rammaha-Szlyk-Dell-Macon-et-al-2025.png"
 #caption = ""
 
 +++

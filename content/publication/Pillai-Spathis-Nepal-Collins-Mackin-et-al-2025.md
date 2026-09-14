@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Pillai-Spathis-Nepal-Collins-Mackin-et-al-2025.png"
 #caption = ""
 
 +++

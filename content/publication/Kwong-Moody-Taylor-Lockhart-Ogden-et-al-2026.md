@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Kwong-Moody-Taylor-Lockhart-Ogden-et-al-2026.png"
 #caption = ""
 
 +++

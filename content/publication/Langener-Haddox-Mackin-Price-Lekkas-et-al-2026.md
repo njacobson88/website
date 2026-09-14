@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Langener-Haddox-Mackin-Price-Lekkas-et-al-2026.png"
 #caption = ""
 
 +++

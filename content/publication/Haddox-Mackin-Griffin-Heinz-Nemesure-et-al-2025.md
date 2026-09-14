@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Haddox-Mackin-Griffin-Heinz-Nemesure-et-al-2025.png"
 #caption = ""
 
 +++

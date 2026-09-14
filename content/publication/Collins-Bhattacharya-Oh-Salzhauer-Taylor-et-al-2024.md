@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Collins-Bhattacharya-Oh-Salzhauer-Taylor-et-al-2024.png"
 #caption = ""
 
 +++

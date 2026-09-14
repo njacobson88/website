@@ -30,8 +30,8 @@ math = true
 
 highlight = true
 
-#[header]
-#image = ""
+[header]
+image = "Heinz-Lekkas-Abreu-Lee-Marsch-Jacobson-2024.png"
 #caption = ""
 
 +++
