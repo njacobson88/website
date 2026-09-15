@@ -2,436 +2,436 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Nicholas C. Jacobson</title>
-    <link>http://www.nicholasjacobson.com/talk/</link>
+    <link>https://www.nicholasjacobson.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Nicholas C. Jacobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.nicholasjacobson.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nicholasjacobson.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Causal Activation Interpretability Mapping for Understanding Therapeutic Reasoning in Large Language Models</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</link>
       <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-10-isrii-causal-activation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Controlling Therapeutic Language Generation in Large Language Models</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</link>
       <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-10-isrii-controlling-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personalized Behavioral Networks from Passive Smartphone and Wearable Sensing Outperform Raw Features for Suicidal Ideation in Major Depression</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-08-saa-personalized-networks/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-08-saa-personalized-networks/</link>
       <pubDate>Sat, 01 Aug 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-08-saa-personalized-networks/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-08-saa-personalized-networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generative AI for Mental Health: An Academic Perspective on Development, Evidence, and Regulation</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-06-senate-help-briefing/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-06-senate-help-briefing/</link>
       <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-06-senate-help-briefing/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-06-senate-help-briefing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Panelist on AI Safety</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-06-sdmh-ai-safety/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-06-sdmh-ai-safety/</link>
       <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-06-sdmh-ai-safety/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-06-sdmh-ai-safety/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: International Webinar Series on the Responsible Uses of Conversational AI in Psychiatry</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-06-conversational-ai-psychiatry/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-06-conversational-ai-psychiatry/</link>
       <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-06-conversational-ai-psychiatry/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-06-conversational-ai-psychiatry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>From Concept to Clinic: Developing and Evaluating Therabot, the First Generative AI Psychotherapy Chatbot</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-05-timelycare/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-05-timelycare/</link>
       <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-05-timelycare/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-05-timelycare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Panelist: Symposium on Artificial Intelligence for Learning Health Systems (SAIL 2026)</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-05-sail/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-05-sail/</link>
       <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-05-sail/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-05-sail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Mental Health: The Impact of Artificial Intelligence</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-04-cambridge-health-alliance/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-04-cambridge-health-alliance/</link>
       <pubDate>Wed, 01 Apr 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-04-cambridge-health-alliance/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-04-cambridge-health-alliance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keynote Address: National Drug Abuse Treatment Clinical Trials Network (CTN) Meeting</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-04-nida-ctn-keynote/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-04-nida-ctn-keynote/</link>
       <pubDate>Wed, 01 Apr 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-04-nida-ctn-keynote/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-04-nida-ctn-keynote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developing and Testing the First Generative AI Psychotherapy for Mental Health over 6.5 Years</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-03-sas/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-03-sas/</link>
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-03-sas/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-03-sas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Mobile &amp; Electronic Health Affinity Research Collaborative (ME-ARC)</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-03-bu-me-arc/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-03-bu-me-arc/</link>
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-03-bu-me-arc/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-03-bu-me-arc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Stanford Mental Health Technology and Innovation Hub</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-03-stanford-tech-hub/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-03-stanford-tech-hub/</link>
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-03-stanford-tech-hub/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-03-stanford-tech-hub/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keynote Presentation: AI and the Future of Well-Being Virtual Summit</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-03-ippa-keynote/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-03-ippa-keynote/</link>
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-03-ippa-keynote/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-03-ippa-keynote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychiatry Grand Rounds: Stanford University School of Medicine</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-03-stanford-grand-rounds/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-03-stanford-grand-rounds/</link>
       <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-03-stanford-grand-rounds/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-03-stanford-grand-rounds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: AI in Mental Health Seminar Series</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-02-piri/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-02-piri/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-02-piri/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-02-piri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: North American Society for Psychotherapy Research (NASPR) Student Webinar</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-02-naspr/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-02-naspr/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-02-naspr/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-02-naspr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychiatry Grand Rounds: Beth Israel Deaconess Medical Center</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-01-bidmc-grand-rounds/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-01-bidmc-grand-rounds/</link>
       <pubDate>Thu, 01 Jan 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-01-bidmc-grand-rounds/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-01-bidmc-grand-rounds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Testimony on Senate Bill 640-FN (Artificial Intelligence in Mental Health Care)</title>
-      <link>http://www.nicholasjacobson.com/talk/2026-01-nh-senate-testimony/</link>
+      <link>https://www.nicholasjacobson.com/talk/2026-01-nh-senate-testimony/</link>
       <pubDate>Thu, 01 Jan 2026 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2026-01-nh-senate-testimony/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2026-01-nh-senate-testimony/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fireside Chat: Use of Generative AI in Mental Health</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-12-tips-fireside/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-12-tips-fireside/</link>
       <pubDate>Mon, 01 Dec 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-12-tips-fireside/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-12-tips-fireside/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Academic Perspective on Developing and Regulating Generative AI for Mental Health</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-11-ata-fda/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-11-ata-fda/</link>
       <pubDate>Sat, 01 Nov 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-11-ata-fda/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-11-ata-fda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Panelist: The Final Frontier: Breakthroughs in Brain Science</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-11-final-frontier/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-11-final-frontier/</link>
       <pubDate>Sat, 01 Nov 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-11-final-frontier/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-11-final-frontier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: FDA Digital Health Advisory Committee Meeting on Generative AI-Enabled Digital Mental Health Medical Devices</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-11-fda-advisory/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-11-fda-advisory/</link>
       <pubDate>Sat, 01 Nov 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-11-fda-advisory/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-11-fda-advisory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building the Future of AI Therapy: Over Six Years of Rigorous Development and Validation of a Generative AI Psychotherapy Chatbot</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-10-emhic-fireside/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-10-emhic-fireside/</link>
       <pubDate>Wed, 01 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-10-emhic-fireside/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-10-emhic-fireside/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dartmouth Grown Solutions: Technology &amp; AI</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-10-youth-wellbeing-undp/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-10-youth-wellbeing-undp/</link>
       <pubDate>Wed, 01 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-10-youth-wellbeing-undp/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-10-youth-wellbeing-undp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation (with Michael V. Heinz): AHA Speaker Series</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-10-mit-media-lab/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-10-mit-media-lab/</link>
       <pubDate>Wed, 01 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-10-mit-media-lab/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-10-mit-media-lab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: AI in Behavioral Healthcare</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-10-nuhw/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-10-nuhw/</link>
       <pubDate>Wed, 01 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-10-nuhw/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-10-nuhw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: University of Oxford</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-10-oxford/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-10-oxford/</link>
       <pubDate>Wed, 01 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-10-oxford/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-10-oxford/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation (with Roy Perlis): Real-World AI in Healthcare Symposium</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-09-duke-real-world-ai/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-09-duke-real-world-ai/</link>
       <pubDate>Mon, 01 Sep 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-09-duke-real-world-ai/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-09-duke-real-world-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Center for Digital Mental Health</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-09-mgh-digital-mental-health/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-09-mgh-digital-mental-health/</link>
       <pubDate>Mon, 01 Sep 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-09-mgh-digital-mental-health/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-09-mgh-digital-mental-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Therabot: Over Six Years Developing and Evaluating the First Generative AI Psychotherapy Chatbot</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-09-cbits/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-09-cbits/</link>
       <pubDate>Mon, 01 Sep 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-09-cbits/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-09-cbits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Descriptive Classification of Self-Reported Traumatic Experiences Using a Pre-Trained Large Language Model</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-08-isrii-trauma-llm/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-08-isrii-trauma-llm/</link>
       <pubDate>Fri, 01 Aug 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-08-isrii-trauma-llm/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-08-isrii-trauma-llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluating Therabot: A Randomized Control Trial Investigating the Feasibility and Effectiveness of a Generative AI Therapy Chatbot for Depression, Anxiety, and Eating Disorder Symptom Treatment</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-08-isrii-therabot-rct/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-08-isrii-therabot-rct/</link>
       <pubDate>Fri, 01 Aug 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-08-isrii-therabot-rct/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-08-isrii-therabot-rct/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keynote (Trailblazers Session): From Passive Insights to Proactive Personalized Care: The Synergy of Passive Sensing and Generative AI in Mental Health</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-08-isrii-keynote/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-08-isrii-keynote/</link>
       <pubDate>Fri, 01 Aug 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-08-isrii-keynote/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-08-isrii-keynote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Panelist: Harnessing the Power of AI to Enable Highly Personalized Anytime/Anywhere Mental Health and Substance Use Care</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-07-ieee-icdh/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-07-ieee-icdh/</link>
       <pubDate>Tue, 01 Jul 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-07-ieee-icdh/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-07-ieee-icdh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Center for Behavioral Health and Technology</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-07-uva/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-07-uva/</link>
       <pubDate>Tue, 01 Jul 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-07-uva/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-07-uva/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generative AI for Mental Health Treatment (Therabot): Presentation to Maine State Legislators</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-06-maine-legislators/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-06-maine-legislators/</link>
       <pubDate>Sun, 01 Jun 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-06-maine-legislators/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-06-maine-legislators/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Randomized Controlled Trial on the Feasibility and Effectiveness of a Generative AI Chatbot for Mental Health Treatment</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-05-apa-annual/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-05-apa-annual/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-05-apa-annual/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-05-apa-annual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparing Objective and Subjective Sleep Measures in Major Depressive Disorder: A Longitudinal Study Using Phone Algorithms, Wearable Sensors, and Self-Report</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-05-saa-sleep/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-05-saa-sleep/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-05-saa-sleep/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-05-saa-sleep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developing the First Fully Generative AI for Psychotherapy: A 5&#43; Year Journey to a Landmark Trial</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-05-iced-plenary/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-05-iced-plenary/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-05-iced-plenary/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-05-iced-plenary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keynote: Building the Future of AI Therapy: Six Years of Rigorous Development and Validation of a Generative AI Psychotherapy Chatbot</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-05-isam-gatid-keynote/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-05-isam-gatid-keynote/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-05-isam-gatid-keynote/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-05-isam-gatid-keynote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Department of Psychiatry and Department of Psychological &amp; Brain Sciences</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-03-washu/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-03-washu/</link>
       <pubDate>Sat, 01 Mar 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-03-washu/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-03-washu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invited Presentation: Division of Continuing and Professional Studies</title>
-      <link>http://www.nicholasjacobson.com/talk/2025-03-palo-alto-university/</link>
+      <link>https://www.nicholasjacobson.com/talk/2025-03-palo-alto-university/</link>
       <pubDate>Sat, 01 Mar 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/2025-03-palo-alto-university/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/2025-03-palo-alto-university/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncovering When Dynamic Variables Optimally Predict One Another in Intensive Longitudinal Data using Novel Personalized Modeling Strategies</title>
-      <link>http://www.nicholasjacobson.com/talk/saa2021_dtvem/</link>
+      <link>https://www.nicholasjacobson.com/talk/saa2021_dtvem/</link>
       <pubDate>Wed, 30 Jun 2021 11:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/saa2021_dtvem/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/saa2021_dtvem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Differential Time-Varying Effect Model (DTVEM): A Tool for Diagnosing Optimal Measurement and Modeling Intervals in Longitudinal Data</title>
-      <link>http://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</link>
+      <link>https://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</link>
       <pubDate>Wed, 08 Jul 2020 11:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/summer-data-science-and-ai-webinar-series-july-2020_dtvem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>It&#39;s time to ask when: Investigating the timing of dynamics in intensive longitudinal data</title>
-      <link>http://www.nicholasjacobson.com/talk/saa2020_timing/</link>
+      <link>https://www.nicholasjacobson.com/talk/saa2020_timing/</link>
       <pubDate>Thu, 16 Jan 2020 11:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/saa2020_timing/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/saa2020_timing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Compliance Thresholds in Intensive Longitudinal Data: Worse than Listwise Deletion</title>
-      <link>http://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</link>
+      <link>https://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</link>
       <pubDate>Tue, 14 Jan 2020 11:00:00 +0000</pubDate>
       
-      <guid>http://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</guid>
+      <guid>https://www.nicholasjacobson.com/talk/saa2020_compliance_thresholds/</guid>
       <description></description>
     </item>
     
